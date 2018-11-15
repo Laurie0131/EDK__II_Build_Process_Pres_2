@@ -103,27 +103,27 @@ push down arrow
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 @snapend
 
-@snap[north-west span-33]
+@snap[north-west span-35]
 @box[bg-blue text-white fragment](<br>Support UEFI & PI needs<br><br>)
 @snapend
 
-@snap[north span-33]
-@box[bg-#00FFFF text-white fragment](<br>Separate tool & source code<br><br>)
+@snap[north span-35]
+@box[<span style="background-color: #00ffff"> text-white fragment](<br>Separate tool & source code<br><br>)
 @snapend
 
-@snap[north-east span-33]
+@snap[north-east span-35]
 @box[bg-green text-white fragment](<br>Package Definition file: DEC<br><br>)
 @snapend
 
-@snap[south-west span-33]
+@snap[south-west span-35]
 @box[bg-yellow text-black fragment](<br>Flash Mapping Tool<br><br>)
 @snapend
 
-@snap[south span-33]
+@snap[south span-35]
 @box[bg-gold text-black fragment](<br>Move as much code to C<br><br>)
 @snapend
 
-@snap[south-east span-33]
+@snap[south-east span-35]
 @box[bg-purple text-white fragment](<br>Open source EDK II on tianocore.org<br><br>)
 @snapend
 
