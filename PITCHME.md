@@ -57,7 +57,7 @@ Note:
 
 need to push down arrow for box to show
 @box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
-
+@box[text-purple span-80 fragment](Another box # another Greeting. We come in peace!)
 
 ---
 
