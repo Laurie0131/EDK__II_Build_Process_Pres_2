@@ -109,23 +109,23 @@ push down arrow
 @snapend
 
 @snap[midpoint span-35]
-@box[bg-gray text-white fragment](<b>Separate tool & source code</b><br><br>)
+@box[bg-gray text-white waved fragment](<b>Separate tool & source code</b><br><br>)
 @snapend
 
 @snap[east span-35]
-@box[bg-green text-white fragment](<b>Package Definition file: DEC</b><br>)
+@box[bg-green text-white waved fragment](<b>Package Definition file: DEC</b><br>)
 @snapend
 
 @snap[south-west span-35]
-@box[bg-yellow text-black fragment](<b>Flash Mapping Tool</b><br><br>)
+@box[bg-yellow text-black  waved fragment](<b>Flash Mapping Tool</b><br><br>)
 @snapend
 
 @snap[south span-35]
-@box[bg-orange text-black fragment](<b>Move as much code to C</b><br><br>)
+@box[bg-orange text-black waved fragment](<b>Move as much code to C</b><br><br>)
 @snapend
 
 @snap[south-east span-35]
-@box[bg-purple text-white fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
+@box[bg-purple text-white waved fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
 @snapend
 
 
