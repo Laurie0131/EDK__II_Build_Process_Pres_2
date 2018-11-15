@@ -62,6 +62,7 @@ need to push down arrow for box to show
 ---
 
 push down arrow
+
 @css[text-blue fragment](Hello, World!)
 
 
@@ -95,6 +96,35 @@ push down arrow
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK II Overview </span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The EDK II Infrastructure </span>
+
+---
+@title[Philosophy of EDK II]
+#### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
+
+@snap[north-west span-35]
+@box[bg-blue text-white fragment](<br>Support UEFI & PI needs<br><br>)
+@snapend
+
+@snap[north span-35]
+@box[bg-cyan text-white fragment](<br>Separate tool & source code<br><br>)
+@snapend
+
+@snap[north-east span-35]
+@box[bg-green text-white fragment](<br>Package Definition file: DEC<br><br>)
+@snapend
+
+@snap[south-east span-35]
+@box[bg-yellow text-blue fragment](<br>Flash Mapping Tool<br><br>)
+@snapend
+
+@snap[south span-35]
+@box[bg-orange text-blue fragment](<br>Move as much code to C<br><br>)
+@snapend
+
+@snap[south-west span-35]
+@box[bg-purple text-white fragment](<br>Open source EDK II on tianocore.org<br><br>)
+@snapend
+
 
 ---?image=/assets/images/slides/Slide4.JPG
 <!-- .slide: data-transition="none" -->		  
