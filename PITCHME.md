@@ -105,7 +105,7 @@ push down arrow
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 
 @snap[west span-35]
-@box[bg-blue text-white fragment](<b>Support UEFI & PI needs</b><br><br>)
+@box[bg-blue text-white  waved  fragment](<b>Support UEFI & PI needs</b><br><br>)
 @snapend
 
 @snap[midpoint span-35]
@@ -117,11 +117,11 @@ push down arrow
 @snapend
 
 @snap[south-west span-35]
-@box[bg-yellow text-black  waved fragment](<b>Flash Mapping Tool</b><br><br>)
+@box[bg-yellow text-blue  waved fragment](<b>Flash Mapping Tool</b><br><br>)
 @snapend
 
 @snap[south span-35]
-@box[bg-orange text-black waved fragment](<b>Move as much code to C</b><br><br>)
+@box[bg-orange text-white waved fragment](<b>Move as much code to C</b><br><br>)
 @snapend
 
 @snap[south-east span-35]
