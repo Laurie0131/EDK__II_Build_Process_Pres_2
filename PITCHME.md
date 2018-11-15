@@ -108,7 +108,7 @@ push down arrow
 @snapend
 
 @snap[north span-35]
-@box[<span style="background-color: #00ffff"> text-white fragment](<br>Separate tool & source code<br><br>)
+@box[bg-pink text-white fragment](<br>Separate tool & source code<br><br>)
 @snapend
 
 @snap[north-east span-35]
@@ -120,7 +120,7 @@ push down arrow
 @snapend
 
 @snap[south span-35]
-@box[bg-gold text-black fragment](<br>Move as much code to C<br><br>)
+@box[bg-orange text-black fragment](<br>Move as much code to C<br><br>)
 @snapend
 
 @snap[south-east span-35]
