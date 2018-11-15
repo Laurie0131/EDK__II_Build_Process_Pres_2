@@ -113,7 +113,7 @@ push down arrow
 @snapend
 
 @snap[east span-35]
-@box[bg-green text-white fragment](<br><b>Package Definition file: DEC</b><br>)
+@box[bg-green text-white fragment](<b>Package Definition file: DEC</b><br>)
 @snapend
 
 @snap[south-west span-35]
@@ -125,7 +125,7 @@ push down arrow
 @snapend
 
 @snap[south-east span-35]
-@box[bg-purple text-white fragment](<b>Open source EDK II on tianocore.org</b><br><br>)
+@box[bg-purple text-white fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
 @snapend
 
 
