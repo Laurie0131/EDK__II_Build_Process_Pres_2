@@ -30,6 +30,7 @@ html:-moz-full-screen-ancestor {
   color: #e49436;
     text-align: center; 
   text-align: top;
+     font-weight: bold;
 }
 
 .gray {

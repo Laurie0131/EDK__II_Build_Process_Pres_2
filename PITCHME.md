@@ -101,7 +101,7 @@ push down arrow
 
 ---
 @title[Philosophy of EDK II]
-
+<br>
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 
 @snap[west span-35]
