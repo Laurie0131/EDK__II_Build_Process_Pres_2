@@ -98,13 +98,6 @@ push down arrow
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The EDK II Infrastructure </span>
 
 
----
-@title[Philosophy of EDK II]
-#### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
-
-@box[bg-blue text-white span-35 fragment](Support UEFI & PI needs ) @box[bg-pink text-white span-35 fragment](Separate tool & source code ) @box[bg-green text-white span-35 fragment](Package Definition file: DEC )
-@box[bg-yellow text-blue span-35 fragment](Flash Mapping Tool ) @box[bg-orange text-white span-35 fragment]( Move as much code to C) @box[bg-purple text-white span-35 fragment](Open source EDK II on tianocore.org )
-
 
 ---
 @title[Philosophy of EDK II]
@@ -112,27 +105,27 @@ push down arrow
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 
 @snap[west span-35]
-@box[bg-blue text-white fragment](<br>Support UEFI & PI needs<br>)
+@box[bg-blue text-white fragment](<br><b>Support UEFI & PI needs</b><br>)
 @snapend
 
 @snap[midpoint span-35]
-@box[bg-pink text-white fragment](<br>Separate tool & source code<br>)
+@box[bg-pink text-white fragment](<br><b>Separate tool & source code</b><br>)
 @snapend
 
 @snap[east span-35]
-@box[bg-green text-white fragment](<br>Package Definition file: DEC<br>)
+@box[bg-green text-white fragment](<br><b>Package Definition file: DEC</b><br>)
 @snapend
 
 @snap[south-west span-35]
-@box[bg-yellow text-black fragment](<br>Flash Mapping Tool<br><br>)
+@box[bg-yellow text-black fragment](<b>Flash Mapping Tool</b><br><br>)
 @snapend
 
 @snap[south span-35]
-@box[bg-orange text-black fragment](Move as much code to C<br><br>)
+@box[bg-orange text-black fragment](<b>Move as much code to C</b><br><br>)
 @snapend
 
 @snap[south-east span-35]
-@box[bg-purple text-white fragment](Open source EDK II on tianocore.org<br><br>)
+@box[bg-purple text-white fragment](<b>Open source EDK II on tianocore.org</b><br><br>)
 @snapend
 
 
