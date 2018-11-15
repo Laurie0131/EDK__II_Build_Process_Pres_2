@@ -54,9 +54,9 @@ Note:
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II build process </span> <br><br>
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the Build tools</span> 
 
----?color=#F6D365
+---
 
-@box[bg-orange text-white rounded](<br>Test box<br><br>)
+@box[bg-purple text-white rounded](<br>Test box<br><br>)
 
 
 ---?image=assets/images/binary-strings-black2.jpg
