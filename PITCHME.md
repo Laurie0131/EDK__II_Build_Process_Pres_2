@@ -105,11 +105,11 @@ push down arrow
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 
 @snap[west span-35]
-@box[bg-blue text-white fragment](<br><b>Support UEFI & PI needs</b><br>)
+@box[bg-blue text-white fragment](<b>Support UEFI & PI needs</b><br><br>)
 @snapend
 
 @snap[midpoint span-35]
-@box[bg-pink text-white fragment](<br><b>Separate tool & source code</b><br>)
+@box[bg-pink text-white fragment](<b>Separate tool & source code</b><br><br>)
 @snapend
 
 @snap[east span-35]
