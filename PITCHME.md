@@ -55,11 +55,13 @@ Note:
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the Build tools</span> 
 ---
 
+need to push down arrow for box to show
 @box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
 
 
 ---
 
+push down arrow
 @css[text-blue fragment](Hello, World!)
 
 
