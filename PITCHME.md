@@ -109,7 +109,7 @@ push down arrow
 @snapend
 
 @snap[midpoint span-35]
-@box[bg-pink text-white fragment](<b>Separate tool & source code</b><br><br>)
+@box[bg-brown text-white fragment](<b>Separate tool & source code</b><br><br>)
 @snapend
 
 @snap[east span-35]
