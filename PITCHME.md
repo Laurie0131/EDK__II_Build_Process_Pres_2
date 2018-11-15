@@ -97,6 +97,15 @@ push down arrow
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK II Overview </span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The EDK II Infrastructure </span>
 
+
+---
+@title[Philosophy of EDK II]
+#### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
+
+@box[bg-blue text-white span-35 fragment](Support UEFI & PI needs ) @box[bg-pink text-white span-35 fragment](Separate tool & source code ) @box[bg-green text-white span-35 fragment](Package Definition file: DEC )
+@box[bg-yellow text-blue span-35 fragment](Flash Mapping Tool ) @box[bg-orange text-white span-35 fragment]( Move as much code to C) @box[bg-purple text-white span-35 fragment](Open source EDK II on tianocore.org )
+
+
 ---
 @title[Philosophy of EDK II]
 @snap[midpoint]
