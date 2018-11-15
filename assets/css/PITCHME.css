@@ -23,6 +23,7 @@ html:-moz-full-screen-ancestor {
   color: #BF5122;
     text-align: center; 
   text-align: top;
+    font-weight: bold;
 }
 
 .gold {
@@ -120,6 +121,33 @@ span.aside {
     width: 55%;
 }
 
+
+.reveal div.left1 {
+    float: left;
+    z-index: -10;
+    width: 55%;
+}
+
+.reveal div.right1 {
+    float: right;
+    z-index: -10;
+    width: 45%;
+}
+
+
+.reveal div.left2 {
+    float: left;
+    z-index: -10;
+    width: 70%;
+}
+
+.reveal div.right2 {
+    float: right;
+    z-index: -10;
+    width: 30%;
+}
+
+
 .reveal a.pro-link {
     font-size: 0.5em;
 }
@@ -139,9 +167,9 @@ span.aside {
   box-shadow : none;
 }
 .reveal pre code {
-  font-size: 0.7em;
-  line-height: .90;
-  max-height: 50vh !important;
+  font-size: 0.8em;
+  line-height: 1.0;
+  max-height: 60vh !important;
   opacity: 0.95;
   border-radius: 10px;
 }
@@ -152,7 +180,7 @@ span.aside {
   padding: 1px 15px;
   border-radius: 15px;
   opacity: 0.75 !important;
-  font-size: 50% !important;
+  font-size: 60% !important;
 }
 
 .gp-tip { font-size : 1.5em; }
@@ -162,7 +190,7 @@ span.aside {
 .gp-download { margin-left: 10px; }
 
 .gp-bullet-green { 
-  color: #00CC99;;
+  color: #00CC99;
   margin-left: 10px; 
 }
 
@@ -182,12 +210,12 @@ span.aside {
 }
 
 .gp-bullet-magenta { 
-  color:#702AA0;
+  color:#ff00ff;
   margin-left: 10px; 
 }
 
 .gp-bullet-ltgreen { 
-  color:#A6C639;
+  color:#87E2A9;
   margin-left: 10px; 
 }
 
@@ -197,10 +225,60 @@ span.aside {
 }
 
 
+.gp-bullet-black { 
+  color:#000000;
+  margin-left: 10px; 
+}
+
+
+.gp-bullet-white{ 
+  color:#ffffff;
+  margin-left: 10px; 
+}
+
+
 h6 {
     font-weight: bold;
     font-size: 50%;
 }
    
+.no-bullet {
+    list-style-type: none !important;
+    list-style-position: outside !important;
+}
+
+.cyan {
+  color: #00FFFF;
+}
+.yellow {
+  color: #FFFF00;
+}
+.magenta {
+  color: #ff00ff;
+}
+.lt_green {
+  color: #87E2A9;
+}
+.green {
+  color:  #00CC99;
+}
+
+.cream {
+  color: #FFFF99;
+}
+.gold2 {
+  color: #FFC000;
+}
+.u-term{
+  color: #300a24;
+}
+
+table#recTable{width:100%; border:1px solid gray;}
+#recTable tr td {height:0.2px; border:1px solid gray;}
+
+
+
+
+
 
 

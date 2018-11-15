@@ -6,6 +6,9 @@
 ####  &nbsp;&nbsp;EDK II Build Process
 <br>
 <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;<a href='http://www.tianocore.org'>tianocore.org</a></span>
+
+This slide deck has moved to:  https://gitpitch.com/tianocore-training/EDK_II_Build_Process_Pres/master#/
+
 Note:
   PITCHME.md for UEFI / EDK II Training EDK II Build Process
 
@@ -49,6 +52,11 @@ Note:
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;directories, modules, packages, and libraries </span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II build process </span> <br><br>
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the Build tools</span> 
+
+ ---?color=#F6D365
+
+@box[bg-orange text-white rounded](<br>Test box<br><br>)
+
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[EDK II Overview Section]
