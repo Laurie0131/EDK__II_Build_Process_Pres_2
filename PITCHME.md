@@ -56,8 +56,8 @@ Note:
 ---
 
 need to push down arrow for box to show
-@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
-@box[text-purple span-80 fragment](Another box # another Greeting. We come in peace!)
+@box[bg-purple text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
+@box[bg-orange text-purple span-80 fragment](Another box # another Greeting. We come in peace!)
 
 ---
 
@@ -71,19 +71,19 @@ push down arrow
 +++?color=black
 
 @snap[north-west span-35]
-@box[bg-green text-white](1. Plan#<br>Lorem ipsum dolor sit amet eiusmod<br><br>)
+@box[bg-green text-white fragment](1. Plan#<br>Lorem ipsum dolor sit amet eiusmod<br><br>)
 @snapend
 
 @snap[north-east span-35]
-@box[bg-orange text-white rounded](2. Build#<br>Sed do eiusmod tempor labore<br><br>)
+@box[bg-orange text-white rounded fragment](2. Build#<br>Sed do eiusmod tempor labore<br><br>)
 @snapend
 
 @snap[south-east span-35]
-@box[bg-pink text-white](3. Measure#<br>Cupidatat non proident sunt in<br><br>)
+@box[bg-pink text-white fragment](3. Measure#<br>Cupidatat non proident sunt in<br><br>)
 @snapend
 
 @snap[south-west span-35]
-@box[bg-blue text-white waved](4. Repeat#<br>Ut enim ad minim veniam prodient<br><br>)
+@box[bg-blue text-white waved fragment](4. Repeat#<br>Ut enim ad minim veniam prodient<br><br>)
 @snapend
 
 @snap[midpoint]
