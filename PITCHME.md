@@ -53,9 +53,17 @@ Note:
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;directories, modules, packages, and libraries </span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II build process </span> <br><br>
  @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the Build tools</span> 
+---
+
+@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
+
 
 ---
 
+@css[text-blue fragment](Hello, World!)
+
+
+---
 @box[bg-purple text-white rounded](Test box)
 
 +++?color=black
