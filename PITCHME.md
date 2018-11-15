@@ -56,8 +56,29 @@ Note:
 
 ---
 
-@box[bg-purple text-white rounded](<br>Test box<br><br>)
+@box[bg-purple text-white rounded](Test box)
 
++++?color=black
+
+@snap[north-west span-35]
+@box[bg-green text-white](1. Plan#<br>Lorem ipsum dolor sit amet eiusmod<br><br>)
+@snapend
+
+@snap[north-east span-35]
+@box[bg-orange text-white rounded](2. Build#<br>Sed do eiusmod tempor labore<br><br>)
+@snapend
+
+@snap[south-east span-35]
+@box[bg-pink text-white](3. Measure#<br>Cupidatat non proident sunt in<br><br>)
+@snapend
+
+@snap[south-west span-35]
+@box[bg-blue text-white waved](4. Repeat#<br>Ut enim ad minim veniam prodient<br><br>)
+@snapend
+
+@snap[midpoint]
+@fa[refresh fa-3x]
+@snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[EDK II Overview Section]
