@@ -108,19 +108,18 @@ push down arrow
 
 ---
 @title[Philosophy of EDK II]
-@snap[midpoint]
-#### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
-@snapend
 
-@snap[north-west span-35]
+#### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
+
+@snap[west span-35]
 @box[bg-blue text-white fragment](<br>Support UEFI & PI needs<br><br>)
 @snapend
 
-@snap[north span-35]
+@snap[midpoint span-35]
 @box[bg-pink text-white fragment](<br>Separate tool & source code<br><br>)
 @snapend
 
-@snap[north-east span-35]
+@snap[east span-35]
 @box[bg-green text-white fragment](<br>Package Definition file: DEC<br><br>)
 @snapend
 
