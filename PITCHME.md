@@ -349,7 +349,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 </table>
 
 @snap[north-east span-30]
-@css[ text-yellow fragment](<span style="font-size:01.35em" ><b><i><br><br><br>&nbsp;@color[pink](EDK II Spec)<br><br><br>&nbsp;Source<br><br>&nbsp;Output</i></b> </span>)
+@css[ text-yellow fragment](<span style="font-size:01.45em" ><b><i><br><br><br>&nbsp;@color[yellow](EDK II Spec)<br><br><br>&nbsp;Source<br><br>&nbsp;Output</i></b> </span>)
 @snapend
   
  
