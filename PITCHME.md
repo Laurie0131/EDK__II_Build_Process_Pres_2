@@ -353,7 +353,7 @@ Note:
 
 
 @snap[east span-35]
-@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[green](Library)</b>)
+@css[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[gray](Library)</b>)
 @snapend
 
 
