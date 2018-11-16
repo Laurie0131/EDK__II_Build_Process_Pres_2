@@ -348,12 +348,12 @@ Note:
 
 
 @snap[west span-35]
-@box[ text-yellow fragment](<b>Compiles to `.EFI` File </b>)
+@box[ text-pink fragment](<b>Compiles to<br>`.EFI` File </b>)
 @snapend
 
 
 @snap[east span-35]
-@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[green](Library)</b>)
+@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[pink](Library)</b>)
 @snapend
 
 
