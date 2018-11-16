@@ -128,6 +128,44 @@ push down arrow
 @box[bg-purple text-white waved fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
 @snapend
 
+Note:
+Support all UEFI and PI development needs <br>
+Separate tool code from source code<br>
+  - 	note : only older Intel Platforms:<br>
+           Build existing EDK modules<br>
+Via EDK Compatibility Package (ECP)<br>
+Package Definition File: DEC<br>
+DEC defines package of modules<br>
+FLASH Mapping Tool <br>
+Move as much code as possible to C<br>
+Open source EDK II on http://tianocore.org<br>
+
+
+
+EDK II Goals <br>
+
+- so the main goal for EDK II to make it easer in porting  of platforms and building  UEFI Drivers<br>
+-  First off EDK II is open source on tianocore.org<br>
+
+One goal is to Support all UEFI and PI development needs<br>
+UEFI Stands Unified Extensible Firmware Interface and UEFI and PI are making references to the Specifications that are managed by the UEFI Form on www.UEFI.org. 
+The goal of EDK II is to support the implementations of these specs, and to make the implementation useful in a way to support one stand alone Driver or stand alone application or to build one Platform.
+We wanted to Separate tool code from product code
+On tianocore there is one storage for the Tools and a separate one for the Product code 
+Because there are a lot of people using the EDK and there is a lot investment in EDK 1, (ie 1117) we wanted to make sure EDK II would build existing EDK modules
+Via EDK Compatibility Package (ECP)<br>
+
+We have a new Package Definition File: DEC<br>
+One level between a platform and a single piece of code or a module
+DEC defines package of modules 
+Example – 3 drivers all related to the same piece of hardware they would go inside a logical package i.e. the NIC driver  a NIC.DEC
+
+We have a FLASH Mapping Tool – we made improvements on this from the previous EDK build process.  There is more emphasis on what the flash device layout will look like.
+
+We waned to Move as much as possible to C code
+Eliminated a lot of the java
+Eliminated a lot of the Assembly
+
 
 ---?image=/assets/images/slides/Slide4.JPG
 <!-- .slide: data-transition="none" -->		  
@@ -216,6 +254,25 @@ Note:
 
 Note:
 
+
+---?image=/assets/images/slides/Slide11.JPG
+@title[Implementation of EDK II]
+#### <p align="right"><span class="gold" > Implementation of EDK II </span></p>
+
+
+@snap[west span-80]
+@box[bg-blue text-white  rounded  fragment](<Br><b>EDK II == UEFI / PI Implementation</b><br><br>)
+@snapend
+
+
+Note:
+You’ve already learned about the UEFI/PI specification from the web-based training.  Now, let’s talk about EDK II, the implementation of UEFI/PI
+
+The primary purpose of the firmware boot loader is to initialize a platform and boot to a shell application or operating system.
+
+EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interface) and PI (firmware-to-firmware interface)
+
+
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Implementation of EDK II]
 #### <p align="right"><span class="gold" > Implementation of EDK II </span></p>
@@ -245,6 +302,50 @@ The primary purpose of the firmware boot loader is to initialize a platform and 
 EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interface) and PI (firmware-to-firmware interface)
 
 
+
+---
+@title[EDK II File Extensions]
+<p align="center"><span style="font-size:1.0em" > &nbsp;&nbsp;&nbsp;<font color="#e49436"><b>EDK II File Extensions</b></font></span>
+<span style="font-size:0.7em" ><font color="white"><br>-&nbsp;Located on <a href='http://www.tianocore.org'>tianocore.org</a> project edk2  </font> </span></p>
+
+
+<table id="recTable">
+	<tr>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.65em" ><b>.DSC <br>.DEC <br>.INF<br>.FDF</b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.65em" ><b>-Platform Description  <br>-Package Description <br>- Module Definition <br>-Flash Description </b></span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >.VFR <br>.UNI <br>.c & .h </span></p></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >-Visual Forms Representation  <br>- Unicode String text files<br>- Source code files</span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >.FD <br>.FV </span></p></td>
+		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >-Final Flash Device Image  <br>- Firmware Volume File</span></p></td>
+	</tr>
+
+</table>
+
+@snap[north-east span-35]
+@css[ text-yellow fragment](<span style="font-size:01.5em" ><b>EDK II Spec <br><br><br><br>Source <br><br>Output</b> </span>)
+@snapend
+  
+
+
+Note:
+So for file extensions <br>
+
+-So first we have a DSC file this is for platform description. This is an extension of the existing DSC file from EDK 1.  This describes the build rules, libraries and components that are going to get Built. 
+-We have the DEC file which is the Package Declaration. Each package has a package declaration or DEC file, and it declares all the interfaces that the package has.  This is one of the new files
+Next we have INF file 	- Module Definition this is a description of one module and what it has
+Next we have a FDF file -Flash Description File – this information used to be part of the original DSC file but has been split off into a new file. This describes which module or modules weather it was built as part of the DSC or included in a binary – it describes which module gets to go where in the flash – which one is comprised – which one goes in to recover - it is a or mapping of the flash device –
+Next we have a DXS file which is a Dependency expression file -  this is used by the DXE and in PEI modules to Define what prerequisites they have before they can run
+Finally we have the FV file - Firmware Volume image file - 
+ 
+First four have a specification file located on tianocore.org.
+
+See EDK II Build Specification Documentation: 
+          http://tianocore.org/  
+		  
 ---?image=/assets/images/slides/Slide14.JPG
 <!-- .slide: data-transition="none" -->		  
 @title[EDK II File Extensions]
