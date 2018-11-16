@@ -724,6 +724,31 @@ IntelFrameworkModulePkg<br>
 Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg<br>
 
 
+---
+<!-- .slide: data-transition="none" -->		  
+@title[Additional Package Examples: ]
+#### <p align="right"><span class="gold" >Additional EDK II Package Examples:</span></p>
+@ul[no-bullet]
+- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:0.9em">Platforms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff]('Nt32Pkg' & `OvmfPkg`)</span><br>
+- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:0.9em">Chipset/Processor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff]('Ia32FamilyCpuPkg' & `BroxtonSiPkg`)</span><br>
+- @fa[certificate gp-bullet-cyan]&nbsp;&nbsp;<span style="font-size:0.9em">Functionality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff]('ShellPkg' & `NetworkPkg`)</span><br>
+@ulend
+
+
+Note:
+Platforms <br>
+Nt32Pkg – contains drivers and applications required for running over Windows <br>
+OvmfPkg – Virtual Machine Firmware
+
+Chipset/Processor<br>
+IA32FamilyCpuPkg.- Intel Architecture <br>
+Ich9Pkg – Intel I/O controller hub (ICH9 )
+
+Functionality<br>
+ShellPkg – Application - command line interface<br>
+NetworkPkg – Network drivers and Applications
+
+
 ---?image=/assets/images/slides/Slide43.JPG
 
 <!-- .slide: data-transition="none" -->		  
