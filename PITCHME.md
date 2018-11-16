@@ -313,7 +313,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition <i>define a component</i>) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></td>
+		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></td>
 		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >&nbsp;<br><br></span></p></td>
 	</tr>
 	<tr>
