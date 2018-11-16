@@ -309,7 +309,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC <br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC &nbsp;&nbsp;<br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
 		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition <i>define a component</i>) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
@@ -334,7 +334,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC <br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC &nbsp;&nbsp;<br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
 		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition <i>define a component</i>) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
@@ -349,7 +349,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 </table>
 
 @snap[north-east span-30]
-@css[ text-yellow fragment](<span style="font-size:01.45em" ><b><i><br><br><br>&nbsp;@color[yellow](EDK II Spec)<br><br><br>&nbsp;Source<br><br>&nbsp;Output</i></b> </span>)
+@css[ text-yellow fragment](<span style="font-size:01.45em" ><b><i><br><br>&nbsp;@color[yellow](EDK II Spec)<br><br><br>&nbsp;@color[yellow](Source)<br><br>&nbsp;@color[yellow](Output)</i></b> </span>)
 @snapend
   
  
