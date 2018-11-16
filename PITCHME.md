@@ -311,8 +311,8 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>.DSC <br>.DEC <br>.INF<br>.FDF</b></span></p></td>
-		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>- Platform Description  <br>- Package Declaration <br>- Module Definition (define a component) <br>- Flash Description </b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC <br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition -define a component) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
 		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >.VFR <br>.UNI <br>.c & .h </span></p></td>
@@ -326,7 +326,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 </table>
 
 @snap[north-east span-35]
-@css[ text-yellow fragment](<span style="font-size:01.5em" ><b><br><br><br>EDK II Spec <br>Source <br><br>Output</b> </span>)
+@css[ text-yellow fragment](<span style="font-size:01.5em" ><b><br><br><br>EDK II Spec <br><br>Source <br><br>Output</b> </span>)
 @snapend
   
 
