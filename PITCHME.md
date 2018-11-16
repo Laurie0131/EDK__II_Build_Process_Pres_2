@@ -345,7 +345,22 @@ Note:
 @title[Modules]
 ####  <p align="right"><span class="gold" > Modules</span></p>
 @css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
+<br>
+<br>
+<br>
+<br>
+@css[text-yellow fragment](<b>Compiles to<br>`.EFI` File</b>)
 
+
+@snap[east span-35]
+@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[blue](Library)</b>)
+@snapend
+
+
+---?image=/assets/images/slides/Slide30.JPG
+@title[Modules]
+####  <p align="right"><span class="gold" > Modules</span></p>
+@css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
 
 @snap[north-west span-35]
 @box[ text-blue fragment](<br><br><br><br><br><b>@color[yellow](Compiles to<br>`.EFI` File) </b>)
@@ -353,8 +368,9 @@ Note:
 
 
 @snap[east span-35]
-@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[pink](Library)</b>)
+@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[blue](Library)</b>)
 @snapend
+
 
 
 
