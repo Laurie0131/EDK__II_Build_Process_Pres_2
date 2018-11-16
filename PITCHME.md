@@ -610,19 +610,19 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 
 
 @snap[west span-45 fragment]
-@box[bg-blue text-white rounded](`MdePkg`#Includes files and libraries for Industry Standard Specifications)
+@box[bg-blue text-white rounded](<span style="font-size:01.5em" >`MdePkg`</span>#Includes files and libraries for Industry Standard Specifications<br>)
 @snapend
 
 @snap[east span-45 fragment]
-@box[bg-orange text-white rounded ](`MdeModulePkg`#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
+@box[bg-orange text-white rounded ](<span style="font-size:01.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
 @snapend
 
 @snap[south-west span-45 fragment]
-@box[bg-gray text-white rounded ](`IntelFrameworkPkg`#Include files and libraries for those parts of the Intel Platform Innovation Framework for EFI specifications that were not adopted “as is” by the UEFI or PI specifications)
+@box[bg-gray text-white rounded ](<span style="font-size:01.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-green text-white rounded ](`IntelFrameworkModulePkg`#Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg)
+@box[bg-green text-white rounded ](<span style="font-size:01.5em" >`IntelFrameworkModulePkg`</span>#Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg)
 @snapend
 
 
