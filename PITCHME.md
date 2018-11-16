@@ -352,7 +352,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 @css[ text-yellow fragment](<span style="font-size:01.25em" ><b><i><br><br>EDK II Spec<br><br><br>Source <br><br>Output</i></b> </span>)
 @snapend
   
-
+ 
 
 Note:
 So for file extensions <br>
