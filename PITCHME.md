@@ -603,6 +603,31 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 <br>
 
 
+---
+ 
+@title[EDK II Package Examples: Specs]
+#### <p align="right"><span class="gold" > EDK II Package Examples: Specs</span></p>
+
+
+@box[bg-blue text-white rounded fragment](`MdePkg`#Includes files and libraries for Industry Standard Specifications)
+@box[bg-orange text-white rounded fragment](`MdeModulePkg`#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
+@box[bg-gray text-white rounded fragment](`IntelFrameworkPkg`#Include files and libraries for those parts of the Intel Platform Innovation Framework for EFI specifications that were not adopted “as is” by the UEFI or PI specifications)
+@box[bg-green text-white rounded fragment](`IntelFrameworkModulePkg`#Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg)
+
+
+
+Note:
+
+MdePkg<br>
+Include files and libraries for Industry Standard Specifications (i.e. UEFI, PI, PCI, USB, SMBIOS, ACPI, SMBIOS, etc)<br>
+MdeModulePkg<br>
+Modules (PEIMs + DXE Drivers + UEFI Drivers + UEFI Applications) that only definitions from the Industry Standard Specification defined in the MdePkg<br>
+IntelFrameworkPkg<br>
+Include files and libraries for those parts of the Intel Platform Innovation Framework for EFI specifications that were not adopted “as is” by the UEFI or PI specifications<br>
+IntelFrameworkModulePkg<br>
+Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg<br>
+
+
 
 ---?image=/assets/images/slides/Slide38_1.JPG
 <!-- .slide: data-transition="none" -->		  
