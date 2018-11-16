@@ -609,19 +609,19 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 #### <p align="right"><span class="gold" > EDK II Package Examples: Specs</span></p>
 
 
-@snap[north-west span-35 fragment]
+@snap[west span-45 fragment]
 @box[bg-blue text-white rounded](`MdePkg`#Includes files and libraries for Industry Standard Specifications)
 @snapend
 
-@snap[north-east span-35 fragment]
+@snap[east span-45 fragment]
 @box[bg-orange text-white rounded ](`MdeModulePkg`#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
 @snapend
 
-@snap[south-west span-35 fragment]
+@snap[south-west span-45 fragment]
 @box[bg-gray text-white rounded ](`IntelFrameworkPkg`#Include files and libraries for those parts of the Intel Platform Innovation Framework for EFI specifications that were not adopted “as is” by the UEFI or PI specifications)
 @snapend
 
-@snap[south-east span-35 fragment]
+@snap[south-east span-45 fragment]
 @box[bg-green text-white rounded ](`IntelFrameworkModulePkg`#Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg)
 @snapend
 
