@@ -622,7 +622,7 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 @snapend
 
 @snap[south-east span-45 fragment]
-@box[bg-gray text-white rounded ](<span style="font-size:01.75em" >`IntelFrameworkModulePkg`</span>#Contains modules such as PEIMs + DXE Drivers + UEFI Drivers from definitions in the IntelFrameworkPkg <br>)
+@box[bg-gray text-white rounded ](<span style="font-size:01.75em" >`IntelFrameworkModulePkg`</span>#Contains modules such as PEIMs + DXE Drivers + UEFI Drivers from definitions in the IntelFrameworkPkg <br><br>)
 @snapend
 
 
