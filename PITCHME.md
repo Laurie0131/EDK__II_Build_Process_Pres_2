@@ -617,13 +617,6 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 @box[bg-orange text-white rounded ](<span style="font-size:02.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
 @snapend
 
-@snap[south-west span-45 fragment]
-@box[bg-gray text-white rounded ](<span style="font-size:02.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
-@snapend
-
-@snap[south-east span-45 fragment]
-@box[bg-gray text-white rounded ](<span style="font-size:01.75em" >`IntelFrameworkModulePkg`</span>#Contains modules such as PEIMs + DXE Drivers + UEFI Drivers from definitions in the IntelFrameworkPkg <br><br>)
-@snapend
 
 
 Note:
@@ -637,6 +630,42 @@ Include files and libraries for those parts of the Intel Platform Innovation Fra
 IntelFrameworkModulePkg<br>
 Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg<br>
 
++++
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->		  
+
+ 
+@title[EDK II Package Examples: Specs]
+#### <p align="right"><span class="gold" > EDK II Package Examples: Specs</span></p>
+
+
+@snap[west span-45 ]
+@box[bg-blue text-white rounded](<span style="font-size:02.5em" >`MdePkg`</span>#Includes files and libraries for Industry Standard Specifications<br><br>)
+@snapend
+
+@snap[east span-45 ]
+@box[bg-orange text-white rounded ](<span style="font-size:02.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
+@snapend
+
+@snap[south-west span-45 fragment]
+@box[bg-gray text-white rounded ](<span style="font-size:02.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
+@snapend
+
+@snap[south-east span-45 fragment]
+@box[bg-gray text-white rounded ](<span style="font-size:01.75em" >`IntelFrameworkModulePkg`</span>#Contains modules such as PEIMs + DXE Drivers + UEFI Drivers from definitions in the IntelFrameworkPkg <br>)
+@snapend
+
+
+Note:
+
+MdePkg<br>
+Include files and libraries for Industry Standard Specifications (i.e. UEFI, PI, PCI, USB, SMBIOS, ACPI, SMBIOS, etc)<br>
+MdeModulePkg<br>
+Modules (PEIMs + DXE Drivers + UEFI Drivers + UEFI Applications) that only definitions from the Industry Standard Specification defined in the MdePkg<br>
+IntelFrameworkPkg<br>
+Include files and libraries for those parts of the Intel Platform Innovation Framework for EFI specifications that were not adopted “as is” by the UEFI or PI specifications<br>
+IntelFrameworkModulePkg<br>
+Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg<br>
 
 
 ---?image=/assets/images/slides/Slide38_1.JPG
