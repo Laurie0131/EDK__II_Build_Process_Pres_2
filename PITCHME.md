@@ -347,8 +347,8 @@ Note:
 @css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
 
 
-@snap[west span-35]
-@box[ text-pink fragment](<b>Compiles to<br>`.EFI` File </b>)
+@snap[north-west span-35]
+@box[ text-blue fragment](<br><br><br><br><br><b>@color[yellow](Compiles to<br>`.EFI` File) </b>)
 @snapend
 
 
