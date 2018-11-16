@@ -609,20 +609,20 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 #### <p align="right"><span class="gold" > EDK II Package Examples: Specs</span></p>
 
 
-@snap[west span-48 fragment]
-@box[bg-blue text-white rounded](<span style="font-size:01.5em" >`MdePkg`</span>#Includes files and libraries for Industry Standard Specifications<br><br>)
+@snap[west span-45 fragment]
+@box[bg-blue text-white rounded](<span style="font-size:02.5em" >`MdePkg`</span>#Includes files and libraries for Industry Standard Specifications<br><br>)
 @snapend
 
-@snap[east span-48 fragment]
-@box[bg-orange text-white rounded ](<span style="font-size:01.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
+@snap[east span-45 fragment]
+@box[bg-orange text-white rounded ](<span style="font-size:02.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
 @snapend
 
-@snap[south-west span-48 fragment]
-@box[bg-gray text-white rounded ](<span style="font-size:01.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
+@snap[south-west span-45 fragment]
+@box[bg-gray text-white rounded ](<span style="font-size:02.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
 @snapend
 
-@snap[south-east span-48 fragment]
-@box[bg-gray text-white rounded ](<span style="font-size:01.5em" >`IntelFrameworkModulePkg`</span>#Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg)
+@snap[south-east span-45 fragment]
+@box[bg-gray text-white rounded ](<span style="font-size:02.5em" >`IntelFrameworkModulePkg`</span>#Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg)
 @snapend
 
 
