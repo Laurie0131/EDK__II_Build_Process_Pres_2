@@ -310,7 +310,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 <table id="recTable">
 	<tr>
 		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC <br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
-		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition) <br>- Flash Description </b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition <i>define a component</i>) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
 		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >&nbsp;<br><br></span></p></td>
@@ -335,7 +335,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 <table id="recTable">
 	<tr>
 		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](.DSC) <br>.DEC <br>@color[#00ffff](.INF)<br>.FDF</b></span></p></td>
-		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition) <br>- Flash Description </b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>@color[#00ffff](- Platform Description ) <br>- Package Declaration <br>@color[#00ffff](- Module Definition <i>define a component</i>) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
 		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >.VFR <br>.UNI <br>.c & .h </span></p></td>
@@ -349,7 +349,7 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 </table>
 
 @snap[north-east span-30]
-@css[ text-yellow fragment](<span style="font-size:01.5em" ><b><i><br><br><br>EDK II Spec<br><br><br>Source <br><br>Output</i></b> </span>)
+@css[ text-yellow fragment](<span style="font-size:01.25em" ><b><i><br><br>EDK II Spec<br><br><br>Source <br><br>Output</i></b> </span>)
 @snapend
   
 
