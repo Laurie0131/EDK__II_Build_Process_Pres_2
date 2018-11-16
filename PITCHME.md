@@ -353,7 +353,7 @@ Note:
 
 
 @snap[east span-35]
-@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[#00ffff](Library)</b>)
+@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[green](Library)</b>)
 @snapend
 
 
@@ -368,7 +368,7 @@ Note:
 
 
 @snap[east span-35]
-@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[#00ffff](Library)</b>)
+@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[pink](Library)</b>)
 @snapend
 
 
