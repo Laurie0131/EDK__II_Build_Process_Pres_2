@@ -311,22 +311,22 @@ EDK II architecture discussions primarily focus on UEFI (OS-to-firmware interfac
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.65em" ><b>.DSC <br>.DEC <br>.INF<br>.FDF</b></span></p></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.65em" ><b>-Platform Description  <br>-Package Description <br>- Module Definition <br>-Flash Description </b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>.DSC <br>.DEC <br>.INF<br>.FDF</b></span></p></td>
+		<td bgcolor="#121212"><p style="line-height:70%"><span style="font-size:0.75em" ><b>- Platform Description  <br>- Package Declaration <br>- Module Definition (define a component) <br>- Flash Description </b></span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >.VFR <br>.UNI <br>.c & .h </span></p></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >-Visual Forms Representation  <br>- Unicode String text files<br>- Source code files</span></p></td>
+		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >.VFR <br>.UNI <br>.c & .h </span></p></td>
+		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >- Visual Forms Representation for User interface <br>- Unicode String text files w/ ease of localization<br>- Source code files</span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >.FD <br>.FV </span></p></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.5em" >-Final Flash Device Image  <br>- Firmware Volume File</span></p></td>
+		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >.FD <br>.FV </span></p></td>
+		<td bgcolor="#323232"><p style="line-height:50%"><span style="font-size:0.65em" >-Final Flash Device Image  <br>- Firmware Volume File</span></p></td>
 	</tr>
 
 </table>
 
 @snap[north-east span-35]
-@css[ text-yellow fragment](<span style="font-size:01.5em" ><b>EDK II Spec <br><br><br><br>Source <br><br>Output</b> </span>)
+@css[ text-yellow fragment](<span style="font-size:01.5em" ><b><br><br><br>EDK II Spec <br>Source <br><br>Output</b> </span>)
 @snapend
   
 
