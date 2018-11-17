@@ -731,8 +731,8 @@ Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one
 <br>
 @ul[no-bullet]
 - @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:0.9em"><b>Platforms</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Nt32Pkg`) & @color[#00ffff](`OvmfPkg`)</span><br><br>
-- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:0.9em"><b>Chipset/Processor</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) & <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`BroxtonSiPkg`)</span><br><br>
-- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:0.9em"><b>Functionality</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`) & <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`NetworkPkg`)</span><br>
+- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:0.9em"><b>Chipset/Processor</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) & <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`BroxtonSiPkg`)</span><br><br>
+- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:0.9em"><b>Functionality</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`) & <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`NetworkPkg`)</span><br>
 @ulend
 
 
