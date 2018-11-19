@@ -1267,7 +1267,7 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 @box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
-
+<br>
 <br>
 <br>
 <div class="left">
@@ -1280,7 +1280,7 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 </ul>
 </div>
 
-<div class="right">
+<div class="right1">
 <ul style="line-height:0.8;">
   <li><span style="font-size:0.8em" >@color[white](Microsoft Windows XP/7/8/10 ) </span></li>
   <li><span style="font-size:0.8em" >@color[white](Apple Mac OS X ) </span></li>
