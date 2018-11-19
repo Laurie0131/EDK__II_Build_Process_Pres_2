@@ -1096,7 +1096,43 @@ There are run time aspects – <br>
 And finally, there are binary edit aspects -<br>
 	One of the stated goals is that a module can carry their own PCD data in their binary image and have it exposed so that they can be edited in the flash image.<br>
 
+---
+@title[EDK II Infrastructure Summary]
+<br>
+#### <p align="center"><span class="gold" >EDK II Infrastructure Summary</span></p>
 
+
+@snap[north-west span-45 ]
+@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.5em" >+</span>)
+@snapend
+
+@snap[north span-45 ]
+@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.5em" >+</span>)
+@snapend
+
+
+@snap[west span-45 ]
+@box[bg-blue text-white waved fragment](<span style="font-size:02.5em" >Packages</span><br>List of modules )
+@snapend
+
+@snap[midpoint span-45 ]
+@box[bg-blue text-white waved fragment](<span style="font-size:02.5em" >Libraries</span> Same name & interface)
+@snapend
+
+@snap[east span-45]
+@box[bg-blue text-white waved fragment](<span style="font-size:02.5em" >PCD </span><br> Platform Config. DB )
+@snapend
+
+
+Note:
+
+Summary <br>
+- Packages<br>
+  - list of modules<br>
+- Libraries<br>
+   - Same Names with different implementation but same interface<br>
+- PCD
+  - Platform configuration database
 
 ---?image=/assets/images/slides/Slide66.JPG
 
