@@ -1320,6 +1320,53 @@ All of these are supported across all the modules in the write.<br>
   NOTE: this does not mean someone can write some assembly language code that was specific to the Microsoft compiler or assembler that in turn does not work on GCC. The standards we set for the core components are that they will work across everything. It is up to you as a developer to make sure the code you write meets the requirements of what ever compiler you use. <br>
 For example, the byte code compiler does not do floating point.  So if you add code that does floating point, be aware that you cannot compile that into byte code. 
 
+
+---
+@title[Environment Variables]
+#### <p align="center"><span class="gold" >Environment Variables</span></p>
+
+
+
+
+@snap[north span-35 ]
+@css[text-yellow]( <br>&nbsp;)
+@box[bg-blue text-white rounded](<span style="font-size:01.025em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@snapend
+<br>
+<br>
+<br>
+<div class="left-1">
+  <span style="font-size:0.8em" >&nbsp;  </span>
+</div>
+<div class="right-1">
+<ul style="list-style-type:none" style="line-height:0.8;">
+  <li><span style="font-size:0.8em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
+  <li><span style="font-size:0.8em" >2.&nbsp;&nbsp; PATH  </span></li>
+  <li><span style="font-size:0.8em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
+  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[blue]((optional))  </span></li>
+  <li><span style="font-size:0.8em" >5.&nbsp;&nbsp; EFI_SOURCE/EDK_SOURCE  </span></li>
+</ul>
+</div>
+
+
+
+  
+  
+  @box[bg-gray text-white rounded ](<p align="lsft"><span style="font-size:0.80em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> </p>)
+
+
+
+Note:
+EDK II depends on Environment variables – <br>
+The EDK_TOOLS_PATH –tells the build system the location of the binary tools directory. By default they will be in the build tools directory. However, there may be a difference if you are on a server and you share build tools.  Or, for example, if you compile build tools for Linux and another for windows, and you want to set your build path based on which OS you are building from.<br>
+
+The PATH is the directory location for any binary tools needed for the operating system.<br>
+
+The WORKSPACE –tells EDK II your workspace . You would want to set it to the location where you downloaded the source code.<br>
+
+EFI_SOURCE and EDK_SOURCE are used for the EDK compatibility package ECP when you are building an old module from EDK 1.<br>
+The last two are not used for native EDK II at all.<br>
+
 ---
 @title[Environment Variables]
 #### <p align="center"><span class="gold" >Environment Variables</span></p>
