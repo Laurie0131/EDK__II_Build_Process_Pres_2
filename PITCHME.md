@@ -1259,6 +1259,41 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 #### <p align="center"><span class="gold" >Development Environment</span></p>
 
 @snap[west span-45 ]
+@box[bg-orange text-white](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span><br><span style="font-size:0.8em" >
+@color[yellow](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar;)<br>
+@color[yellow](Microsoft WDK)<br>
+@color[yellow](Intel C/C++ compiler)<br>
+@color[yellow](Intel C EFI Byte Code&lpar;EBC&rpar;)<br>
+@color[yellow]( GCC V5.x or later)<br>) </span> )
+@snapend
+
+@snap[east span-45 ]
+@box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span><br><span style="font-size:0.8em" >
+@color[yellow](Microsoft Windows XP/7/8/10 )<br>
+@color[yellow](Apple Mac OS X )<br>
+@color[yellow](RedHat Enterprise Linux) <br>
+@color[yellow](Novell SuSE Linux)<br>
+@color[yellow](Ubuntu 16.04 )<br> </span>  )
+@snapend
+
+
+Note:
+The development environment is one of the primary changes to EDK II.<br>
+We wanted a change, build wood work dramatically <br>
+We have Compiler tool chains:<br>
+    we still support Microsoft C compiler and WDK and Intel C/C++ compiler<br>
+      now we also support GCC<br>
+We still support Intel C UEFI Byte code compiler<br>
+You  can build across multiple Operating Systems –Windows, Mac, Linux flavors<br>
+All of these are supported across all the modules in the write.<br>
+  NOTE: this does not mean someone can write some assembly language code that was specific to the Microsoft compiler or assembler that in turn does not work on GCC. The standards we set for the core components are that they will work across everything. It is up to you as a developer to make sure the code you write meets the requirements of what ever compiler you use. <br>
+For example, the byte code compiler does not do floating point.  So if you add code that does floating point, be aware that you cannot compile that into byte code. 
+
+---
+@title[Development Environment]
+#### <p align="center"><span class="gold" >Development Environment</span></p>
+
+@snap[west span-45 ]
 @box[bg-orange text-white](<span style="font-size:01.25em" >@color[white](<b>Compiler Tool Chains</b>)</span><br><br><br><br><br><br> )
 @snapend
 
