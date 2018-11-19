@@ -1267,7 +1267,7 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 @box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
-<span style="font-size:0.8em" ><br><br><br></span>
+<span style="font-size:0.8em" ><br><br></span>
 
 <div class="left">
 <ul style="line-height:0.8;"><font color=#fcb813>
@@ -1302,50 +1302,6 @@ All of these are supported across all the modules in the write.<br>
   NOTE: this does not mean someone can write some assembly language code that was specific to the Microsoft compiler or assembler that in turn does not work on GCC. The standards we set for the core components are that they will work across everything. It is up to you as a developer to make sure the code you write meets the requirements of what ever compiler you use. <br>
 For example, the byte code compiler does not do floating point.  So if you add code that does floating point, be aware that you cannot compile that into byte code. 
 
----
-@title[Development Environment]
-#### <p align="center"><span class="gold" >Development Environment</span></p>
-
-@snap[west span-45 ]
-@box[bg-orange text-white](<span style="font-size:01.25em" >@color[white](<b>Compiler Tool Chains</b>)</span><br><br><br><br><br><br> )
-@snapend
-
-@snap[east span-45 ]
-@box[bg-green text-white](<span style="font-size:01.25em" >@color[white](<b>Operating Systems</b>)</span><br><br><br><br><br><br> )
-@snapend
-
-<div class="left">
-<ul style="line-height:0.8;">
-  <li><span style="font-size:0.8em" >@color[black](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar;) ) </span></li>
-  <li><span style="font-size:0.8em" >@color[black]( Microsoft WDK) </span></li>
-  <li><span style="font-size:0.8em" >@color[black]( Intel C/C++ compiler) </span></li>
-  <li><span style="font-size:0.8em" >@color[black](Intel C EFI Byte Code (EBC) compiler ) </span></li>
-  <li><span style="font-size:0.8em" >@color[black]( GCC V5.x or later) </span></li>
-</ul>
-</div>
-
-<div class="right">
-<ul style="line-height:0.8;">
-  <li><span style="font-size:0.8em" >@color[black](Microsoft Windows XP/7/8/10 ) </span></li>
-  <li><span style="font-size:0.8em" >@color[black](Apple Mac OS X ) </span></li>
-  <li><span style="font-size:0.8em" >@color[black](RedHat Enterprise Linux) </span></li>
-  <li><span style="font-size:0.8em" >@color[black](Novell SuSE Linux) </span></li>
-  <li><span style="font-size:0.8em" >@color[black](Ubuntu 16.04 ) </span></li>
-</ul>
-
-</div>
-
-Note:
-The development environment is one of the primary changes to EDK II.<br>
-We wanted a change, build wood work dramatically <br>
-We have Compiler tool chains:<br>
-    we still support Microsoft C compiler and WDK and Intel C/C++ compiler<br>
-      now we also support GCC<br>
-We still support Intel C UEFI Byte code compiler<br>
-You  can build across multiple Operating Systems –Windows, Mac, Linux flavors<br>
-All of these are supported across all the modules in the write.<br>
-  NOTE: this does not mean someone can write some assembly language code that was specific to the Microsoft compiler or assembler that in turn does not work on GCC. The standards we set for the core components are that they will work across everything. It is up to you as a developer to make sure the code you write meets the requirements of what ever compiler you use. <br>
-For example, the byte code compiler does not do floating point.  So if you add code that does floating point, be aware that you cannot compile that into byte code. 
 
 ---?image=/assets/images/slides/Slide73.JPG
 @title[Development Environment]
@@ -1367,6 +1323,20 @@ For example, the byte code compiler does not do floating point.  So if you add c
 ---
 @title[Environment Variables]
 #### <p align="center"><span class="gold" >Environment Variables</span></p>
+
+
+
+
+@snap[north span-35 fragment]
+@css[text-yellow]( <br><br><br>&nbsp;)
+@box[bg-blue text-white](<span style="font-size:01.025em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@snapend
+
+@snap[midpoint span-50]
+@box[bg-grey text-white rounded ](<span style="font-size:01.0em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> )
+@snapend
+
+
 
 Note:
 EDK II depends on Environment variables – <br>
