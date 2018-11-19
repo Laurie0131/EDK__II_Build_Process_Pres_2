@@ -909,8 +909,6 @@ Defining database - like global variables <br>
 
 Many components of a database to help fine tune the BIOS or Firmware - build & runtime
 ---
-<!-- .slide: data-transition="none" -->	
-
 @title[Platform Configuration Database-Goals]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
 @box[bg-blue text-white rounded](<span style="font-size:02.0em" >`Goals`</span>)
@@ -1007,6 +1005,40 @@ also will have APIs for accessing the PCD entries<br><br>
 
 What the PCD store, the store platform information like the vital product data serial number, we can use variable PCBs for setup options etc.<br>
 
+---
+@title[Platform Configuration Database - Advantages]
+#### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
+@box[bg-yellow text-white rounded](<span style="font-size:02.0em" >`Advantages`</span>)
+
+
+
+@snap[west span-45 ]
+@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Binary Modularity</span># Configure firmware settings in binaries without building )
+@snapend
+
+@snap[east span-45 ]
+@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Configure</span># Provide for options to configure features)
+@snapend
+
+@snap[south span-45]
+@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Patching </span># Simplify the binary patching process )
+@snapend
+
+
+Note:
+
+What are the Advantages and the purpose of the platform configuration database?<br><br>
+
+It has common definitions that are established for platform component settings in the database. The contents of this database are intended to standardize the exposure of platform and module settings which can in-turn facilitate platform porting. One of the goals is to help us with platform porting.<br>
+
+There are some build time aspects – <br>
+	A collection of component information is established from the PCD  component definitions that will be associated with a given module.<br>
+
+There are run time aspects – <br>
+	by providing APIs which allow common access to component settings during the operation of the platform, we can allow for binary distribution models which are PCD compliant. In other words, Not everyone has the source!<br>
+
+And finally, there are binary edit aspects -<br>
+	One of the stated goals is that a module can carry their own PCD data in their binary image and have it exposed so that they can be edited in the flash image.<br>
 
 
 ---?image=/assets/images/slides/Slide62.JPG
