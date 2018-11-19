@@ -1103,24 +1103,24 @@ And finally, there are binary edit aspects -<br>
 
 
 @snap[north-west span-45 ]
-@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.25em" >+</span>)
+@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.25em" >+</span>)
 @snapend
 
 @snap[north span-45 ]
-@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.25em" >+</span>)
+@css[text-yellow]( <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:03.25em" >+</span>)
 @snapend
 
 
-@snap[west span-35 ]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.5em" >Packages</span><br>List of modules )
+@snap[west span-30 ]
+@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >Packages</span><br>List of modules )
 @snapend
 
-@snap[midpoint span-35 ]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.5em" >Libraries</span> Same name & interface)
+@snap[midpoint span-30 ]
+@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >Libraries</span> Same name & interface)
 @snapend
 
-@snap[east span-35]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.5em" >PCD </span><br> Platform Config. DB )
+@snap[east span-30]
+@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >PCD </span><br> Platform Config. DB )
 @snapend
 
 
