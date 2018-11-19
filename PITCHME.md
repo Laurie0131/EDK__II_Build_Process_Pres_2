@@ -1767,6 +1767,61 @@ Note:
 
 Note:
 
+---
+@title[Basic Build Steps]
+#### <p align="right"><span class="gold" >Basic Build Steps </span></p>
+
+
+
+@snap[west span-45 ]
+@box[bg-blue text-white](<span style="font-size:01.125em" ><b>Platform</b></span>)
+<span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
+@snapend
+
+@snap[east span-45 ]
+@box[bg-orange text-white](<span style="font-size:01.125em" ><b>Module</b>)</span>    
+<span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
+@snapend
+<span style="font-size:0.8em" ><br><br></span>
+
+<div class="left">
+<ul style="list-style-type:none" style="line-height:0.8;">
+  <li><span style="font-size:0.9em" >1.&nbsp;&nbsp; Open Terminal prompt  </span></li>
+  <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; Navigate to root of EDK II workspace </span></li>
+  <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; Run @color[yellow](`edksetup`)  </span></li>
+  <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; Edit `Conf/target.txt`  </span></li>
+  <li><span style="font-size:0.9em" >5.&nbsp;&nbsp; Run `build`  </span></li>
+  <li><span style="font-size:0.9em" >6.&nbsp;&nbsp; Output:  firmware image (FD) file under `Build` directory </span></li>
+</ul>
+</div>
+
+<div class="right1">
+<ul style="list-style-type:none" style="line-height:0.8;">
+  <li><span style="font-size:0.9em" >1.&nbsp;&nbsp; Open Terminal prompt  </span></li>
+  <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; Navigate to root of EDK II workspace </span></li>
+  <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; Run @color[yellow](`edksetup`)  </span></li>
+  <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to a directory with the proper INF</b> ) </span></li>
+  <li><span style="font-size:0.9em" >5.&nbsp;&nbsp; Run `build`  </span></li>
+  <li><span style="font-size:0.9em" >6.&nbsp;&nbsp; Output:  `.EFI` file under `Build` directory </span></li>
+</ul>
+<span style="font-size:0.6em" >Note: Module `.inf` in `.dsc` components list</span>
+</div>
+
+Note:
+
+Platform:<br>
+- Open Terminal prompt
+- Navigate to root of EDK II workspace
+- Run edksetup
+- Edit Conf/target.txt
+- Run build
+- Output:  firmware image (FD) file under Build directory
+<br>
+Module:<br>
+SAME except - Change to a directory with the proper INF
+also NOTE the inf file MUST be a in the components section of the .DSC file
+
+
 ---?image=/assets/images/slides/Slide107.JPG
 
 @title[Basic Build Steps]
