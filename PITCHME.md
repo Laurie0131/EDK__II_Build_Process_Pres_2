@@ -1321,7 +1321,7 @@ All of these are supported across all the modules in the write.<br>
 For example, the byte code compiler does not do floating point.  So if you add code that does floating point, be aware that you cannot compile that into byte code. 
 
 
----
+---?/assets/images/BK_grey-box-bottom.jpg
 @title[Environment Variables]
 #### <p align="center"><span class="gold" >Environment Variables</span></p>
 
@@ -1344,7 +1344,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
   <li><span style="font-size:0.8em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
   <li><span style="font-size:0.8em" >2.&nbsp;&nbsp; PATH  </span></li>
   <li><span style="font-size:0.8em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
-  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[gray]((optional &rpar;)  </span></li>
+  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[black]((optional &rpar;)  </span></li>
   <li><span style="font-size:0.8em" >5.&nbsp;&nbsp; EFI_SOURCE/EDK_SOURCE  </span></li>
 </ul>
 </div>
