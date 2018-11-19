@@ -1643,10 +1643,9 @@ Six, is how many threads to use to do the build – so if you have a brand-new C
 #### <p align="right"> <span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;Using <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>Tools_Def.txt</b></font></span></font></span></p>
 
 @ul[no-bullet]
-- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em"><b>Paths for compilers, assemblers, and linkers</b></span><span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](Comes with definitions for all compilers ) </span><br><br>
+- @fa[certificate gp-bullet-orange]&nbsp;&nbsp;<span style="font-size:01.02em"><b>Paths for compilers, assemblers, and linkers</b></span><span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](Comes with definitions for all compilers ) </span><br><br>
 - @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em"><b>Only modify this file when …</b></span><span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](Tools are installed in a non-default location) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](Different compilers/tools need to be added)</span><br><br>
-- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em"><b>Default values are set by edksetup script</b></span><span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](Default values will cover most compiler needs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](If there are problems with the file after editing, just delete and re-run edksetup &lpar;restores default&rpar;)
-</span><br>
+- @fa[certificate gp-bullet-blue]&nbsp;&nbsp;<span style="font-size:01.02em"><b>Default values are set by edksetup script</b></span><span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](Default values will cover most compiler needs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](If there are problems with the file after editing, just delete)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff]( and re-run edksetup &lpar;restores default&rpar;)</span><br>
 @ulend
 
 
