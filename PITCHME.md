@@ -1122,7 +1122,7 @@ And finally, there are binary edit aspects -<br>
 @snapend
 
 @snap[east span-30]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>PCD</b>) </span><br> Platform Config. DB )
+@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>PCDs</b>) </span><br> Platform Config. DB )
 @snapend
 
 
@@ -1183,6 +1183,33 @@ Summary <br>
 - Libraries<br>
    - Names with different implimentation<br>
 - PCD
+
+---
+@title[EDK II vs. UDK]
+#### <p align="center"><span class="gold" >EDK II vs. UDK(2010|2017 .. 2018)</span></p>
+<br>
+@box[bg-blue  text-white rounded](<span style="font-size:0.9em" >UEFI Developer's Kit 2018 &lpar;UDK2018&rpar; </span>)
+@box[bg-puple text-white rounded](<span style="font-size:0.9em" >Stable build of the EDK II project </span>)
+@box[bg-green text-white rounded](<span style="font-size:0.9em" >Neither contain Intel silicon or platform code</span>)
+
+<br>
+<span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;wiki on tianocore.org
+<a href='https://github.com/tianocore/tianocore.github.io/wiki/Differences-between-UDK-and-EDK-II'>Differences between UDK - EDK II</a></span>	
+
+Note:
+
+The UEFI Developer's Kit 2010 (UDK2010) is an open-source driver & application development kit built on validated EDK II code <br>
+UDK2018 is a stable build of the EDK II project<br>
+Based on a snapshot of the EDK II project<br>
+Validated on a variety of Intel platforms<br>
+Validated with different OS & application software<br>
+The open-source EDK II & UDK2010 do not contain code for Intel silicon or platforms<br>
+
+Explain differences here so references later in the presentation make more sense.<br>
+
+UEFI Developer's Kit 2010 (UDK2018) = open-source driver & application development kit containing EDK II (second generation EFI development kit) validated common-core sample code. The open-source UDK2010 is a stable build of the EDK II project, and has been validated on a variety of Intel platforms, operating systems, and application software.<br>
+
+Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® UDK2018), Intel Corporation, 2018. 
 
 ---?image=/assets/images/slides/Slide70.JPG
 
