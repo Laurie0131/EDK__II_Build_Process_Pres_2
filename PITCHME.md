@@ -1335,26 +1335,21 @@ For example, the byte code compiler does not do floating point.  So if you add c
 <br>
 <br>
 <br>
-<div class="left-1">
+<br>
+<div class="left-2">
   <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
-<div class="right-1">
+<div class="right-2">
 <ul style="list-style-type:none" style="line-height:0.8;">
   <li><span style="font-size:0.8em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
   <li><span style="font-size:0.8em" >2.&nbsp;&nbsp; PATH  </span></li>
   <li><span style="font-size:0.8em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
-  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[blue]((optional))  </span></li>
+  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[gray]((optional &rpar;)  </span></li>
   <li><span style="font-size:0.8em" >5.&nbsp;&nbsp; EFI_SOURCE/EDK_SOURCE  </span></li>
 </ul>
 </div>
-
-
-
   
   
-  @box[bg-gray text-white rounded ](<p align="lsft"><span style="font-size:0.80em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> </p>)
-
-
 
 Note:
 EDK II depends on Environment variables – <br>
