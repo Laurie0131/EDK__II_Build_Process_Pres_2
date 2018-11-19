@@ -1259,23 +1259,33 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 #### <p align="center"><span class="gold" >Development Environment</span></p>
 
 @snap[west span-45 ]
-@box[bg-orange text-white](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span><br><span style="font-size:0.8em" >
-@color[yellow](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar;)<br>
-@color[yellow](Microsoft WDK)<br>
-@color[yellow](Intel C/C++ compiler)<br>
-@color[yellow](Intel C EFI Byte Code&lpar;EBC&rpar;)<br>
-@color[yellow]( GCC V5.x or later)<br>) </span> )
+@box[bg-orange text-white](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span>)<span style="font-size:0.8em" ><br><br><br><br><br><br><br><br><br></span>  
 @snapend
 
 @snap[east span-45 ]
-@box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span><br><span style="font-size:0.8em" >
-@color[yellow](Microsoft Windows XP/7/8/10 )<br>
-@color[yellow](Apple Mac OS X )<br>
-@color[yellow](RedHat Enterprise Linux) <br>
-@color[yellow](Novell SuSE Linux)<br>
-@color[yellow](Ubuntu 16.04 )<br> </span>  )
+@box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    <span style="font-size:0.8em" ><br><br><br><br><br><br><br><br><br></span>  
 @snapend
 
+<div class="left">
+<ul style="line-height:0.8;">
+  <li><span style="font-size:0.8em" >@color[black](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar;) ) </span></li>
+  <li><span style="font-size:0.8em" >@color[black]( Microsoft WDK) </span></li>
+  <li><span style="font-size:0.8em" >@color[black]( Intel C/C++ compiler) </span></li>
+  <li><span style="font-size:0.8em" >@color[black](Intel C EFI Byte Code (EBC) compiler ) </span></li>
+  <li><span style="font-size:0.8em" >@color[black]( GCC V5.x or later) </span></li>
+</ul>
+</div>
+
+<div class="right">
+<ul style="line-height:0.8;">
+  <li><span style="font-size:0.8em" >@color[black](Microsoft Windows XP/7/8/10 ) </span></li>
+  <li><span style="font-size:0.8em" >@color[black](Apple Mac OS X ) </span></li>
+  <li><span style="font-size:0.8em" >@color[black](RedHat Enterprise Linux) </span></li>
+  <li><span style="font-size:0.8em" >@color[black](Novell SuSE Linux) </span></li>
+  <li><span style="font-size:0.8em" >@color[black](Ubuntu 16.04 ) </span></li>
+</ul>
+
+</div>
 
 Note:
 The development environment is one of the primary changes to EDK II.<br>
