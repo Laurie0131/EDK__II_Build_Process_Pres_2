@@ -1013,11 +1013,11 @@ What the PCD store, the store platform information like the vital product data s
 
 
 @snap[west span-45 ]
-@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Binary Modularity</span># Configure firmware settings in binaries without building )
+@box[bg-purple text-blue rounded fragment](<span style="font-size:01.5em" >Binary Modularity</span># Configure firmware settings in binaries without building )
 @snapend
 
 @snap[east span-45 ]
-@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Configure</span># Provide for options to configure features)
+@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Configure</span># Provide for options to configure firmware features)
 @snapend
 
 @snap[south span-45]
