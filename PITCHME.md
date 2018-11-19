@@ -1327,13 +1327,13 @@ For example, the byte code compiler does not do floating point.  So if you add c
 
 
 
-@snap[north span-35 fragment]
-@css[text-yellow]( <br><br><br>&nbsp;)
+@snap[north span-35 ]
+@css[text-yellow]( <br>&nbsp;)
 @box[bg-blue text-white](<span style="font-size:01.025em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
 @snapend
 
-@snap[midpoint span-50]
-@box[bg-grey text-white rounded ](<span style="font-size:01.0em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> )
+@snap[south-west span-50]
+@box[bg-gray text-white rounded ](<span style="font-size:01.0em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> )
 @snapend
 
 
