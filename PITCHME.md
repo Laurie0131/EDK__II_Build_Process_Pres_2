@@ -1330,7 +1330,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white rounded](<span style="font-size:01.025em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@box[bg-blue text-white rounded](<span style="font-size:01.25em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
 @snapend
 <br>
 <br>
@@ -1341,11 +1341,11 @@ For example, the byte code compiler does not do floating point.  So if you add c
 </div>
 <div class="right-2">
 <ul style="list-style-type:none" style="line-height:0.8;">
-  <li><span style="font-size:0.8em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
-  <li><span style="font-size:0.8em" >2.&nbsp;&nbsp; PATH  </span></li>
-  <li><span style="font-size:0.8em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
-  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[black]((optional &rpar;)  </span></li>
-  <li><span style="font-size:0.8em" >5.&nbsp;&nbsp; EFI_SOURCE/EDK_SOURCE  </span></li>
+  <li><span style="font-size:0.9em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
+  <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; PATH  </span></li>
+  <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
+  <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[black]((optional &rpar;)  </span></li>
+  <li><span style="font-size:0.9em" >5.&nbsp;&nbsp; EFI_SOURCE/EDK_SOURCE  </span></li>
 </ul>
 </div>
   
