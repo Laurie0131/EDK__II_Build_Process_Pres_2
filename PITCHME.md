@@ -926,7 +926,7 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 @snapend
 
 @snap[south-west span-45]
-@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Remove <pre>`#define` </pre></span># No searching for “magic” <pre>`#define`<\pre> statements )
+@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Remove `&num;define` </span># No searching for “magic” `&num;define` statements )
 @snapend
 
 @snap[south-east span-45 ]
