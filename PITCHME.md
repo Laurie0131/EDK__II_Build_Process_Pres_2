@@ -1321,7 +1321,7 @@ All of these are supported across all the modules in the write.<br>
 For example, the byte code compiler does not do floating point.  So if you add code that does floating point, be aware that you cannot compile that into byte code. 
 
 
----?/assets/images/BK_grey-box-bottom.jpg
+---?image=/assets/images/BK_grey-box-bottom.jpg
 @title[Environment Variables]
 #### <p align="center"><span class="gold" >Environment Variables</span></p>
 
