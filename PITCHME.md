@@ -473,29 +473,26 @@ Note:
 <br>
 <br>
 <br>
-@css[text-yellow fragment](<b>Compiles to<br>`.EFI` File</b>)
+@css[text-yellow fragment](<b>@color[yellow](Compiles to)<br>@color[yellow](`.EFI` File)</b>)
 
 
 @snap[east span-35]
 @css[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.) </b>or <b><br>@color[#00ffff](Library) </b>)
 @snapend
 
+Note:
 
----?image=/assets/images/slides/Slide30.JPG
-@title[Modules]
-####  <p align="right"><span class="gold" > Modules</span></p>
-@css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
+Image - Creative commons https://leadinginnovation11a.wikispaces.com/Where+is+Your+Hardhat%3F+-+Leadership+in+a+21st+Century+School <br> 
+So the first thing we have in trying to break EDK II down is Modules:<br>
+ 
+A module is the smallest separate object compiled in the EDK II.  A module is a single resultant .EFI file.<br>
+Module examples:<br>
+A UEFI/DXE driver <br>
+A PEIM<br>
+A UEFI application<br>
+A Library <br>
 
-@snap[north-west span-35]
-@box[ text-blue fragment](<br><br><br><br><br><b>@color[yellow](Compiles to<br>`.EFI` File) </b>)
-@snapend
-
-
-@snap[east span-35]
-@box[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.)<br>@color[pink](Library)</b>)
-@snapend
-
-
+All of these could be a module.  A modules could  be one entity<br>
 
 
 ---?image=/assets/images/slides/Slide30.JPG
@@ -647,7 +644,7 @@ Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one
 @box[bg-orange text-white rounded ](<span style="font-size:02.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
 @snapend
 
-@snap[south-west span-45 fragment]
+@snap[south-west span-45]
 @box[bg-gray text-white rounded ](<span style="font-size:02.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
 @snapend
 
@@ -733,6 +730,19 @@ Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one
 - @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Nt32Pkg`) & @color[#00ffff](`OvmfPkg`)</span><br><br><br>
 - @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) & <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`BroxtonSiPkg`)</span><br><br><br>
 - @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`) & <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`NetworkPkg`)</span><br>
+@ulend
+
+
+
+---
+<!-- .slide: data-transition="none" -->		  
+@title[Additional Package Examples: ]
+#### <p align="right"><span class="gold" >Additional EDK II Package Examples:</span></p>
+<br>
+@ul[no-bullet]
+- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Nt32Pkg`) & @color[#00ffff](`OvmfPkg`)</span><br><br><br>
+- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) & @color[#00ffff](`BroxtonSiPkg`)</span><br><br><br>
+- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`) &  @color[#00ffff](`NetworkPkg`)</span><br>
 @ulend
 
 
