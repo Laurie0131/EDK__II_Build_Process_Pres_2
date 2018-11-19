@@ -727,19 +727,6 @@ Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one
 #### <p align="right"><span class="gold" >Additional EDK II Package Examples:</span></p>
 <br>
 @ul[no-bullet]
-- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Nt32Pkg`) & @color[#00ffff](`OvmfPkg`)</span><br><br><br>
-- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) & <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`BroxtonSiPkg`)</span><br><br><br>
-- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`) & <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00ffff](`NetworkPkg`)</span><br>
-@ulend
-
-
-
----
-<!-- .slide: data-transition="none" -->		  
-@title[Additional Package Examples: ]
-#### <p align="right"><span class="gold" >Additional EDK II Package Examples:</span></p>
-<br>
-@ul[no-bullet]
 - @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Nt32Pkg`) &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](`OvmfPkg`)</span><br><br><br>
 - @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) &nbsp;&nbsp;&nbsp;& &nbsp;&nbsp;&nbsp;@color[#00ffff](`BroxtonSiPkg`)</span><br><br><br>
 - @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`)&nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](`NetworkPkg`)</span><br>
@@ -921,7 +908,42 @@ Note:
 Defining database - like global variables <br>
 
 Many components of a database to help fine tune the BIOS or Firmware - build & runtime
+---
+<!-- .slide: data-transition="none" -->	
 
+@title[Platform Configuration Database-Goals]
+#### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
+@box[bg-blue text-white rounded](<span style="font-size:02.5em" >`Goals`</span>)
+
+
+
+@snap[west span-45 ]
+@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Define module parameters</span># Store module / platform configurations)
+@snapend
+
+@snap[east span-45 ]
+@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Reduce edits of source code</span># Maximize module reuse across platforms)
+@snapend
+
+@snap[south-west span-45]
+@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Remove `#define` </span># No searching for “magic” `#define` statements )
+@snapend
+
+@snap[south-east span-45 ]
+@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >API functions</span># Get and Set functions for access to PCD variable DB)
+@snapend
+
+Note:
+So what is the platform configuration database goal? <br>
+
+First off, PDC entries are used for module parameterization. Examples are define statements, variables etc.<br>
+
+What are the benefits, we want to reduce the need to edit the source code. <br>
+Also there is no need for searching for a magic #define  statement, for example like base address registers. These can all be PCD values.<br>
+Purporting we want to maximize the module reuse across platforms and 
+also will have APIs for accessing the PCD entries<br><br>
+
+What the PCD store, the store platform information like the vital product data serial number, we can use variable PCBs for setup options etc.<br>
 
 ---?image=/assets/images/slides/Slide57.JPG
 <!-- .slide: data-transition="none" -->	
