@@ -1188,11 +1188,11 @@ Summary <br>
 @title[EDK II vs. UDK]
 #### <p align="center"><span class="gold" >EDK II vs. UDK(2010|2017 .. 2018)</span></p>
 <br>
-@box[bg-blue  text-white rounded](<span style="font-size:01.9em" >UEFI Developer's Kit 2018 &lpar;UDK2018&rpar; </span>)
+@box[bg-blue  text-white rounded](<span style="font-size:01.1em" >UEFI Developer's Kit 2018 &lpar;UDK2018&rpar; </span>)
 <br>
-@box[bg-purple text-white rounded](<span style="font-size:01.9em" >Stable build of the EDK II project </span>)
+@box[bg-purple text-white rounded](<span style="font-size:01.1em" >Stable build of the EDK II project </span>)
 <br>
-@box[bg-green text-white rounded](<span style="font-size:01.9em" >Neither contain Intel silicon or platform code</span>)
+@box[bg-green text-white rounded](<span style="font-size:01.1em" >Neither contain Intel silicon or platform code</span>)
 
 <br>
 <span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;wiki on tianocore.org
