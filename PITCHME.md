@@ -1334,7 +1334,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
 <br>
 <br>
 <br>
-@box[bg-gray text-white rounded ](<p align="lsft"><span style="font-size:01.0em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> </p>)
+@box[bg-gray text-white rounded ](<p align="lsft"><span style="font-size:0.80em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> </p>)
 
 
 

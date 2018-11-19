@@ -110,6 +110,35 @@ span.aside {
   display: block;
 }
 
+
+
+.reveal div.left-2 {
+    float: left;
+    z-index: -10;
+    width: 20%;
+}
+
+.reveal div.right-2 {
+    float: right;
+    z-index: -10;
+    width: 80%;
+}
+
+
+.reveal div.left-1 {
+    float: left;
+    z-index: -10;
+    width: 30%;
+}
+
+.reveal div.right-1 {
+    float: right;
+    z-index: -10;
+    width: 70%;
+}
+
+
+
 .reveal div.left {
     float: left;
     z-index: -10;
