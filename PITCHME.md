@@ -1330,8 +1330,9 @@ For example, the byte code compiler does not do floating point.  So if you add c
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white rounded](<span style="font-size:01.25em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@box[bg-blue text-white rounded](Set by <span style="font-size:01.2em" > @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
 @snapend
+<br>
 <br>
 <br>
 <br>
@@ -1344,7 +1345,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
   <li><span style="font-size:0.9em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
   <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; PATH  </span></li>
   <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
-  <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[black]((optional &rpar;)  </span></li>
+  <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
   <li><span style="font-size:0.9em" >5.&nbsp;&nbsp; EFI_SOURCE/EDK_SOURCE  </span></li>
 </ul>
 </div>
