@@ -1267,26 +1267,25 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 @box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
-<br>
-<br>
-<br>
+<span style="font-size:0.8em" ><br><br><br></span>
+
 <div class="left">
-<ul style="line-height:0.8;"><font color=yellow>
-  <li><span style="font-size:0.8em" >@color[white](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar; ) </span></li>
-  <li><span style="font-size:0.8em" >@color[white]( Microsoft WDK) </span></li>
-  <li><span style="font-size:0.8em" >@color[white]( Intel C/C++ compiler) </span></li>
-  <li><span style="font-size:0.8em" >@color[white](Intel C EFI Byte Code &lpar;EBC&rpar; compiler ) </span></li>
-  <li><span style="font-size:0.8em" >@color[white]( GCC V5.x or later) </span></li>
+<ul style="line-height:0.8;"><font color=#fcb813>
+  <li><span style="font-size:0.8em" >@color[#fcb813](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar; ) </span></li>
+  <li><span style="font-size:0.8em" >@color[#fcb813]( Microsoft WDK) </span></li>
+  <li><span style="font-size:0.8em" >@color[#fcb813]( Intel C/C++ compiler) </span></li>
+  <li><span style="font-size:0.8em" >@color[#fcb813](Intel C EFI Byte Code &lpar;EBC&rpar; compiler ) </span></li>
+  <li><span style="font-size:0.8em" >@color[#fcb813]( GCC V5.x or later) </span></li>
 </ul>
 </div>
 
 <div class="right1">
-<ul style="line-height:0.8;"><font color=yellow>
-  <li><span style="font-size:0.8em" >@color[white](Microsoft Windows XP/7/8/10 ) </span></li>
-  <li><span style="font-size:0.8em" >@color[white](Apple Mac OS X ) </span></li>
-  <li><span style="font-size:0.8em" >@color[white](RedHat Enterprise Linux) </span></li>
-  <li><span style="font-size:0.8em" >@color[white](Novell SuSE Linux) </span></li>
-  <li><span style="font-size:0.8em" >@color[white](Ubuntu 16.04 ) </span></li>
+<ul style="line-height:0.8;"><font color=#A6ce39>
+  <li><span style="font-size:0.8em" >@color[#A6ce39](Microsoft Windows XP/7/8/10 ) </span></li>
+  <li><span style="font-size:0.8em" >@color[#A6ce39](Apple Mac OS X ) </span></li>
+  <li><span style="font-size:0.8em" >@color[#A6ce39](RedHat Enterprise Linux) </span></li>
+  <li><span style="font-size:0.8em" >@color[#A6ce39](Novell SuSE Linux) </span></li>
+  <li><span style="font-size:0.8em" >@color[#A6ce39](Ubuntu 16.04 ) </span></li>
 </ul>
 
 </div>
