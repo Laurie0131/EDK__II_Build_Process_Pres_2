@@ -1346,7 +1346,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
   <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; PATH  </span></li>
   <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
   <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; EFI_SOURCE / EDK_SOURCE  </span></li>
-  <li>@color[red](* )<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;<i>Outside</i> `edksetup` <br>&nbsp;&nbsp;&nbsp;&nbsp;PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
+  <li>@color[orange](* )<span style="font-size:0.7em" >&nbsp;&nbsp;&nbsp;<i>Outside</i> `edksetup` </span><br><span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
 </ul>
 </div>
   
