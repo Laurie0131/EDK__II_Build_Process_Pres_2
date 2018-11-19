@@ -1788,7 +1788,7 @@ Note:
 <ul style="list-style-type:none" style="line-height:0.8;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Open Terminal prompt  </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Navigate to root of EDK II workspace </span></li>
-  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[gray](`edksetup`)  </span></li>
+  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#f0f0f0]('`edksetup`')  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Edit `Conf/target.txt`  </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
   <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  firmware image (FD) file under `Build` directory </span></li>
@@ -1799,12 +1799,12 @@ Note:
 <ul style="list-style-type:none" style="line-height:0.8;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Open Terminal prompt  </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Navigate to root of EDK II workspace </span></li>
-  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[gray](`edksetup`)  </span></li>
+  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#f0f0f0]('`edksetup`')  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with desired `INF` file</b> ) </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
   <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  `.EFI` file under `Build` directory </span></li>
 </ul>
-<span style="font-size:0.5em" >Note: Module `.inf` in `.dsc` components list</span>
+<span style="font-size:0.5em" >Note: Module `.inf` must be in `.dsc` components list</span>
 </div>
 
 Note:
