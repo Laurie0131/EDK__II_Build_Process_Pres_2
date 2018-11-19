@@ -1346,41 +1346,12 @@ For example, the byte code compiler does not do floating point.  So if you add c
   <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; PATH  </span></li>
   <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
   <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; EFI_SOURCE / EDK_SOURCE  </span></li>
-  <li><span style="font-size:0.7em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Outside</i> `edksetup` </span></li>
-  <li><span style="font-size:0.9em" >@color[orange](* )&nbsp;&nbsp;PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
+  <li><span style="font-size:0.7em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Outside</i>  @color[yellow](`edksetup` )</span></li>
+  <li><span style="font-size:0.9em" >&nbsp;@color[orange](* )&nbsp;&nbsp;PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
 </ul>
 </div>
   
   
-
-Note:
-EDK II depends on Environment variables – <br>
-The EDK_TOOLS_PATH –tells the build system the location of the binary tools directory. By default they will be in the build tools directory. However, there may be a difference if you are on a server and you share build tools.  Or, for example, if you compile build tools for Linux and another for windows, and you want to set your build path based on which OS you are building from.<br>
-
-The PATH is the directory location for any binary tools needed for the operating system.<br>
-
-The WORKSPACE –tells EDK II your workspace . You would want to set it to the location where you downloaded the source code.<br>
-
-EFI_SOURCE and EDK_SOURCE are used for the EDK compatibility package ECP when you are building an old module from EDK 1.<br>
-The last two are not used for native EDK II at all.<br>
-
----
-@title[Environment Variables]
-#### <p align="center"><span class="gold" >Environment Variables</span></p>
-
-
-
-
-@snap[north span-35 ]
-@css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white rounded](<span style="font-size:01.025em" >Set by @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
-@snapend
-<br>
-<br>
-<br>
-@box[bg-gray text-white rounded ](<p align="lsft"><span style="font-size:0.80em" >1.`EDK_TOOLS_PATH` <br>2.`PATH`<br>3. `WORKSPACE` <br>4. `PACKAGES_PATH` @color[black](<i> - optional</i>) <br>5. `EFI_SOURCE/EDK_SOURCE` </span> </p>)
-
-
 
 Note:
 EDK II depends on Environment variables – <br>
