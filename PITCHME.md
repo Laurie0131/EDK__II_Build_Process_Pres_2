@@ -1271,7 +1271,7 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 <br>
 <br>
 <div class="left">
-<ul style="line-height:0.8;">
+<ul style="line-height:0.8;"><font color=yellow>
   <li><span style="font-size:0.8em" >@color[white](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar; ) </span></li>
   <li><span style="font-size:0.8em" >@color[white]( Microsoft WDK) </span></li>
   <li><span style="font-size:0.8em" >@color[white]( Intel C/C++ compiler) </span></li>
@@ -1281,7 +1281,7 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 </div>
 
 <div class="right1">
-<ul style="line-height:0.8;">
+<ul style="line-height:0.8;"><font color=yellow>
   <li><span style="font-size:0.8em" >@color[white](Microsoft Windows XP/7/8/10 ) </span></li>
   <li><span style="font-size:0.8em" >@color[white](Apple Mac OS X ) </span></li>
   <li><span style="font-size:0.8em" >@color[white](RedHat Enterprise Linux) </span></li>
