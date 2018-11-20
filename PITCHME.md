@@ -1700,7 +1700,39 @@ Only modify this file when …<br>
 Default values are set by edksetup script<br>
    Default values will cover most compiler needs<br>
    If there are problems with the file after editing, just delete and re-run edksetup (restores default)<br>
+---
+@title[BaseTools]
+#### <p align="right"> <span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;Make <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>BaseTools</b></font></span></font></span></p>
 
+@snap[north span-35 ]
+@css[text-yellow]( <br>&nbsp;)
+@box[bg-blue text-white rounded](<span style="font-size:01.2em" > @color[yellow](`BaseTools`) </span> )
+@snapend
+<br>
+<br>
+The first step is to make / `nmake` the `BaseTools` with the host OS / compiler environment.
+<br>
+For GCC the command is: 
+
+```
+  bash$> make -C BaseTools
+```
+<br>
+For Windows the command is: 
+```
+   > set PYTHON_HOME=C:\Python27
+   > edksetup.bat Rebuild
+```
+   
+<br>
+Note:
+the first step is to make / nmake the BaseTools with the host OS / compiler environment.
+
+For GCC the command is: make -C BaseTools
+
+For Windows the command is: 
+-        set PYTHON_HOME=C:\Python27
+-        edksetup.bat Rebuild
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Build Process Section]
@@ -1786,8 +1818,8 @@ Note:
 
 <div class="left">
 <ul style="list-style-type:none" style="line-height:0.8;">
-  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Open Terminal prompt  </span></li>
-  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Navigate to root of EDK II workspace </span></li>
+  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
+  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the `BaseTools`  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#c0f0c0]('`edksetup`')  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Edit `Conf/target.txt`  </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
@@ -1797,8 +1829,8 @@ Note:
 
 <div class="right1">
 <ul style="list-style-type:none" style="line-height:0.8;">
-  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Open Terminal prompt  </span></li>
-  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Navigate to root of EDK II workspace </span></li>
+  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
+  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the `BaseTools`  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#c0f0c0]('`edksetup`')  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with desired `INF` file</b> ) </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
