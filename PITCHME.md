@@ -1710,15 +1710,15 @@ Default values are set by edksetup script<br>
 @snapend
 <br>
 <br>
-The first step is to make / `nmake` the `BaseTools` with the host OS / compiler environment.
+<p style="line-height:50%">The first step is to make / '`nmake`' the '`BaseTools`' with the host OS / compiler environment.</p>
 <br>
-For GCC the command is: 
+<span style="font-size:0.8em" >For Linux GCC the command is: </span>
 
 ```
   bash$> make -C BaseTools
 ```
 <br>
-For Windows the command is: 
+<span style="font-size:0.8em" >For Windows VS the command is: </span>
 ```
    > set PYTHON_HOME=C:\Python27
    > edksetup.bat Rebuild
