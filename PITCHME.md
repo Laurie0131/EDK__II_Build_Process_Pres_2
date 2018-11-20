@@ -1710,7 +1710,7 @@ Default values are set by edksetup script<br>
 @snapend
 <br>
 <br>
-<p style="line-height:50%">The first step is to make / '`nmake`' the '`BaseTools`' with the host OS / compiler environment.</p>
+<p style="line-height:80%">The first step is to make / '`nmake`' the '`BaseTools`' with the host OS / compiler environment.</p>
 <br>
 <span style="font-size:0.8em" >For Linux GCC the command is: </span>
 
