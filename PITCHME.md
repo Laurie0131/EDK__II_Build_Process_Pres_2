@@ -2216,7 +2216,6 @@ Note:
 ---
 @title[Build Command]
 <br>
-<br>
 ####  <p align="center"><span class="gold" >&nbsp;&nbsp;The Build Command</span></p>
 <br>
 - Accepts command line arguments to support scripted builds <br>
@@ -2224,7 +2223,7 @@ Note:
 - Overrides DSC with a minimal INF build <br>|
 - Overrides some settings in DSC file (.FDF) <br>|
 - Choose settings from the FDF file (ROMIMAGE, FVIMAGE)<br> |
-- Choose $(make) options (silent, verbose, quiet) |
+- Choose `$(make)` options (silent, verbose, quiet) |
 
 
 
@@ -2333,6 +2332,52 @@ Note:
 Note:
 This is best done on the Host build machine
 
+
+
+
+---
+@title[Build Tool Binaries]
+#### <p align="center"><span class="gold"  >Build Tool Binaries</span></p>
+
+
+<table id="recTable">
+	<tr>
+		<td bgcolor="#0071c5"><p align="center"><span style="font-size:0.85em" >&nbsp;<b>Utility</b></span></p></td>
+		<td bgcolor="#0071c5"><p align="center"><span style="font-size:0.85em" >&nbsp;<b>Description</b></span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#00b0f0"><p style="line-height:70%"><span style="font-size:0.75em" >`Build.exe`</span></p></td>
+		<td bgcolor="#00b0f0"><p style="line-height:70%"><span style="font-size:0.75em" >Tool is written in Python and calls `AutoGen.exe`, then it calls `$(MAKE) –f  Makefile.out`, and finally, it calls `GenFds.exe`</span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.75em" >`EfiRom.exe`&nbsp;</span></p></td>
+		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.75em" >used to build an option ROM image&nbsp;</span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#00b0f0"><p style="line-height:50%"><span style="font-size:0.75em" >`PatchModule.exe`&nbsp;</span></p></td>
+		<td bgcolor="#00b0f0"><p style="line-height:50%"><span style="font-size:0.75em" >used to patch a binary module that has a PCD of type PATCHABLE_IN_MODULE&nbsp;</span></p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.75em" >`PatchPlatform.exe`&nbsp;</span></p></td>
+		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.75em" >used to modify either the PCD Database or the VPD settings in a flash device image&nbsp;</span></p></td>
+	</tr>
+
+</table>
+
+Note:
+The build tool binary files <br>
+There are four main build tools that we expect people to use frequently<br>
+Everybody will use Build.exe. This is the tool that runs the entire build. <br>
+EfiRom.exe is good for building EFI ROM images. It is possible to configure build.exe to call EfiRom.exe, but this is not required.<br>
+The patch programs PatchModule and PatchPlatform are used for changing PCD values that were defined as patchable. <br>
+When you make a PCD it is possible to make it patchable. <br>
+The following instructions show you how to do the patching.<br>
+
+<br>
+ All of the tools listed here can be run manually.<br>
+
+<br>
+Other tools run as part of these 4
 
 
 
