@@ -2102,24 +2102,24 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 @snap[north span-65 ]
 @css[text-yellow](<br>&nbsp;)
-@box[ bg-green text-white rounded](<p style="line-height:80%"><span style="font-size:0.8em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span></p>)
+@box[ bg-green text-white rounded](<span style="font-size:0.8em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span>)
 @snapend
 
 @snap[midpoint span-85 ]
-@box[ bg-blue text-white rounded](<p style="line-height:80%"><span style="font-size:0.8em" >Uses ImageGen tools to modify PE32/PE32+/COFF image file; creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span></p>)
+@box[ bg-blue text-white rounded](<span style="font-size:0.8em" >Uses ImageGen tools to modify PE32/PE32+/COFF image file; creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span>)
 @snapend
 
 @snap[south-west span-20 ]
 @css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
 ![GenFw](/assets/images/GoldCircle.png)
-@css[text-black](<br><br>&nbsp;)
+@css[text-black](<br>&nbsp;)
 @snapend
 
 
 @snap[south span-20 ]
 @css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
 ![GenFw](/assets/images/GoldCircle.png)
-@css[text-black](<br><br>&nbsp;)
+@css[text-black](<br>&nbsp;)
 @snapend
 
 
@@ -2130,7 +2130,7 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 
 @snap[south span-25 ]
-@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `GenFds`)
+@css[text-black](&nbsp;&nbsp;&nbsp; `GenFds`)
 @css[text-black](<br><br>&nbsp;)
 @snapend
 
