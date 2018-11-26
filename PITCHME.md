@@ -1384,8 +1384,8 @@ The last two are not used for native EDK II at all.<br>
 ---
 @title[Configuration Files - Scripts]
 #### <p align="right"><span class="gold" >Configuration Files - Scripts</span></p>
-@snap[north span-35 ]
-@css[text-yellow]( <br>&nbsp;)
+@snap[north span-50 ]
+@css[text-yellow]( <br><br>&nbsp;)
 ![ubuntu](/assets/images/ubuntu-edksetup.png)
 @snapend
 
