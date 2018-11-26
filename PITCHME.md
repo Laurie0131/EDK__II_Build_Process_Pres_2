@@ -1989,19 +1989,30 @@ Note:
 ---
 @title[EDK II Build Process Stages]
 #### <p align="right"><span class="gold" >EDK II Build Process Stages</span></p>
-@snap[north-west span-90 fragment]
-@css[text-yellow]( <br><br><br><br>&nbsp;)
+
+@snap[north-west span-30]
+@css[text-yellow]( <br><br>&nbsp;)
 ![ubuntu](/assets/images/AutoGen.png)
+@snapend
+
+@snap[west span-30]
+![ubuntu](/assets/images/Make.png)
+@snapend
+
+@snap[south-west span-30]
+![ubuntu](/assets/images/ImageGen.png)
+@snapend
+
+@snap[north span-70 fragment]
+@css[text-yellow](<br><br>&nbsp;)
 <p style="line-height:80%"><span style="font-size:0.85em" >Parse meta-data files to generate some C source code files and the make files</span></p>
 @snapend
 
-@snap[west span-90 fragment]
-![ubuntu](/assets/images/AutoGen.png)
+@snap[midpoint span-70 fragment]
 <p style="line-height:80%"><span style="font-size:0.85em" >Process source code files to create PE32/PE32+/COFF images processed to UEFI format using `$(MAKE)` tool </span></p>
 @snapend
 
-@snap[south-west span-90 fragment]
-![ubuntu](/assets/images/AutoGen.png)
+@snap[south span-70 fragment]
 <p style="line-height:80%"><span style="font-size:0.85em" > Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs </span></p>
 @snapend
 
