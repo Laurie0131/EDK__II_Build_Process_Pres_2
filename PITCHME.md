@@ -2124,12 +2124,12 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 
 @snap[south-west span-25 ]
-@css[text-black](&nbsp;&nbsp; `GenFW`<br><br>)
+@css[text-black](&nbsp;&nbsp; `GenFW`<br><br><br><br>)
 @snapend
 
 
 @snap[south span-25 ]
-@css[text-black](&nbsp;&nbsp; `GenFds`<br><br>)
+@css[text-black](&nbsp;&nbsp; `GenFds`<br><br><br><br>)
 @snapend
 
 Note:
