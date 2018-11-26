@@ -2061,6 +2061,7 @@ Process source code files to create PE32/PE32+/COFF images processed to UEFI for
 
 Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs <Br>
 
+
 ---?image=/assets/images/slides/Slide123.JPG
 <!-- .slide: data-transition="none" -->	 
 
@@ -2095,6 +2096,53 @@ ONE DSC per Build command<br>
 
 DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE<br>
 
+---
+@title[EDK II Build Make Stage]
+#### <p align="right"><span class="gold" >EDK II Build: Make Stage</span></p>
+
+@snap[north span-55 ]
+@css[text-yellow](<br><br>&nbsp;)
+@box[ bg-green text-white rounded](<p style="line-height:80%"><span style="font-size:0.8em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file</span></p>)
+@snapend
+
+@snap[midpoint span-85 ]
+@box[ bg-blue text-white rounded](<p style="line-height:80%"><span style="font-size:0.8em" >Uses ImageGen tools to modify PE32/PE32+/COFF image file; creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;</span></p>)
+@snapend
+
+@snap[south-west span-15 ]
+@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)![GenFw](/assets/images/GoldCircle.png)
+@snapend
+
+
+@snap[south span-15 ]
+@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)![GenFw](/assets/images/GoldCircle.png)
+@snapend
+
+
+@snap[south-west span-25 ]
+@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `GenFW`)
+@snapend
+
+
+@snap[south span-25 ]
+@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `GenFds`)
+@snapend
+
+Note:
+Uses assemblers, compilers and linkers commonly available to generate a PE32/PE32+/COFF image file <BR>
+Uses the ImageGen tools modify the PE32/PE32+/COFF image file to create an UEFI file (EFI_IMAGE_SECTION_HEADER structure)<BR>
+GenFw tool must specify the component type derived from the INF meta-data’s Module Type statement <BR>
+GenFds application initiates the third stage of the EDK II build <BR><BR>
+
+
+The build process stages<BR>
+The first stage is the autogen stage,which parses the meta-data files: the DEC DSC and INF files. It parses the meta-data files to generate your autogen.C and autogen.h files. <BR>
+Additionally we generate the makefiles.  There will be one makefile for each INF file we to be compiled and an additional makefile for the overall process. (The whole build itself gets one makefile.)<BR>
+
+The second stage, the binary makes stage, processes the source code. Now we use the makefiles and your source code to generate the images which are then processed into UEFI format images using the make tool. We end up with .EFI files. <BR>
+
+third and final stage, the ImageGen stage, we take these UEFI formatted files and create the flash image, or leave them as UEFI applications, or perhaps make UEFI-compliant PCI option ROMs. <BR>
+This last stage is also configurable.<BR>
 
 
 ---?image=/assets/images/slides/Slide126.JPG
