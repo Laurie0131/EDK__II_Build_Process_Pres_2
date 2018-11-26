@@ -1391,9 +1391,27 @@ The last two are not used for native EDK II at all.<br>
 
 @ul[no-bullet]
 - @fa[circle gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em">`edksetup.bat` or `edksetup.sh`</span><br><br><br><br>
-- @fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[green](`build_rule`)`.txt` <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[#00ffff](`target`)`.txt`  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[yellow](`tools_def`)`.txt` <br><br><br>
+- @fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[green](`build_rule`)`.txt` <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[#00ffff](`target`)`.txt`  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[yellow](`tools_def`)`.txt` </span><br><br><br>
 - @fa[circle gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em">Setup & verify a developer's workspace</span>
 @ulend
+
+Note:
+edksetup.bat or edksetup.sh
+<br>
+2.  First time use will set up configuration files<br>
+Conf/build_rule.txt (SIMPLE NOTHING TO SAY)<br>
+Conf/target.txt   (WILL GO INTO DETAIL NEXT SLIDE)<br>
+Conf/tools_def.txt  (WILL GO INTO DETAIL TWO SLIDES)<br>
+
+<br>
+3.Setup & verify a developer’s workspace
+
+This slide describes some script files<br>
+edksetup  (.bat or .sh)— used to setup and verify your workspace<br>
+These also set the environment variables  like the WORKSPACE and EDK_TOOLS_PATH, etc.<br>
+When you run these scripts, the files set up your workspace and some configuration files (if they are not already there). <br>
+If you run this script file and those files are already there, it won’t do anything.  But if it doesn’t find these three files—
+ target.txt, tools_def.txt, build_rule.txt—it will create them from templates.
 
 
 
@@ -1719,7 +1737,7 @@ Default values are set by edksetup script<br>
    If there are problems with the file after editing, just delete and re-run edksetup (restores default)<br>
 ---
 @title[BaseTools]
-#### <p align="right"> <span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;Make <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>BaseTools</b></font></span></font></span></p>
+#### <p align="right"> <span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;First Make <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>BaseTools</b></font></span></font></span></p>
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
@@ -1967,6 +1985,33 @@ Note:
 #### <p align="right"><span class="gold" >Build Output Location</span></p>
 
 Note:
+
+---
+@title[EDK II Build Process Stages]
+#### <p align="right"><span class="gold" >EDK II Build Process Stages</span></p>
+@snap[north-west span-90 fragment]
+@css[text-yellow]( <br><br><br><br>&nbsp;)
+![ubuntu](/assets/images/AutoGen.png)
+<p style="line-height:80%"><span style="font-size:0.85em" >Parse meta-data files to generate some C source code files and the make files</span></p>
+@snapend
+
+@snap[west span-90 fragment]
+![ubuntu](/assets/images/AutoGen.png)
+<p style="line-height:80%"><span style="font-size:0.85em" >Process source code files to create PE32/PE32+/COFF images processed to UEFI format using `$(MAKE)` tool </span></p>
+@snapend
+
+@snap[south-west span-90 fragment]
+![ubuntu](/assets/images/AutoGen.png)
+<p style="line-height:80%"><span style="font-size:0.85em" > Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs </span></p>
+@snapend
+
+Note:
+Parse meta-data files to generate some C source code files and the make files <Br>
+
+Process source code files to create PE32/PE32+/COFF images processed to UEFI format using $(MAKE) tool<Br>
+
+Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs <Br>
+
 
 ---?image=/assets/images/slides/Slide119.JPG
 <!-- .slide: data-transition="none" -->	 
