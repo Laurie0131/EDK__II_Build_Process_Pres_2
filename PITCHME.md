@@ -2101,7 +2101,7 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 #### <p align="right"><span class="gold" >EDK II Build: Make Stage</span></p>
 
 @snap[north span-55 ]
-@css[text-yellow](<br><br>&nbsp;)
+@css[text-yellow](<br>&nbsp;)
 @box[ bg-green text-white rounded](<p style="line-height:80%"><span style="font-size:0.8em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file</span></p>)
 @snapend
 
