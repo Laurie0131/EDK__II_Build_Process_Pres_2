@@ -1385,9 +1385,18 @@ The last two are not used for native EDK II at all.<br>
 @title[Configuration Files - Scripts]
 #### <p align="right"><span class="gold" >Configuration Files - Scripts</span></p>
 @snap[north span-50 ]
-@css[text-yellow]( <br><br>&nbsp;)
+@css[text-yellow]( <br><br><br><br>&nbsp;)
 ![ubuntu](/assets/images/ubuntu-edksetup.png)
 @snapend
+
+@ul[no-bullet]
+- @fa[circle gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em">`edksetup.bat` or `edksetup.sh`</span><br><br><br><br>
+- @fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[green](`build_rule`)`.txt` <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[#00ffff](`target`)`.txt`  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[yellow](`tools_def`)`.txt` <br><br><br>
+- @fa[circle gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em">Setup & verify a developer's workspace</span>
+@ulend
+
+
+
 
 ---?image=/assets/images/slides/Slide77.JPG
 <!-- .slide: data-transition="none" -->	
