@@ -2110,22 +2110,28 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 @snapend
 
 @snap[south-west span-15 ]
-@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)![GenFw](/assets/images/GoldCircle.png)
+@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+![GenFw](/assets/images/GoldCircle.png)
+@css[text-black](<br><br>&nbsp;)
 @snapend
 
 
 @snap[south span-15 ]
-@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)![GenFw](/assets/images/GoldCircle.png)
+@css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+![GenFw](/assets/images/GoldCircle.png)
+@css[text-black](<br><br>&nbsp;)
 @snapend
 
 
 @snap[south-west span-25 ]
 @css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `GenFW`)
+@css[text-black](<br><br>&nbsp;)
 @snapend
 
 
 @snap[south span-25 ]
 @css[text-black](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `GenFds`)
+@css[text-black](<br><br>&nbsp;)
 @snapend
 
 Note:
