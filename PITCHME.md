@@ -1381,6 +1381,15 @@ EFI_SOURCE and EDK_SOURCE are used for the EDK compatibility package ECP when yo
 The last two are not used for native EDK II at all.<br>
 
 
+---
+@title[Configuration Files - Scripts]
+#### <p align="right"><span class="gold" >Configuration Files - Scripts</span></p>
+@snap[north span-35 ]
+@css[text-yellow]( <br>&nbsp;)
+![ubuntu](assests/images/ubuntu-edksetup.png)
+@box[bg-blue text-white rounded](<span style="font-size:01.2em" > @color[yellow](`BaseTools`) </span> )
+@snapend
+
 ---?image=/assets/images/slides/Slide77.JPG
 <!-- .slide: data-transition="none" -->	
 @title[Configuration Files - Scripts]
@@ -1710,7 +1719,7 @@ Default values are set by edksetup script<br>
 @snapend
 <br>
 <br>
-<p style="line-height:80%">The first step is to make / '`nmake`' the '`BaseTools`' with the host OS / compiler environment.</p>
+<p style="line-height:85%">The first step is to make / '`nmake`' the '`BaseTools`' with the host OS & compiler environment.</p>
 <br>
 <span style="font-size:0.8em" >For Linux GCC the command is: </span>
 
@@ -1821,9 +1830,8 @@ Note:
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the `BaseTools`  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#c0f0c0]('`edksetup`')  </span></li>
-  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Edit `Conf/target.txt`  </span></li>
-  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
-  <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  firmware image (FD) file under `Build` directory </span></li>
+  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Run `build`  </span></li>
+  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Output:  firmware image (FD) file under `Build` directory </span></li>
 </ul>
 </div>
 
