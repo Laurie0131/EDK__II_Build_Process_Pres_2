@@ -1990,17 +1990,18 @@ Note:
 @title[EDK II Build Process Stages]
 #### <p align="right"><span class="gold" >EDK II Build Process Stages</span></p>
 
-@snap[north-west span-20]
+@snap[north-west span-10]
 @css[text-yellow]( <br>&nbsp;)
 ![ubuntu](/assets/images/AutoGen.png)
 @snapend
 
-@snap[west span-20]
+@snap[west span-10]
 ![ubuntu](/assets/images/Make.png)
 @snapend
 
-@snap[south-west span-20]
+@snap[south-west span-10]
 ![ubuntu](/assets/images/ImageGen.png)
+@css[text-yellow]( <br>&nbsp;)
 @snapend
 
 @snap[north span-70 fragment]
