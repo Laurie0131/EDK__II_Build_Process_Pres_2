@@ -2014,7 +2014,7 @@ Note:
 @snapend
 
 @snap[south span-65 fragment]
-<p style="line-height:80%"><span style="font-size:0.8em" > Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs <br><br></span></p>
+<p style="line-height:80%"><span style="font-size:0.8em" > Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs <br><br><br></span></p>
 @snapend
 
 Note:
