@@ -2106,7 +2106,7 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 @snapend
 
 @snap[midpoint span-90 ]
-@box[ bg-blue text-white rounded](<span style="font-size:0.9em" >Uses ImageGen tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span>)
+@box[ bg-blue text-white rounded](<span style="font-size:0.9em" >Uses `ImageGen` tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span>)
 @snapend
 
 @snap[south-west span-20 ]
@@ -2129,7 +2129,7 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 
 @snap[south span-25 ]
-@css[text-black](&nbsp;&nbsp; `GenFds`<br><br><br><br>)
+@css[text-black](`GenFds`<br><br><br><br>)
 @snapend
 
 Note:
