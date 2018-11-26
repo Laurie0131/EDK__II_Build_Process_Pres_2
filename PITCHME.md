@@ -1386,8 +1386,7 @@ The last two are not used for native EDK II at all.<br>
 #### <p align="right"><span class="gold" >Configuration Files - Scripts</span></p>
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-![ubuntu](assests/images/ubuntu-edksetup.png)
-@box[bg-blue text-white rounded](<span style="font-size:01.2em" > @color[yellow](`BaseTools`) </span> )
+![ubuntu](/assets/images/ubuntu-edksetup.png)
 @snapend
 
 ---?image=/assets/images/slides/Slide77.JPG
