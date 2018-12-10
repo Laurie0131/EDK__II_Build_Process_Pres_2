@@ -64,31 +64,42 @@ Note:
 
 ---
 @title[Philosophy of EDK II]
-<br>
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 
-@snap[west span-35]
+@snap[north-west span-35]
+<br>
+<br>
 @box[bg-royal text-white  waved  fragment](<b>Support UEFI & PI needs</b><br><br>)
 @snapend
 
-@snap[midpoint span-35]
+@snap[north span-35]
+<br>
+<br>
 @box[bg-green2 text-white waved fragment](<b>Separate tool & source code</b><br><br>)
 @snapend
 
-@snap[east span-35]
+@snap[north-east span-35]
+<br>
+<br>
 @box[bg-blue text-white waved fragment](<b>Package Definition file: DEC</b><br>)
 @snapend
 
 @snap[south-west span-35]
 @box[bg-yellow text-blue  waved fragment](<b>Flash Mapping Tool</b><br><br>)
+<br>
+<br>
 @snapend
 
 @snap[south span-35]
-@box[bg-brick text-white waved fragment](<b>Move as much code to C</b><br><br>)
+@box[bg-lt-orange text-white waved fragment](<b>Move as much code to C</b><br><br>)
+<br>
+<br>
 @snapend
 
 @snap[south-east span-35]
 @box[bg-purple-pp text-white waved fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
+<br>
+<br>
 @snapend
 
 Note:
@@ -663,7 +674,7 @@ And finally, there are binary edit aspects -<br>
 
 
 @snap[west span-30 ]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>Packages</b>)</span><br>List of related modules )
+@box[bg-royal text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>Packages</b>)</span><br>List of related modules )
 @snapend
 
 
@@ -673,7 +684,7 @@ And finally, there are binary edit aspects -<br>
 
 
 @snap[midpoint span-30 ]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>Libraries</b>)</span> Same name & interface)
+@box[bg-royal text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>Libraries</b>)</span> Same name & interface)
 @snapend
 
 @snap[north span-45 fragment]
@@ -681,7 +692,7 @@ And finally, there are binary edit aspects -<br>
 @snapend
 
 @snap[east span-30]
-@box[bg-blue text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>PCDs</b>) </span><br> Platform Config. DB )
+@box[bg-royal text-white waved fragment](<span style="font-size:01.25em" >@color[yellow](<b>PCDs</b>) </span><br> Platform Config. DB )
 @snapend
 
 
@@ -703,9 +714,9 @@ Summary <br>
 <br>
 @box[bg-blue  text-white rounded](<span style="font-size:01.1em" ><b>UEFI Developer's Kit 2018 &lpar;UDK2018&rpar;</b> </span>)
 <br>
-@box[bg-purple text-white rounded](<span style="font-size:01.1em" ><b>Stable build of the EDK II project</b> </span>)
+@box[bg-purple-pp text-white rounded](<span style="font-size:01.1em" ><b>Stable build of the EDK II project</b> </span>)
 <br>
-@box[bg-green text-white rounded](<span style="font-size:01.1em" ><b>Neither contain Intel silicon or platform code</b></span>)
+@box[bg-brick text-white rounded](<span style="font-size:01.1em" ><b>Neither contain Intel silicon or platform code</b></span>)
 
 <br>
 <span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;wiki on tianocore.org: <a href='https://github.com/tianocore/tianocore.github.io/wiki/Differences-between-UDK-and-EDK-II'>Differences between UDK - EDK II</a></span>	
@@ -739,12 +750,12 @@ Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® U
 #### <p align="center"><span class="gold" >Development Environment</span></p>
 
 @snap[west span-45 ]
-@box[bg-orange text-white](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span>)
+@box[bg-brick text-white](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span>)
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 
 @snap[east span-45 ]
-@box[bg-green text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
+@box[bg-green-pp text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 <span style="font-size:0.8em" ><br><br></span>
@@ -793,7 +804,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white rounded](Set by <span style="font-size:01.2em" > @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@box[bg-blue-trans text-white rounded](Set by <span style="font-size:01.2em" > @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
 @snapend
 <br>
 <br>
