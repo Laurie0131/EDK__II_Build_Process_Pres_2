@@ -887,16 +887,17 @@ If you run this script file and those files are already there, it won’t do any
 @snapend
 <br>
 <br>
-@css[text-white fragment](<span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br>Multiple paths that will be searched when<br>attempting to resolve the location of packages. </span>)
+@css[text-white fragment](<span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched<br>when attempting to resolve the location of packages. </span>)
  
 @snap[north-east span-40 fragment]
 <br>
 <br>
 <br>
 <br>
+<br>
 <ul>
-  <li><span style="font-size:0.8em">Highest search Priority / Build Directory  </span></li>
-  <li><span style="font-size:0.8em">Additional Paths in Priority order. Must be set before `edksetup`  and @color[red](NOT) set by `edksetup` </span></li>
+  <li><span style="font-size:0.7em">Highest search Priority / Build Directory  </span></li>
+  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before `edksetup`  and @color[red](NOT) set by `edksetup` </span></li>
 </ul>
 @snapend 
 
