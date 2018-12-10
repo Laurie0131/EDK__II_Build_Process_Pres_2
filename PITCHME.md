@@ -555,7 +555,7 @@ BDS – Policy happens – Screen turns – boot policy <br>
 <br>
 <br>
 <br>
-@box[bg-lt-orange-trans text-black ](<b>`NULL`</b> <br>`BaseDebugLibNull`<br><br><br><br><br><br><br><br>)
+@box[bg-lt-orange-trans text-black ](<b>`NULL`</b> <br><br><br><br><br><br><br><br><br>)
 @snapend
 
 @snap[north span-40 fragment]
