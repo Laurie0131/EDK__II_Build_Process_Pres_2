@@ -883,7 +883,7 @@ If you run this script file and those files are already there, it won’t do any
 @snap[north span-35 ]
 <br>
 <br>
-@box[bg-green-pp text-white rounded]( <span style="font-size:01.2em">`PACKAGE_PATH`</span>)
+@box[bg-green text-white rounded]( <span style="font-size:01.2em"><b>`PACKAGE_PATH`</b></span>)
 @snapend
 @snap[north-west span-50 fragment]
 <br>
@@ -906,10 +906,11 @@ If you run this script file and those files are already there, it won’t do any
 </ul>
 @snapend 
 
-@snap[south-west span-80 fragment]
+@snap[south-west span-75 fragment]
 <span style="font-size:0.8em">@color[yellow](Example:)</span>
 <pre>
 ```
+
    bash$> set WORKSPACE=%CWD%/MyWorkspace
    bash$> set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
       %WORKSPACE%/Silicon
