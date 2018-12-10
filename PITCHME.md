@@ -68,15 +68,15 @@ Note:
 #### <p align="center"><span class="gold" > Philosophy of EDK II </span></p>
 
 @snap[west span-35]
-@box[bg-blue text-white  waved  fragment](<b>Support UEFI & PI needs</b><br><br>)
+@box[bg-royal text-white  waved  fragment](<b>Support UEFI & PI needs</b><br><br>)
 @snapend
 
 @snap[midpoint span-35]
-@box[bg-gray text-white waved fragment](<b>Separate tool & source code</b><br><br>)
+@box[bg-green2 text-white waved fragment](<b>Separate tool & source code</b><br><br>)
 @snapend
 
 @snap[east span-35]
-@box[bg-green text-white waved fragment](<b>Package Definition file: DEC</b><br>)
+@box[bg-blue text-white waved fragment](<b>Package Definition file: DEC</b><br>)
 @snapend
 
 @snap[south-west span-35]
@@ -84,11 +84,11 @@ Note:
 @snapend
 
 @snap[south span-35]
-@box[bg-orange text-white waved fragment](<b>Move as much code to C</b><br><br>)
+@box[bg-brick text-white waved fragment](<b>Move as much code to C</b><br><br>)
 @snapend
 
 @snap[south-east span-35]
-@box[bg-purple text-white waved fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
+@box[bg-purple-pp text-white waved fragment](<b>Open source <br>EDK II on tianocore.org</b><br>)
 @snapend
 
 Note:
@@ -137,7 +137,7 @@ Eliminated a lot of the Assembly
 
 
 @snap[west span-90]
-@box[bg-blue text-white  rounded  fragment](<Br><span style="font-size:01.25em" ><b>EDK II == UEFI / PI Implementation</b></span><br><br>)
+@box[bg-blue-trans text-white  rounded  fragment](<Br><span style="font-size:01.25em" ><b>EDK II == UEFI / PI Implementation</b></span><br><br>)
 @snapend
 
 
