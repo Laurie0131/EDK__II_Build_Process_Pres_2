@@ -470,6 +470,7 @@ ShellPkg – Application - command line interface<br>
 NetworkPkg – Network drivers and Applications
 
 
+
 ---?image=/assets/images/slides/Slide47.JPG
 <!-- .slide: data-transition="none" -->	
 
@@ -542,6 +543,28 @@ Base Libraries – generic libraries that can run anywhere – not only in the E
 <br>
 BDS – Policy happens – Screen turns – boot policy <br>
 “Same lib classes exist across multiple phases but can have different lib instances”<br>
+
+
+
+---?image=/assets/images/slides/Slide_Libraries.jpg
+@title[Example-Library-Debuglib]
+#### <p align="right"><span class="gold"  >Example - Library</span><span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>Debuglib</b> </font></span></p>
+
+
+@snap[north-west span-25 fragment]
+<br>
+<br>
+<br>
+@box[bg-lt-orange-trans text-black ]('NULL` <br><br><br><br><br><br><br><br><br>)
+@snapend
+
+@snap[north span-35 fragment]
+<br>
+<br>
+<br>
+@box[bg-blue-trans text-black ](Robust Functions <br>Port 80<br>Serial Output<br>Data Hub<br>etc. . .<br><br><br><br><br>)
+@snapend
+
 
 
 ---?image=/assets/images/slides/Slide52.JPG

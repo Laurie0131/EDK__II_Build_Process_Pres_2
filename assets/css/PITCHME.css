@@ -340,6 +340,8 @@ table#recTable{width:100%; border:1px solid gray;}
 .bg-yellow-pp { background: #ffff00 !important; }
 .bg-cream  { background: #FFFF99 !important; }
 
+.bg-lt-orange-trans { background:rgba(228,148,54,0.9)!important; }
+
 /* yellow gp # 245 219 46  #f5db25
 */
 
