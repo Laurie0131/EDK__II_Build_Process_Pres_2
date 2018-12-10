@@ -890,7 +890,7 @@ If you run this script file and those files are already there, it won’t do any
 <br>
 <br>
 <br>
-<p style="line-height:80%"><span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched when attempting to resolve the location of packages. </span></p>
+<p style="line-height:80%"><span style="font-size:0.8em">@color[#c0f0c0](`WORKSPACE`)<br>@color[#c0f0c0](`PACKAGES_PATH` )- <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched when attempting to resolve the location of packages. </span></p>
 @snapend
 
  
@@ -902,7 +902,7 @@ If you run this script file and those files are already there, it won’t do any
 <br>
 <ul style="line-height:0.7;">
   <li><span style="font-size:0.7em">Highest search Priority / Build Directory  </span></li>
-  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before `edksetup`  and @color[red](NOT) set by `edksetup` </span></li>
+  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before @color[#c0f0c0](`edksetup`)  and @color[red](NOT) set by @color[#c0f0c0](`edksetup`) </span></li>
 </ul>
 @snapend 
 
@@ -926,12 +926,6 @@ bash$> set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
 <br>
 @snapend
  
----?image=/assets/images/slides/Slide82_1.JPG
-<!-- .slide: data-transition="none" -->	
-
-@title[Multiple Workspace Environment Variable]
-<p align="right"><span class="gold" ><b>Multiple Workspace Environment Variable </b></span></p>
-
 
 Note:
 
@@ -947,80 +941,6 @@ In this case WORKSPACE is the container for two trees as well as the location of
 
 When the build tools are run with this configuration the directories will be scanned in the following order to find packages listed in the DSC and FDF files.
  
-+++?image=/assets/images/slides/Slide83_1.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	 
-@title[Multiple Workspace Environment Variable 02]
-<p align="right"><span class="gold" >Multiple Workspace Environment Variable </span></p>
-
-
-Note:
-
-Package_Path<br>
-
-+++?image=/assets/images/slides/Slide84_1.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	 
-@title[Multiple Workspace Environment Variable 03]
-<p align="right"><span class="gold" >Multiple Workspace Environment Variable </span></p>
-
-
-Note:
-
-Package_Path<br>
- 
-An update to the EDKII build tools now allows the setting of multiple paths that will be searched when attempting to resolve the location of packages. This new feature allows for more flexibility when designing a tree layout or combining sources from different sources. The new functionality is enabled through the addition of a new environment variable (PACKAGES_PATH).
-The PACKAGES_PATH variable is an ordered list of additional search paths using the default path separator of the host OS between each entry. The first path in the list has the highest priority and the last path has the lowest priority. The path specified by the WORKSPACE variable always has the highest search priority over any PACKAGE_PATH entries.
-To use this feature, the PACKAGES_PATH environment variable must be set prior to running the edksetup script. The reason for this is that the edksetup script determines the location of the Conf and BaseTools directory location based on the values of the WORKSPACE and PACKAGES_PATH environment variables.
-The use of the PACKAGES_PATH environment variable is optional and if it is not defined the build will function like it has in the past.
-
-Why and when:
-In this case WORKSPACE is the container for two trees as well as the location of the Build directory. The example assumes the set of code packages for a given platform are contained in the platform directory. While the code packages from the open source repository are contained in the edk2 directory.
-
-When the build tools are run with this configuration the directories will be scanned in the following order to find packages listed in the DSC and FDF files.
-
-+++?image=/assets/images/slides/Slide84_2.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	 
-@title[Multiple Workspace Environment Variable 04]
-<p align="right"><span class="gold" >Multiple Workspace Environment Variable </span></p>
-
-
-Note:
-
-Package_Path<br>
- 
-An update to the EDKII build tools now allows the setting of multiple paths that will be searched when attempting to resolve the location of packages. This new feature allows for more flexibility when designing a tree layout or combining sources from different sources. The new functionality is enabled through the addition of a new environment variable (PACKAGES_PATH).
-The PACKAGES_PATH variable is an ordered list of additional search paths using the default path separator of the host OS between each entry. The first path in the list has the highest priority and the last path has the lowest priority. The path specified by the WORKSPACE variable always has the highest search priority over any PACKAGE_PATH entries.
-To use this feature, the PACKAGES_PATH environment variable must be set prior to running the edksetup script. The reason for this is that the edksetup script determines the location of the Conf and BaseTools directory location based on the values of the WORKSPACE and PACKAGES_PATH environment variables.
-The use of the PACKAGES_PATH environment variable is optional and if it is not defined the build will function like it has in the past.
-
-Why and when:
-In this case WORKSPACE is the container for two trees as well as the location of the Build directory. The example assumes the set of code packages for a given platform are contained in the platform directory. While the code packages from the open source repository are contained in the edk2 directory.
-
-When the build tools are run with this configuration the directories will be scanned in the following order to find packages listed in the DSC and FDF files.
-
-+++?image=/assets/images/slides/Slide84_3.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	 
-@title[Multiple Workspace Environment Variable 05]
-<p align="right"><span class="gold" >Multiple Workspace Environment Variable </span></p>
-
-
-Note:
-
-Package_Path<br>
- 
-An update to the EDKII build tools now allows the setting of multiple paths that will be searched when attempting to resolve the location of packages. This new feature allows for more flexibility when designing a tree layout or combining sources from different sources. The new functionality is enabled through the addition of a new environment variable (PACKAGES_PATH).
-The PACKAGES_PATH variable is an ordered list of additional search paths using the default path separator of the host OS between each entry. The first path in the list has the highest priority and the last path has the lowest priority. The path specified by the WORKSPACE variable always has the highest search priority over any PACKAGE_PATH entries.
-To use this feature, the PACKAGES_PATH environment variable must be set prior to running the edksetup script. The reason for this is that the edksetup script determines the location of the Conf and BaseTools directory location based on the values of the WORKSPACE and PACKAGES_PATH environment variables.
-The use of the PACKAGES_PATH environment variable is optional and if it is not defined the build will function like it has in the past.
-
-Why and when:
-In this case WORKSPACE is the container for two trees as well as the location of the Build directory. The example assumes the set of code packages for a given platform are contained in the platform directory. While the code packages from the open source repository are contained in the edk2 directory.
-
-When the build tools are run with this configuration the directories will be scanned in the following order to find packages listed in the DSC and FDF files.
-
 
 
 
@@ -1140,19 +1060,19 @@ Default values are set by edksetup script<br>
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white rounded](<span style="font-size:01.2em" > @color[yellow](`BaseTools`) </span> )
+@box[bg-royal text-white rounded](<span style="font-size:01.2em" > @color[yellow](<b>`BaseTools`</b>) </span> )
 @snapend
 <br>
 <br>
-<p style="line-height:90%">The first step is to make / '`nmake`' the '`BaseTools`' with the host OS & compiler environment.</p>
+<p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
 
-<span style="font-size:0.8em" >For Linux GCC the command is: </span>
+<span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
 
 ```
   bash$> make -C BaseTools
 ```
 <br>
-<span style="font-size:0.8em" >For Windows VS the command is: </span>
+<span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio the command is: </span>
 ```
    > set PYTHON_HOME=C:\Python27
    > edksetup.bat Rebuild
@@ -1240,12 +1160,12 @@ Note:
 
 
 @snap[west span-45 ]
-@box[bg-blue text-white](<span style="font-size:01.125em" ><b>Platform</b></span>)
+@box[bg-royal text-white](<span style="font-size:01.125em" ><b>Platform</b></span>)
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 
 @snap[east span-45 ]
-@box[bg-orange text-white](<span style="font-size:01.125em" ><b>Module</b>)</span>    
+@box[bg-brick text-white](<span style="font-size:01.125em" ><b>Module</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 <span style="font-size:0.8em" ><br><br></span>
@@ -1448,7 +1368,7 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 @snap[north span-65 ]
 @css[text-yellow](<br>&nbsp;)
-@box[ bg-green text-white rounded](<span style="font-size:0.9em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span>)
+@box[ bg-green-pp text-white rounded](<span style="font-size:0.9em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span>)
 @snapend
 
 @snap[midpoint span-90 ]
