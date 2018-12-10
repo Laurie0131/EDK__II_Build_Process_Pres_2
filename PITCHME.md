@@ -887,9 +887,9 @@ If you run this script file and those files are already there, it won’t do any
 @snapend
 <br>
 <br>
-@css[text-white fragment](<span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched<br>when attempting to resolve the location of packages. </span>)
+@css[text-white fragment]( <p style="line-height:80%"><<span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched<br>when attempting to resolve the location of packages. </span></p>)
  
-@snap[north-east span-40 fragment]
+@snap[north-east span-45 fragment]
 <br>
 <br>
 <br>
@@ -902,14 +902,17 @@ If you run this script file and those files are already there, it won’t do any
 @snapend 
 
 <br>
-@css[text-white fragment](<span style="font-size:0.8em">Example:</span>)
+@css[text-white fragment](<span style="font-size:0.8em">@color[yellow](Example:)</span>)
 ```
  bash$ set WORKSPACE=%CWD%/MyWorkspace
  bash$ set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
  %WORKSPACE%/Silicon
  
 ```
-
+@snap[south-east span-25 fragment]
+![](/assets/images/Package_Path_Max.png)
+<br>
+@snapend
  
 ---?image=/assets/images/slides/Slide82_1.JPG
 <!-- .slide: data-transition="none" -->	
