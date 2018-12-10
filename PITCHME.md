@@ -910,18 +910,18 @@ If you run this script file and those files are already there, it won’t do any
 <span style="font-size:0.8em">@color[yellow](Example:)</span>
 <pre>
 ```
-  bash$ set WORKSPACE=%CWD%/MyWorkspace
-  bash$ set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
-    %WORKSPACE%/Silicon
+   bash$> set WORKSPACE=%CWD%/MyWorkspace
+   bash$> set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
+      %WORKSPACE%/Silicon
  
 ```
 </pre>
 <br>
-<br>
 @snapend
 
-@snap[south-east span-25 fragment]
-![](/assets/images/Package_Path_Max.png)
+@snap[south-east span-30 fragment]
+![Package_Path](/assets/images/Package_Path_Max.png)
+<br>
 <br>
 <br>
 @snapend
