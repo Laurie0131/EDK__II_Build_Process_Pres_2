@@ -555,10 +555,10 @@ BDS – Policy happens – Screen turns – boot policy <br>
 <br>
 <br>
 <br>
-@box[bg-lt-orange-trans text-black ]('NULL` <br><br><br><br><br><br><br><br><br>)
+@box[bg-lt-orange-trans text-black ](`NULL` <br><br><br><br><br><br><br><br><br>)
 @snapend
 
-@snap[north span-35 fragment]
+@snap[north span-40 fragment]
 <br>
 <br>
 <br>
