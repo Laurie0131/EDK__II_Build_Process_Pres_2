@@ -906,7 +906,7 @@ If you run this script file and those files are already there, it won’t do any
 </ul>
 @snapend 
 
-@snap[west span-80 fragment]
+@snap[south-west span-80 fragment]
 <span style="font-size:0.8em">@color[yellow](Example:)</span>
 <pre>
 ```
@@ -916,10 +916,13 @@ If you run this script file and those files are already there, it won’t do any
  
 ```
 </pre>
+<br>
+<br>
 @snapend
 
 @snap[south-east span-25 fragment]
 ![](/assets/images/Package_Path_Max.png)
+<br>
 <br>
 @snapend
  
