@@ -807,7 +807,7 @@ For example, the byte code compiler does not do floating point.  So if you add c
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue-trans text-white rounded](Set by <span style="font-size:01.2em" > @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@box[bg-blue text-white rounded](Set by <span style="font-size:01.2em" > @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
 @snapend
 <br>
 <br>
