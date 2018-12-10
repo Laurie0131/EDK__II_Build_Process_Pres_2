@@ -69,16 +69,19 @@ Note:
 @snap[north-west span-35]
 <br>
 <br>
+<br>
 @box[bg-royal text-white  waved  fragment](<b>Support UEFI & PI needs</b><br><br>)
 @snapend
 
 @snap[north span-35]
 <br>
 <br>
-@box[bg-green2 text-white waved fragment](<b>Separate tool & source code</b><br><br>)
+<br>
+@box[bg-green text-white waved fragment](<b>Separate tool & source code</b><br><br>)
 @snapend
 
 @snap[north-east span-35]
+<br>
 <br>
 <br>
 @box[bg-blue text-white waved fragment](<b>Package Definition file: DEC</b><br>)
@@ -597,24 +600,24 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 ---
 @title[Platform Configuration Database-Goals]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
-@box[bg-blue text-white rounded](<span style="font-size:02.0em" >`Goals`</span>)
+@box[bg-royal text-white rounded](<span style="font-size:02.0em" >`Goals`</span>)
 
 
 
 @snap[west span-45 ]
-@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Define module parameters</span># Store module / platform configurations)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >Define module parameters</span># Store module / platform configurations)
 @snapend
 
 @snap[east span-45 ]
-@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Reduce source edits</span># Maximize module reuse across platforms)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >Reduce source edits</span># Maximize module reuse across platforms)
 @snapend
 
 @snap[south-west span-45]
-@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >Remove &num;`define` </span># No searching for “<i>magic</i>” &num;`define` statements )
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >Remove &num;`define` </span># No searching for “<i>magic</i>” &num;`define` statements )
 @snapend
 
 @snap[south-east span-45 ]
-@box[bg-orange text-white rounded fragment](<span style="font-size:01.5em" >API functions</span># Get and Set functions for access to PCD variable DB)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >API functions</span># Get and Set functions for access to PCD variable DB)
 @snapend
 
 Note:
@@ -638,15 +641,15 @@ What the PCD store, the store platform information like the vital product data s
 
 
 @snap[west span-45 ]
-@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Binary Modularity</span># Configure firmware settings in binaries without building )
+@box[bg-purple-pp text-white rounded fragment](<span style="font-size:01.5em" >Binary Modularity</span># Configure firmware settings in binaries without building )
 @snapend
 
 @snap[east span-45 ]
-@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Configure</span># Provide for options to configure firmware features)
+@box[bg-purple-pp text-white rounded fragment](<span style="font-size:01.5em" >Configure</span># Provide for options to configure firmware features)
 @snapend
 
 @snap[south span-45]
-@box[bg-purple text-white rounded fragment](<span style="font-size:01.5em" >Patching </span># Simplify the binary patching process )
+@box[bg-purple-pp text-white rounded fragment](<span style="font-size:01.5em" >Patching </span># Simplify the binary patching process )
 @snapend
 
 
@@ -873,6 +876,40 @@ If you run this script file and those files are already there, it won’t do any
 
 
 
+---
+@title[Multiple Workspace Environment Variable]
+<p align="right"><span class="gold" ><b>Multiple Workspace Environment Variable </b></span></p>
+
+@snap[north span-35 ]
+<br>
+<br>
+@box[bg-green-pp text-white rounded]( `PACKAGE_PATH`)
+@snapend
+<br>
+<br>
+@css[text-white fragment](<span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br>Multiple paths that will be searched when<br>attempting to resolve the location of packages. </span>)
+ 
+@snap[north-east span-40 fragment]
+<br>
+<br>
+<br>
+<br>
+<ul>
+  <li><span style="font-size:0.8em">Highest search Priority / Build Directory  </span></li>
+  <li><span style="font-size:0.8em">Additional Paths in Priority order. Must be set before `edksetup`  and @color[red](NOT) set by `edksetup` </span></li>
+</ul>
+@snapend 
+
+<br>
+@css[text-white fragment](<span style="font-size:0.8em">Example:</span>)
+```
+ bash$ set WORKSPACE=%CWD%/MyWorkspace
+ bash$ set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
+ %WORKSPACE%/Silicon
+ 
+```
+
+ 
 ---?image=/assets/images/slides/Slide82_1.JPG
 <!-- .slide: data-transition="none" -->	
 
