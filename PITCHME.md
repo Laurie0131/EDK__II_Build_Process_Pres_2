@@ -883,11 +883,12 @@ If you run this script file and those files are already there, it won’t do any
 @snap[north span-35 ]
 <br>
 <br>
-@box[bg-green-pp text-white rounded]( `PACKAGE_PATH`)
+@box[bg-green-pp text-white rounded]( <span style="font-size:01.2em">`PACKAGE_PATH`</span>)
 @snapend
+
 <br>
 <br>
-@css[text-white fragment]( <p style="line-height:80%"><<span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched<br>when attempting to resolve the location of packages. </span></p>)
+@css[text-white fragment]( <p style="line-height:80%"><span style="font-size:0.8em">`WORKSPACE`<br>`PACKAGES_PATH` - <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched<br>when attempting to resolve the location<br> of packages. </span></p>)
  
 @snap[north-east span-45 fragment]
 <br>
@@ -895,20 +896,22 @@ If you run this script file and those files are already there, it won’t do any
 <br>
 <br>
 <br>
-<ul>
+<ul style="line-height:0.7;">
   <li><span style="font-size:0.7em">Highest search Priority / Build Directory  </span></li>
   <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before `edksetup`  and @color[red](NOT) set by `edksetup` </span></li>
 </ul>
 @snapend 
 
-<br>
-@css[text-white fragment](<span style="font-size:0.8em">@color[yellow](Example:)</span>)
+@snap[west span-80 fragment]
+<span style="font-size:0.8em">@color[yellow](Example:)</span>)
 ```
  bash$ set WORKSPACE=%CWD%/MyWorkspace
  bash$ set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
  %WORKSPACE%/Silicon
  
 ```
+@snapend
+
 @snap[south-east span-25 fragment]
 ![](/assets/images/Package_Path_Max.png)
 <br>
