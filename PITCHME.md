@@ -894,7 +894,7 @@ If you run this script file and those files are already there, it won’t do any
 @snapend
 
  
-@snap[north-east span-45 fragment]
+@snap[north-east span-50 fragment]
 <br>
 <br>
 <br>
@@ -1468,7 +1468,6 @@ Note:
 @title[Build Command]
 <br>
 ####  <p align="center"><span class="gold" >&nbsp;&nbsp;The Build Command</span></p>
-<br>
 - Accepts command line arguments to support scripted builds <br>
 - Overrides most settings found in target.txt <br>|
 - Overrides DSC with a minimal INF build <br>|
@@ -1578,7 +1577,7 @@ Note:
 Note:
 
 +++?code=sample/Reports/Log_DispatchOrder.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y EXECUTION_ORDER</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
-- Report.html is generated on the host build machine - pop up this in the Browser window.
+<span style="font-size:0.75em" > Report.html is generated on the host build machine - pop up this in the Browser window.</span>
 
 Note:
 This is best done on the Host build machine
@@ -1593,24 +1592,24 @@ This is best done on the Host build machine
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#0071c5"><p align="center"><span style="font-size:0.85em" >&nbsp;<b>Utility</b></span></p></td>
-		<td bgcolor="#0071c5"><p align="center"><span style="font-size:0.85em" >&nbsp;<b>Description</b></span></p></td>
+		<td bgcolor="#0071c5" height=".025"><p align="center"><span style="font-size:0.85em" >&nbsp;<b>Utility</b></span></p></td>
+		<td bgcolor="#0071c5" height=".025"><p align="center"><span style="font-size:0.85em" >&nbsp;<b>Description</b></span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#00b0f0"><p style="line-height:70%"><span style="font-size:0.75em" >`Build.exe`</span></p></td>
-		<td bgcolor="#00b0f0"><p style="line-height:50%"><span style="font-size:0.65em" >Tool is written in Python and calls `AutoGen.exe`, then it calls `$(MAKE) –f  Makefile.out`, and finally, it calls `GenFds.exe`</span></p></td>
+		<td bgcolor="#00b0f0" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`Build.exe`</span></p></td>
+		<td bgcolor="#00b0f0" height=".025"><p style="line-height:20%"><span style="font-size:0.65em" >Tool is written in Python and calls `AutoGen.exe`, then it calls `$(MAKE) –f  Makefile.out`, and finally, it calls `GenFds.exe`</span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.75em" >`EfiRom.exe`&nbsp;</span></p></td>
-		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.65em" >used to build an option ROM image&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`EfiRom.exe`&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.65em" >used to build an option ROM image&nbsp;</span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#00b0f0"><p style="line-height:50%"><span style="font-size:0.75em" >`PatchModule.exe`&nbsp;</span></p></td>
-		<td bgcolor="#00b0f0"><p style="line-height:50%"><span style="font-size:0.65em" >used to patch a binary module that has a PCD of type PATCHABLE_IN_MODULE&nbsp;</span></p></td>
+		<td bgcolor="#00b0f0" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`PatchModule.exe`&nbsp;</span></p></td>
+		<td bgcolor="#00b0f0" height=".025"><p style="line-height:20%"><span style="font-size:0.65em" >used to patch a binary module that has a PCD of type PATCHABLE_IN_MODULE&nbsp;</span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.75em" >`PatchPlatform.exe`&nbsp;</span></p></td>
-		<td bgcolor="#fdb813"><p style="line-height:50%"><span style="font-size:0.65em" >used to modify either the PCD Database or the VPD settings in a flash device image&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`PatchPlatform.exe`&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.65em" >used to modify either the PCD Database or the VPD settings in a flash device image&nbsp;</span></p></td>
 	</tr>
 
 </table>
