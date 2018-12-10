@@ -567,47 +567,13 @@ BDS – Policy happens – Screen turns – boot policy <br>
 
 
 
----?image=/assets/images/slides/Slide52.JPG
-
-<!-- .slide: data-transition="none" -->	
-@title[Example-Library-Debuglib]
-#### <p align="right"><span class="gold"  >Example - Library</span><span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>Debuglib</b> </font></span></p>
-
-
 Note:
 DebugLib library class name <br>
 The debugging characteristics might be different during the different boot up phases.<br>
-SEC – Null or no code<br>
-PEI-DXE-BDS – Code to output to serial port/ port 80 codes<br>
+SEC PEI – Null or no code but all reffernces will be resolved with the BaseDebugLibNull Implementation of the DebugLib<br>
+DXE-BDS – Code to output to serial port/ port 80 codes<br>
 Library Class names can be linked with different Processor resolutions (IA32/ x64) & different boot phases<br>
 
-+++?image=/assets/images/slides/Slide53.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	
-@title[Example-Library-Debuglib 02]
-#### <p align="right"><span class="gold"  >Example - Library</span><span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>Debuglib</b> </font></span></p>
-
-
-Note:
-DebugLib library class name <br>
-The debugging characteristics might be different during the different boot up phases.<br>
-SEC – Null or no code<br>
-PEI-DXE-BDS – Code to output to serial port/ port 80 codes<br>
-Library Class names can be linked with different Processor resolutions (IA32/ x64) & different boot phases<br>
-
-+++?image=/assets/images/slides/Slide54.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	
-@title[Example-Library-Debuglib 03]
-#### <p align="right"><span class="gold"  >Example - Library</span><span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>Debuglib</b> </font></span></p>
-
-
-Note:
-DebugLib library class name <br>
-The debugging characteristics might be different during the different boot up phases.<br>
-SEC – Null or no code<br>
-PEI-DXE-BDS – Code to output to serial port/ port 80 codes<br>
-Library Class names can be linked with different Processor resolutions (IA32/ x64) & different boot phases<br>
 
 ---?image=/assets/images/slides/Slide56.JPG
 
@@ -620,10 +586,12 @@ Note:
 Defining database - like global variables <br>
 
 Many components of a database to help fine tune the BIOS or Firmware - build & runtime
+
+
 ---
 @title[Platform Configuration Database-Goals]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
-@box[bg-royal text-white rounded](<span style="font-size:02.0em" >`Goals`</span>)
+@box[bg-royal text-white rounded](<span style="font-size:02.0em" >Goals</span>)
 
 
 
@@ -659,7 +627,7 @@ What the PCD store, the store platform information like the vital product data s
 ---
 @title[Platform Configuration Database - Advantages]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
-@box[bg-yellow text-blue rounded](<span style="font-size:02.0em" >`Advantages`</span>)
+@box[bg-yellow text-blue rounded](<span style="font-size:02.0em" >Advantages</span>)
 
 
 
