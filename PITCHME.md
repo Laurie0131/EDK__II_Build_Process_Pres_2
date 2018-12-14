@@ -596,12 +596,12 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 
 
 @snap[west span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em "><font color="yellow"><b>Define module params</b></font></span><br> Store module / platform configurations)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em "><font color="yellow"><b>Define module parameters</b></font></span><br> Store module / platform configurations)
 <br>
 @snapend
 
 @snap[east span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em " ><font color="yellow"><b>Reduce source edits</b></font></span><Br> Maximize module reuse across platforms)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em " ><font color="yellow"><b>Reduce source edits</b></font></span><Br><br> Maximize module reuse across platforms)
 <br>
 @snapend
 
