@@ -596,19 +596,19 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 
 
 @snap[west span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >Define module parameters</span># Store module / platform configurations)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" face="Arial">Define module parameters</span># Store module / platform configurations)
 @snapend
 
 @snap[east span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >Reduce source edits</span># Maximize module reuse across platforms)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" face="Arial">Reduce source edits</span># Maximize module reuse across platforms)
 @snapend
 
 @snap[south-west span-45]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >Remove &num;`define` </span># No searching for “<i>magic</i>” &num;`define` statements )
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" face="Arial">Remove &num;`define` </span># No searching for “<i>magic</i>” &num;`define` statements )
 @snapend
 
 @snap[south-east span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" >API functions</span># Get and Set functions for access to PCD variable DB)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.5em" face="Arial">API functions</span># Get and Set functions for access to PCD variable DB)
 @snapend
 
 Note:
