@@ -596,19 +596,19 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 
 
 @snap[west span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; "><font face="Arial">Define module parameters</font></span># Store module / platform configurations)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; "><font face="Arial">Define module parameters</font></span><br> Store module / platform configurations)
 @snapend
 
 @snap[east span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; " ><font face="Arial">Reduce source edits</font></span># Maximize module reuse across platforms)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; " ><font face="Arial">Reduce source edits</font></span><Br> Maximize module reuse across platforms)
 @snapend
 
 @snap[south-west span-45]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; " ><font face="Arial">Remove &num;`define` </font></span># No searching for “<i>magic</i>” &num;`define` statements )
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; " ><font face="Arial">Remove &num;`define` </font></span><br> No searching for “<i>magic</i>” &num;`define` statements )
 @snapend
 
 @snap[south-east span-45 ]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; " ><font face="Arial">API functions</font></span># Get and Set functions for access to PCD variable DB)
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.45em text-transform: none; " ><font face="Arial">API functions</font></span><br> Get and Set functions for access to PCD variable DB)
 @snapend
 
 Note:
