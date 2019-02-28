@@ -1060,8 +1060,8 @@ Default values are set by edksetup script<br>
 <p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
 
 <p style="line-height:90%"><span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
-@box[bg-grey-15 text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;  `bash$> make -C BaseTools` </span></p>)
-
+@box[bg-grey-05 text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;  `bash$> make -C BaseTools` </span></p>)
+<hr>
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
 
 @box[bg-grey-05 text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;    `> edksetup.bat Rebuild` </span></p>)
