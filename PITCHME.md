@@ -1056,19 +1056,21 @@ Default values are set by edksetup script<br>
 @box[bg-royal text-white rounded my-box-pad2](<span style="font-size:01.2em" > @color[yellow](<b>`BaseTools`</b>) </span> )
 @snapend
 <br>
-<br>
 <p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
 
 <span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
 
 ```
+
   bash$> make -C BaseTools
 ```
 <br>
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
 ```
+
     > edksetup.bat Rebuild
 ```
+<br>
    
 @snap[south-west span-100 ]
 <p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
