@@ -1064,7 +1064,7 @@ Default values are set by edksetup script<br>
 
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
 
-@box[bg-black text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;    `> edksetup.bat Rebuild` </span></p>)
+@box[bg-grey-05 text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;    `> edksetup.bat Rebuild` </span></p>)
 <br>
    
 @snap[south-west span-100 ]
