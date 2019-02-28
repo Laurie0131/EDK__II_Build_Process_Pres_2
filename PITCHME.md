@@ -1065,10 +1065,9 @@ Default values are set by edksetup script<br>
   bash$> make -C BaseTools
 ```
 <br>
-<span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio the command is: </span>
+<span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
 ```
-   > set PYTHON_HOME=C:\Python27
-   > edksetup.bat Rebuild
+    > edksetup.bat Rebuild
 ```
    
 <br>
