@@ -1078,7 +1078,6 @@ Default values are set by edksetup script<br>
 <p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
 @color[white](Building `BaseTools` only needs to be done once )
 </span></p>
-<br>
 @snapend
 
 Note:
@@ -1113,7 +1112,6 @@ For Windows the command is:
 <p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
 @color[white](Building `BaseTools` only needs to be done once )
 </span></p>
-<br>
 @snapend
 
 Note:
