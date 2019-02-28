@@ -1047,47 +1047,6 @@ Default values are set by edksetup script<br>
    Default values will cover most compiler needs<br>
    If there are problems with the file after editing, just delete and re-run edksetup (restores default)<br>
 
----
-@title[BaseTools]
-#### <p align="right"> <span class="gold" >&nbsp;&nbsp;&nbsp;&nbsp;First Make <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>BaseTools</b></font></span></font></span></p>
-
-@snap[north span-35 ]
-@css[text-yellow]( <br>&nbsp;)
-@box[bg-royal text-white rounded my-box-pad2](<span style="font-size:01.2em" > @color[yellow](<b>`BaseTools`</b>) </span> )
-@snapend
-<br>
-<p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
-
-<span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
-<pre>
-```
-
-  bash$> make -C BaseTools
-```
-</pre>
-
-<span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
-<pre>
-```
-    > edksetup.bat Rebuild
-```
-</pre>
-<br>
-   
-@snap[south-west span-100 ]
-<p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
-@color[white](Building `BaseTools` only needs to be done once )
-</span></p>
-@snapend
-
-Note:
-the first step is to make / nmake the BaseTools with the host OS / compiler environment.
-
-For GCC the command is: make -C BaseTools
-
-For Windows the command is: 
--        set PYTHON_HOME=C:\Python27
--        edksetup.bat Rebuild
 
 ---
 @title[BaseTools]
@@ -1101,7 +1060,7 @@ For Windows the command is:
 <p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
 
 <p style="line-height:90%"><span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
-@box[bg-black text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;  `bash$> make -C BaseTools` </span></p>)
+@box[bg-grey-15 text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;  `bash$> make -C BaseTools` </span></p>)
 
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
 
