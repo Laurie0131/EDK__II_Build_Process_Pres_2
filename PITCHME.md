@@ -1061,16 +1061,22 @@ Default values are set by edksetup script<br>
 
 <span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
 
-```
+```bash
   bash$> make -C BaseTools
 ```
 <br>
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
-```
+```bash
     > edksetup.bat Rebuild
 ```
    
+@snap[south-west span-100 ]
+<p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
+@color[white](Building `BaseTools` only needs to be done once )
+</span></p>
 <br>
+@snapend
+
 Note:
 the first step is to make / nmake the BaseTools with the host OS / compiler environment.
 
@@ -1650,6 +1656,24 @@ Other tools run as part of these 4
 @title[Questions]
 <BR>
 ![Questions](/assets/images/questions.JPG =10x) 
+
+---
+@title[return to main]
+<p align="center"><span class="gold"   >@size[1.2em](<b>Return to Main Training Page</b>)</span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="center"><span style="font-size:0.9em">Return to Training Table of contents for next presentation <a href="https://github.com/tianocore-training/Tianocore_Training_Contents/wiki#schedule--outline">link</a></span></p>
+
+@snap[north span-30 ]
+<br>
+<br>
+<br>
+<a href="https://github.com/tianocore-training/Tianocore_Training_Contents/wiki#schedule--outline">
+![trainingLogo](/assets/images/returnTrainingLogo.png)</a>
+@snapend
 
 
 ---?image=assets/images/gitpitch-audience.jpg
