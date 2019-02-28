@@ -1102,11 +1102,11 @@ For Windows the command is:
 <p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
 
 <p style="line-height:90%"><span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
-@box[bg-black text-white rounded my-box-pad2](<span style="font-size:0.4em" >&nbsp;  `bash$> make -C BaseTools` </span>)
+@box[bg-black text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;  `bash$> make -C BaseTools` </span></p>)
 
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
 
-@box[bg-black text-white rounded my-box-pad2](<span style="font-size:0.4em" >&nbsp;    `> edksetup.bat Rebuild` </span>)
+@box[bg-black text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;    `> edksetup.bat Rebuild` </span></p>)
 <br>
    
 @snap[south-west span-100 ]
