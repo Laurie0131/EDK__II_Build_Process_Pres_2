@@ -1053,7 +1053,7 @@ Default values are set by edksetup script<br>
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-royal text-white rounded](<span style="font-size:01.2em" > @color[yellow](<b>`BaseTools`</b>) </span> )
+@box[bg-royal text-white rounded my-box-pad2](<span style="font-size:01.2em" > @color[yellow](<b>`BaseTools`</b>) </span> )
 @snapend
 <br>
 <br>
@@ -1061,12 +1061,12 @@ Default values are set by edksetup script<br>
 
 <span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
 
-```bash
+```
   bash$> make -C BaseTools
 ```
 <br>
 <span style="font-size:0.8em" >For @fa[windows gp-bullet-cyan] Windows Visual Studio with  Python 3.7 the command is: </span>
-```bash
+```
     > edksetup.bat Rebuild
 ```
    
