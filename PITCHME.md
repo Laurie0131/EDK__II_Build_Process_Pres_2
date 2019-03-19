@@ -745,7 +745,7 @@ Summary <br>
 </ul>
 
 </div>
-<span style="font-size:0.8em" >Python 3.2.n</span>
+<p align="left"><span style="font-size:0.8em" ><br>@color[white](Python 3.2.<i>n</i>)</span></p>
 
 Note:
 The development environment is one of the primary changes to EDK II.<br>
