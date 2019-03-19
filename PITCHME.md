@@ -708,7 +708,7 @@ Summary <br>
 @title[Build Tools Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Tools </span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK Build Tools and Configuration Files </span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK II Build Tools and Configuration Files </span>
 
 ---
 @title[Development Environment]
@@ -745,6 +745,7 @@ Summary <br>
 </ul>
 
 </div>
+<span style="font-size:0.8em" >Python 3.2.n</span>
 
 Note:
 The development environment is one of the primary changes to EDK II.<br>
