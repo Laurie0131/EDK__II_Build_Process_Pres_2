@@ -745,7 +745,10 @@ Summary <br>
 </ul>
 
 </div>
-<p align="left"><span style="font-size:0.8em" ><br>@color[white](Python 3.2.<i>n</i>)</span></p>
+
+@snap[south-west span-45 ]
+<p align="left"><span style="font-size:0.8em" ><br>@color[white](Python 3.2.<i>n</i>)</span><br></p>
+@snapend
 
 Note:
 The development environment is one of the primary changes to EDK II.<br>
