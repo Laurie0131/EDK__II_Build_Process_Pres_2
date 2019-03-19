@@ -13,7 +13,7 @@
 Note:
   PITCHME.md for UEFI / EDK II Training EDK II Build Process
 
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
@@ -701,37 +701,6 @@ Summary <br>
    - Same Names with different implementation but same interface<br>
 - PCD
   - Platform configuration database
-
-
-
----
-@title[EDK II vs. UDK]
-#### <p align="center"><span class="gold" >EDK II vs. UDK(2010|2017 .. 2018)</span></p>
-<br>
-@box[bg-blue  text-white rounded](<span style="font-size:01.1em" ><b>UEFI Developer's Kit 2018 &lpar;UDK2018&rpar;</b> </span>)
-<br>
-@box[bg-purple-pp text-white rounded](<span style="font-size:01.1em" ><b>Stable build of the EDK II project</b> </span>)
-<br>
-@box[bg-brick text-white rounded](<span style="font-size:01.1em" ><b>Neither contain Intel silicon or platform code</b></span>)
-
-<br>
-<span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;wiki on tianocore.org: <a href='https://github.com/tianocore/tianocore.github.io/wiki/Differences-between-UDK-and-EDK-II'>Differences between UDK - EDK II</a></span>	
-
-Note:
-
-The UEFI Developer's Kit 2010 (UDK2010) is an open-source driver & application development kit built on validated EDK II code <br>
-UDK2018 is a stable build of the EDK II project<br>
-Based on a snapshot of the EDK II project<br>
-Validated on a variety of Intel platforms<br>
-Validated with different OS & application software<br>
-The open-source EDK II & UDK2010 do not contain code for Intel silicon or platforms<br>
-
-Explain differences here so references later in the presentation make more sense.<br>
-
-UEFI Developer's Kit 2010 (UDK2018) = open-source driver & application development kit containing EDK II (second generation EFI development kit) validated common-core sample code. The open-source UDK2010 is a stable build of the EDK II project, and has been validated on a variety of Intel platforms, operating systems, and application software.<br>
-
-Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® UDK2018), Intel Corporation, 2018. 
-
 
 
 
@@ -1717,3 +1686,44 @@ Copyright (c) 2019, Intel Corporation. All rights reserved.
 **/
 
 ```
+
+
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[Backup Section]
+<br><br><br><br><br>
+## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backup </span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+
+
+
+
+---
+@title[EDK II vs. UDK]
+#### <p align="center"><span class="gold" >EDK II vs. UDK(2010|2017 .. 2018)</span></p>
+<br>
+@box[bg-blue  text-white rounded](<span style="font-size:01.1em" ><b>UEFI Developer's Kit 2018 &lpar;UDK2018&rpar;</b> </span>)
+<br>
+@box[bg-purple-pp text-white rounded](<span style="font-size:01.1em" ><b>Stable build of the EDK II project</b> </span>)
+<br>
+@box[bg-brick text-white rounded](<span style="font-size:01.1em" ><b>Neither contain Intel silicon or platform code</b></span>)
+
+<br>
+<span style="font-size:0.75em" >&nbsp;&nbsp;&nbsp;&nbsp;wiki on tianocore.org: <a href='https://github.com/tianocore/tianocore.github.io/wiki/Differences-between-UDK-and-EDK-II'>Differences between UDK - EDK II</a></span>	
+
+Note:
+
+The UEFI Developer's Kit 2010 (UDK2010) is an open-source driver & application development kit built on validated EDK II code <br>
+UDK2018 is a stable build of the EDK II project<br>
+Based on a snapshot of the EDK II project<br>
+Validated on a variety of Intel platforms<br>
+Validated with different OS & application software<br>
+The open-source EDK II & UDK2010 do not contain code for Intel silicon or platforms<br>
+
+Explain differences here so references later in the presentation make more sense.<br>
+
+UEFI Developer's Kit 2010 (UDK2018) = open-source driver & application development kit containing EDK II (second generation EFI development kit) validated common-core sample code. The open-source UDK2010 is a stable build of the EDK II project, and has been validated on a variety of Intel platforms, operating systems, and application software.<br>
+
+Intel® UEFI Developer’s Kit 2018 (Intel® UDK 2018, also called the Intel® UDK2018), Intel Corporation, 2018. 
+
+
