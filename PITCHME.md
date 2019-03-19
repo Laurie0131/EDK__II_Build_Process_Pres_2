@@ -747,7 +747,7 @@ Summary <br>
 </div>
 
 @snap[south-west span-45 ]
-<p align="left"><span style="font-size:0.8em" ><br>@color[white](Python 3.2.<i>n</i>)</span><br></p>
+<p align="left"><span style="font-size:0.8em" ><br>@color[white](&nbsp;&nbsp;&nbsp;Python 3.2.<i>n</i>)</span><br><br><br></p>
 @snapend
 
 Note:
