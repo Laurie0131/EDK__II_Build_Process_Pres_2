@@ -1047,7 +1047,7 @@ Multiple paths that will be searched when attempting to resolve the location of 
 <br>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em">Highest search Priority / Build Directory  </span></li>
-  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before @color[#87E2A9](<font face="Consolas">edksetup</font>)  and @color[red](NOT) set by @color[#87E2A9](<font face="Consolas">edksetup</font>) </span></li>
+  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before @color[#87E2A9](<font face="Consolas">edksetup</font>)  and @color[red](NOT) set by @color[#87E2A9](<font face="Consolas">edksetup</font>) </span><br></li>
 </ul>
 @snapend 
 
@@ -1064,7 +1064,7 @@ bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
 @snapend
 
 
-@snap[south-east span-15 fragment]
+@snap[south-east span-20 fragment]
 ![PackagesPath](/assets/images/Packages_Path.png)
 <br>
 <br>
