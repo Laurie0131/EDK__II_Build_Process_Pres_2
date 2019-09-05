@@ -236,7 +236,7 @@ See EDK II Build Specification Documentation:
 
 @title[EDK II Directory Structure]
 <p align="right"><span class="gold" >@size[1.1em](<b> EDK II Directory Structure  </b>)</span><span style="font-size:0.75em;" >  </span></p>
-@div[right-65]
+@div[right-70]
 <br>
 @ul[brighten]
 - Package concept for each EDK II sub-directory
