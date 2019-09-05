@@ -1016,14 +1016,15 @@ If you run this script file and those files are already there, it won’t do any
 
 
 
----
+
+---?image=/assets/images/slides/Slide30.JPG
 @title[Multiple Workspace Environment Variable]
 <p align="right"><span class="gold" ><b>Multiple Workspace Environment Variable </b></span></p>
 
 @snap[north span-35 ]
 <br>
 <br>
-@box[bg-green-pp text-white rounded my-box-pad2]( <span style="font-size:01.2em"><b>`PACKAGE_PATH`</b></span>)
+@box[bg-green-pp text-white rounded my-box-pad2]( <span style="font-size:01.2em; ; font-family:Consolas;">PACKAGES_PATH</span>)
 @snapend
 
 @snap[north-west span-50 fragment]
@@ -1031,7 +1032,10 @@ If you run this script file and those files are already there, it won’t do any
 <br>
 <br>
 <br>
-<p style="line-height:80%"><span style="font-size:0.8em">@color[#A8ff60](`WORKSPACE`)<br>@color[#A8ff60](`PACKAGES_PATH` )- <i>Optional</i><br></span><span style="font-size:0.7em">Multiple paths that will be searched when attempting to resolve the location of packages. </span></p>
+<p style="line-height:70%"><span style="font-size:0.7em; font-family:Consolas;">@color[#A8ff60](WORKSPACE)<br>@color[#A8ff60](PACKAGES_PATH )- <i>Optional</i><br></span>
+<p style="line-height:40%" align="left"><span style="font-size:0.75em">
+Multiple paths that will be searched when attempting to resolve the location of packages. 
+</span></p>
 @snapend
 
  
@@ -1041,32 +1045,22 @@ If you run this script file and those files are already there, it won’t do any
 <br>
 <br>
 <br>
-<ul style="line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em">Highest search Priority / Build Directory  </span></li>
-  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before @color[#87E2A9](`edksetup`)  and @color[red](NOT) set by @color[#87E2A9](`edksetup`) </span></li>
+  <li><span style="font-size:0.7em">Additional Paths in Priority order. Must be set before @color[#87E2A9](<font face="Consolas">edksetup</font>)  and @color[red](NOT) set by @color[#87E2A9](<font face="Consolas">edksetup</font>) </span></li>
 </ul>
 @snapend 
 
 @snap[south-west span-75 fragment]
 <span style="font-size:0.8em">@color[yellow](Example:)</span>
-<pre>
-```
-
-bash$> set WORKSPACE=%CWD%/MyWorkspace
-bash$> set PACKAGES_PATH = %WORKSPACE%/edk2;%WORKSPACE%/Platform;\
-      %WORKSPACE%/Silicon
- 
-```
-</pre>
+<p style="line-height:47%"><span style="font-size:0.47em; font-family:Consolas;">
+bash$ export WORKSPACE=$PWD<br>
+bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
+</span></p>
 <br>
 @snapend
 
-@snap[south-east span-30 fragment]
-![Package_Path](/assets/images/Package_Path_Max.png)
-<br>
-<br>
-@snapend
- 
+
 
 Note:
 
