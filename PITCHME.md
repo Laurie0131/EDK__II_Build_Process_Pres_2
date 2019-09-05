@@ -145,13 +145,13 @@ Eliminated a lot of the Assembly
 
 
 
----?image=/assets/images/slides/Slide11.JPG
+---?image=/assets/images/slides/Slide5.JPG
 @title[Implementation of EDK II]
 #### <p align="right"><span class="gold" > Implementation of EDK II </span></p>
 
 
 @snap[west span-90]
-@box[bg-blue-trans text-white  rounded  fragment](<Br><span style="font-size:01.25em" ><b>EDK II == UEFI / PI Implementation</b></span><br><br>)
+@box[bg-blue-trans text-white  rounded  fragment](<Br><span style="font-size:01.25em" >@color[yellow](<b>EDK II == UEFI / PI Implementation</b>)</span><br><br>)
 @snapend
 
 
@@ -232,17 +232,17 @@ See EDK II Build Specification Documentation:
           http://tianocore.org/  
 		  
 
----?image=/assets/images/slides/Slide23.JPG
+---?image=/assets/images/slides/Slide8.JPG
 
 @title[EDK II Directory Structure]
-####  <p align="right"><span class="gold" > EDK II Directory Structure </span></p>		  
+<p align="right"><span class="gold" >@size[1.1em](<b> EDK II Directory Structure  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 @div[right-50]
 <br>
 @ul[brighten]
 - Package concept for each EDK II sub-directory
 - Platforms are contained in an EDK II package
 - EDK II build process reflects the package
-- Concept of “Work Space” - <font face="Courier New"><b>$HOME/src/edk2</b></font>
+- Concept of “Work Space” - <font face="Consolas">$HOME/src/edk2</font>
 @ulend
 @divend
 
@@ -255,10 +255,241 @@ EDK II build process reflects the package structure … the build command specif
 These directories are from the github edk2 project
 
 
----?image=/assets/images/slides/Slide25.jpg
-<!-- .slide: data-transition="none" -->		  
+---
+@title[Organization Directory Structure]
+<p align="right"><span class="gold" >@size[1.1em](<b>Organization Directory Structure</b>)</span></span></p>
+
+
+@snap[north span-50 ]
+<br>
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>&nbsp;</b><br><br>&nbsp;</span></p>)
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>&nbsp;</b><br><br>&nbsp;</span></p>)
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>&nbsp;</b><br><br>&nbsp;</span></p>)
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>&nbsp;</b><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-west span-30 ]
+<br>
+<br>
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><b>Common</b><br><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>Platform</b><br><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>Board</b><br><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>Silicon</b><br><br>&nbsp;</span></p>)
+@snapend
+
+
+
+@snap[north-east span-67 ]
+<br>
+<br>
+@css[text-white fragment](<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" >&bull; No direct HW requirements<br><br><br></span></p>)
+@css[text-white fragment](<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" >&bull; Enable a specific <br>&nbsp;&nbsp;&nbsp;platform's capabilities <br><br><br> </span></p>)
+@css[text-white fragment](<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" >&bull; Board specific code <br><br><br><br> </span></p>)
+@css[text-white fragment](<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" >&bull; Hardware specific code </span></p>)
+@snapend
+
+
+Note:
+The architecture makes use of four primary classifications of code that are generally instantiated in different EDK II packages.
+- Common (EDK II) is code that does not have any direct HW requirements other than the basics required to execute machine code on the processor (stack, memory, IA registers, etc).
+   - Producer(s): TianoCore.org
+
+
+- Platform defines the actions needed to enable a specific platform's capabilities. In this architecture, capabilities are divided into mandatory and advanced features. Mandatory features are enabled in stages prior to Stage VI. Advanced features are enabled in Stage VI and later.
+  - Minimum Platform Producer(s): TianoCore.org
+  - Advance Feature Producer(s): TianoCore.org, OEM, BIOS vendor
+  - Board packages contains board specific code for one or more motherboards.
+  - Producer(s): Device manufacturer, BIOS vendor, Board user
+
+- Silicon, also often called hardware code, has some tie to a specific class of physical hardware. Sometimes governed by industry standards, sometimes proprietary. Silicon or hardware code is usually not intended to have multiple implementations for the same hardware.
+  - Producer(s): Silicon vendor
+
+
+---?image=assets/images/slides/Slide7.JPG
+@title[Open Source EDK II Workspace - directories]
+<p align="right"><span class="gold" >@size[1.1em](<b>Open Source EDK II Workspace<br> - directories</b>)</span></span></p>
+
+@snap[north-west span-50 ]
+<br>
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+@snap[north span-30 ]
+<br>
+<br>
+@box[bg-gold2 text-white rounded my-box-pad2 fragment ](<p style="line-height:60% "><span style="font-size:0.9em;" ><b>Common</b><br><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2 fragment ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>Platform</b><br><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2 fragment ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>Board</b><br><br>&nbsp;</span></p>)
+@box[bg-gold2 text-white rounded my-box-pad2 fragment ](<p style="line-height:60%"><span style="font-size:0.9em;" ><b>Silicon</b><br><br>&nbsp;</span></p>)
+@snapend
+
+
+
+@snap[north-west span-60 ]
+<br>
+<br>
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+&nbsp;MyWorkSpace/<br>&nbsp;&nbsp;
+@color[yellow](edk2)/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+  - "@color[#FFC000](<font face="Arial">edk2 Common</font>)"<br>&nbsp;&nbsp;
+@color[yellow](edk2-platforms)/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Platform/ "@color[#FFC000](<font face="Arial">Platform</font>)"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       MinPlatformPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          BoardX/ “@color[#FFC000](<font face="Arial">Board</font>)”<br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Silicon/ "@color[#FFC000](<font face="Arial">Silicon</font>)"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       MinPlatformPkg/<br>&nbsp;&nbsp;
+@color[yellow](edk2-non-osi)/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Silicon/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Intel/<br>&nbsp;&nbsp;
+@color[yellow](FSP)/"@color[#FFC000](<font face="Arial">Silicon</font>)"<br>&nbsp;&nbsp;&nbsp;&nbsp;
+   . . ./<br>&nbsp;&nbsp;
+</span></p>
+@snapend
+
+
+Note:
+The build process creates
+   this directory -> Build/
+MyWorkSpace – directory from the “git” of repositories
+
+Build –p .dsc from the BOARD Directory
+
+The architecture is designed to support a maintainer ownership model. For example, board developers should not directly modify (fork) the platform, silicon, or common code. More details on conventional usage of the package classifications can be found in supplemental literature from UEFI Forum, TianoCore.org, and others.
+
+
+---
+@title[ EDK II Open Board Tree Structure]
+<p align="right"><span class="gold" >@size[1.1em](<b>EDK II Open Board Tree Structure</b>)</span></span></p>
+
+@snap[north-west span-75 ]
+<br>
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@snapend
+
+
+
+@snap[north-west span-70 ]
+<br>
+<br>
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+&nbsp;&nbsp;
+@color[yellow](edk2)/  <a href="https://github.com/tianocore/edk2"> github.com/edk2</a><br>&nbsp;&nbsp;&nbsp;&nbsp;
+. . .<br>&nbsp;&nbsp;
+@color[yellow](edk2-platforms)/  <a href="https://github.com/tianocore/edk2-platforms"> github.com/edk2-platforms</a><br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Platform/ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       AdvancedFeaturePkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       KabylakeOpenBoardPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          KabylakeRvp3/ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       MinPlatformPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       Vlv2TbltDevicePkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Silicon/ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       KabylakeSiliconPkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;. &nbsp;. &nbsp;./<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       Vlv2DeviceRefCodePkg/<br>&nbsp;&nbsp;
+@color[yellow](edk2-non-osi)/<a href="https://github.com/tianocore/edk2-non-osi/tree/devel-MinPlatform">github.com/edk2-non-osi</a><br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Silicon/<br>&nbsp;&nbsp;
+@color[yellow](FSP)/<a href="https://github.com/IntelFsp/FSP">github.com/Intel/FSP</a><br>&nbsp;&nbsp;&nbsp;&nbsp;
+   KabylakeFspBinPkg/<br>&nbsp;&nbsp;
+</span></p>
+@snapend
+
+
+
+@snap[north-east span-60 fragment ]
+<br>
+<br>
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+@color[#A8ff60](&larr;)&nbsp;@color[#FFC000](<font face="Arial">Common</font>)<br><br>
+<br>
+<br>
+<br>
+<br>
+@color[#A8ff60](&larr;)&nbsp;@color[#FFC000](<font face="Arial">Platform</font>)<br>
+@color[#A8ff60](&larr;)&nbsp;@color[#FFC000](<font face="Arial">Board</font>) <br>
+@color[#A8ff60](&larr;)&nbsp;@color[#FFC000](<font face="Arial">Common</font>)<br>
+<br>
+<br>
+<br>
+@color[#A8ff60](&larr;)&nbsp;@color[#FFC000](<font face="Arial">Silicon</font>)<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@color[#A8ff60](&larr;)&nbsp;@color[#FFC000](<font face="Arial">Silicon</font>)<br>&nbsp;&nbsp;
+</span></p>
+@snapend
+
+
+Note:
+This is an example of the MinPlatform for the Intel Architecture (IA)
+With Kabylake and  Vlv2TbltDevicePkg (Minnowboard MAX) as examples
+
+
+Notice the 3 different repositories for the different sources align similarly to the COMMON, PLATFORM, BOARD & SILICON layout
+
+Not shown is the edk2 repository since this should always be considered as common
+
+
+
+---?image=/assets/images/slides/Slide12.jpg
 @title[Directory Structure - Real Platform]
-####  <p align="right"><span class="gold" > Directory Structure - Real Platform</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Directory Structure - Real Platform   </b>)</span><span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-eest span-25 ]
+<br>
+@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.5em;" >&nbsp;</span></p>)
+@snapend
+
+@snap[north-eest span-23 ]
+<br>
+<p style="line-height:50%" align="center" ><span style="font-size:0.7em;">
+@color[yellow](Key)
+</span></p>
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+@color[#75deFF](slicon/Chipset)<br>
+@color[cyan](Platform)<br>
+@color[yellow](Repository)<br>
+</span></p>
+@snapend
+
+@snap[north-west span-70 ]
+<br>
+<p style="line-height:80%"><span style="font-size:0.9em" >@color[#87E2A9](Open Source Directories)</span></p>
+
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+MyWorkSpace /<br>&nbsp;&nbsp;
+Build /<br>&nbsp;&nbsp;
+@color[yellow](edk2)/  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+<font face="Arial"><i>- "edk2 common Source"</i></font><br>&nbsp;&nbsp;
+@color[yellow](edk2-platforms)/ <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Platform/ Intel <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       AdvancedFeaturePkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       @color[cyan](Vlv2TbltDevicePkg) /<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<font face="Arial"><i>- "All modules"</i></font><br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Silicon/ Intel <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       @color[#75deFF](Vlv2DeviceRefCodePkg)/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	     @color[#75deFF](ValleyView2Soc) / <br>&nbsp;&nbsp;
+@color[yellow](edk2-non-osi)/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+  Silicon/ Intel <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    @color[#75deFF](Vlv2SocBinPkg)<br>
+<br>
+<font face="Arial">
+Non- MinPlatformPkg &  Non - FSP
+</font><br>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+@snapend
+
+
 
 Note:
 Open Source Directory COLUMN 1
@@ -266,28 +497,6 @@ Platform and Silicon Directory COLUMN 2
 
 Minnowboard MAX (Native EDK II) is the example directory structure
 
-
-+++?image=/assets/images/slides/Slide26.jpg
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->		  
-@title[Directory Structure - Real Platform 02]
-####  <p align="right"><span class="gold" > Directory Structure - Real Platform</span></p>
-
-Note:
-+++?image=/assets/images/slides/Slide27.jpg
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->		  
-@title[Directory Structure - Real Platform 03]
-####  <p align="right"><span class="gold" > Directory Structure - Real Platform</span></p>
-
-Note:
-+++?image=/assets/images/slides/Slide28_1.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->		  
-@title[Directory Structure - Real Platform 04]
-####  <p align="right"><span class="gold" > Directory Structure - Real Platform</span></p>
-
-Note:
 
 ---?image=/assets/images/slides/Slide30.JPG
 @title[Modules]
