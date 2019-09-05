@@ -888,19 +888,19 @@ Summary <br>
 #### <p align="center"><span class="gold" >Development Environment</span></p>
 
 @snap[west span-45 ]
-@box[bg-brick text-white](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span>)
+@box[bg-brick text-white rounded](<span style="font-size:01.125em" ><b>Compiler Tool Chains</b></span>)
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 
 @snap[east span-45 ]
-@box[bg-green-pp text-white](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
+@box[bg-green-pp text-white rounded](<span style="font-size:01.125em" ><b>Operating Systems</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 <span style="font-size:0.8em" ><br><br></span>
 
 <div class="left">
 <ul style="line-height:0.8;"><font color=#fcb813>
-  <li><span style="font-size:0.8em" >@color[#fcb813](Microsoft Visual Studio &lpar;VS2015, VS2013, VS2012, VS2010, etc.&rpar; ) </span></li>
+  <li><span style="font-size:0.8em" >@color[#fcb813](Microsoft Visual Studio &lpar;VS2017, VS2015, VS2013, VS2012, VS2010, etc.&rpar; ) </span></li>
   <li><span style="font-size:0.8em" >@color[#fcb813]( Microsoft WDK) </span></li>
   <li><span style="font-size:0.8em" >@color[#fcb813]( Intel C/C++ compiler) </span></li>
   <li><span style="font-size:0.8em" >@color[#fcb813](Intel C EFI Byte Code &lpar;EBC&rpar; compiler ) </span></li>
@@ -915,12 +915,13 @@ Summary <br>
   <li><span style="font-size:0.8em" >@color[#A6ce39](RedHat Enterprise Linux) </span></li>
   <li><span style="font-size:0.8em" >@color[#A6ce39](Novell SuSE Linux) </span></li>
   <li><span style="font-size:0.8em" >@color[#A6ce39](Ubuntu 16.04 ) </span></li>
+  <li><span style="font-size:0.8em" >@color[#A6ce39](Clear Linux* Project ) </span></li>
 </ul>
 
 </div>
 
 @snap[south-west span-45 ]
-<p align="left"><span style="font-size:0.8em" ><br>@color[white](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python 3.7.<i>n</i>)</span><br><br></p>
+<p align="left"><span style="font-size:0.8em" ><br>@color[white](&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python 3.7.<i>n</i>  & Nasm)</span><br><br></p>
 @snapend
 
 Note:
@@ -946,9 +947,8 @@ For example, the byte code compiler does not do floating point.  So if you add c
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
-@box[bg-blue text-white rounded](Set by <span style="font-size:01.2em" > @color[yellow](`edksetup`) </span><br>Window = `.bat`<br>Linux = `.sh` )
+@box[bg-blue text-white rounded my-box-pad2 ](Set by <span style="font-size:01.2em; font-family:Consolas; " > @color[yellow](edksetup) </span><br>Window = .bat<br>Linux = .sh )
 @snapend
-<br>
 <br>
 <br>
 <br>
@@ -957,13 +957,13 @@ For example, the byte code compiler does not do floating point.  So if you add c
   <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 <div class="right-2">
-<ul style="list-style-type:none" style="line-height:0.8;">
-  <li><span style="font-size:0.9em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
-  <li><span style="font-size:0.9em" >2.&nbsp;&nbsp; PATH  </span></li>
-  <li><span style="font-size:0.9em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
-  <li><span style="font-size:0.9em" >4.&nbsp;&nbsp; EFI_SOURCE / EDK_SOURCE  </span></li>
-  <li><span style="font-size:0.7em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Outside</i>  @color[yellow](`edksetup` )</span></li>
-  <li><span style="font-size:0.9em" >&nbsp;@color[orange](* )&nbsp;&nbsp;PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
+<ul style="list-style-type:none" style="line-height:0.7;">
+  <li><span style="font-size:0.8em" >1.&nbsp;&nbsp; EDK_TOOLS_PATH  </span></li>
+  <li><span style="font-size:0.8em" >2.&nbsp;&nbsp; PATH  </span></li>
+  <li><span style="font-size:0.8em" >3.&nbsp;&nbsp; WORKSPACE  </span></li>
+  <li><span style="font-size:0.8em" >4.&nbsp;&nbsp; EFI_SOURCE / EDK_SOURCE  </span></li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Outside</i> <font face="Consolas"> @color[yellow](edksetup )</font></span></li>
+  <li><span style="font-size:0.8em" >&nbsp;@color[orange](* )&nbsp;&nbsp;PACKAGES_PATH @color[black]((<i>optional</i> &rpar;)  </span></li>
 </ul>
 </div>
   
@@ -984,16 +984,18 @@ The last two are not used for native EDK II at all.<br>
 ---
 @title[Configuration Files - Scripts]
 #### <p align="right"><span class="gold" >Configuration Files - Scripts</span></p>
-@snap[north span-50 ]
+
+
+@ul[no-bullet]
+- @fa[circle gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em"><font face="Consolas">edksetup.bat or edksetup.sh</font></span><br><br><br><br>
+- @fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font face="Consolas">Conf/@color[green](build_rule).txt <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[#00ffff](target).txt  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[yellow](tools_def).txt </font></span><br><br><br>
+- @fa[circle gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em">Setup & verify a developer's workspace</span>
+@ulend
+
+@snap[north span-50 fragment]
 @css[text-yellow]( <br><br><br><br>&nbsp;)
 ![ubuntu](/assets/images/ubuntu-edksetup.png)
 @snapend
-
-@ul[no-bullet]
-- @fa[circle gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em">`edksetup.bat` or `edksetup.sh`</span><br><br><br><br>
-- @fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <span style="font-size:0.80em"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[green](`build_rule`)`.txt` <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[#00ffff](`target`)`.txt`  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Conf/`@color[yellow](`tools_def`)`.txt` </span><br><br><br>
-- @fa[circle gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em">Setup & verify a developer's workspace</span>
-@ulend
 
 Note:
 edksetup.bat or edksetup.sh
