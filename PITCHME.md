@@ -1087,7 +1087,7 @@ When the build tools are run with this configuration the directories will be sca
 @title[Using target.txt]
 <p align="right"><span class="gold" >@size[1.1em](<b>Using target.txt </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
-@snap[north-west span-100 fragment ]
+@snap[north-west span-100 ]
 <br>
 <br>
 <table id="recTable">
@@ -1114,6 +1114,10 @@ When the build tools are run with this configuration the directories will be sca
 </table>
 <br>
 <br>
+@snapend
+
+
+@snap[south-west span-100 fragment ]
 <p style="line-height:50%" align="left"><span style="font-size:0.6em"> MAX_CONCURRENT_THREAD_NUMBER - defaults to Number of threads available to the build process (multi-threaded build) </span></p>
 @snapend
 
