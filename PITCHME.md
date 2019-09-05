@@ -1304,7 +1304,7 @@ Note:
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]("edksetup")  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with desired INF file</b> ) </span></li>
-  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
+  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run build  </span></li>
   <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  .EFI file under Build directory </span></li>
 </ul>
 <span style="font-size:0.5em" >Note: Module .inf must be in .dsc components </span>
