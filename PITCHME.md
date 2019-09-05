@@ -1083,6 +1083,61 @@ In this case WORKSPACE is the container for two trees as well as the location of
 When the build tools are run with this configuration the directories will be scanned in the following order to find packages listed in the DSC and FDF files.
  
 
+---
+@title[Using target.txt]
+<p align="right"><span class="gold" >@size[1.1em](<b>Using target.txt </b>)</span><span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-100 fragment ]
+<br>
+<br>
+<br>
+<br>
+<table id="recTable">
+	<tr>
+		<td bgcolor="#121212"><p style="line-height:10%"><span style="font-size:0.56em" >Tag&nbsp;</span></p></td>
+		<td bgcolor="#121212"><p style="line-height:10%"><span style="font-size:0.56em" >Description &nbsp;</span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Pointer to DSC file being built</span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Build mode: DEBUG or RELEASE</span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Build architecture (IA32, IPF, X64, EBC, ARM)</span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " >@color[#FFC000](<b>TOOL_CHAIN_TAG</b>)</span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Compiler/tool set to use, based on definitions in tools_def.txt</span></p></td>
+	</tr>
+</table>
+
+
+@snapend
+
+Note:
+
+You may considering changing these based on your compiler and platform<br>
+
+
+So let’s go over each of these files, starting with target.txt<br>
+
+target.txt contains six pieces of information that are important for your entire workspace<br>
+One - What DSC file represents the platform that you are building? <br>
+	So are you trying to build by default a particular platform? For example,  a Lakeport? Or the NT32 emulation. When you type build you do not have to do anything else. You can type build and go on. <br>
+
+Two, the Target – are you trying to build a release build or a debug build?<br>
+
+Three, the Target architecture- are you trying to build IA32, Itanium, X64? We have this in the target.txt file is so you do not have to type in a long build command line. <br>
+Most of these have the option on the build command line to give it a target architecture or target, but having it in the target.txt file it allows you to type in minimal on the command line. <br>
+
+The next three are less commonly changed:<br>
+  Four, the Path to the tools_def  or tools default file – so if you want to move that to the tools default to a shared location<br>
+   Five, the TOOL_CHAIN_TAG – says in the tools default file which section or compiler tools we are using<br>
+Six, is how many threads to use to do the build – so if you have a brand-new Core i7 processor to do the build you set this to the number of processors, and that’s how you can get the build down to less than 30 seconds<br>
 
 
 ---?image=/assets/images/slides/Slide86_1.JPG
