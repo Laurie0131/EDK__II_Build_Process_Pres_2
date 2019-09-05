@@ -1094,28 +1094,28 @@ When the build tools are run with this configuration the directories will be sca
 <br>
 <table id="recTable">
 	<tr>
-		<td bgcolor="#121212"><p style="line-height:10%"><span style="font-size:0.56em" >Tag&nbsp;</span></p></td>
-		<td bgcolor="#121212"><p style="line-height:10%"><span style="font-size:0.56em" >Description &nbsp;</span></p></td>
+		<td bgcolor="#0070C0"><p style="line-height:10%"><span style="font-size:0.56em" >Tag&nbsp;</span></p></td>
+		<td bgcolor="#0070C0"><p style="line-height:10%"><span style="font-size:0.56em" >Description &nbsp;</span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Pointer to DSC file being built</span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Pointer to DSC file being built</span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Build mode: DEBUG or RELEASE</span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Build mode: DEBUG or RELEASE</span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Build architecture (IA32, IPF, X64, EBC, ARM)</span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Build architecture (IA32, IPF, X64, EBC, ARM)</span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " >@color[#FFC000](<b>TOOL_CHAIN_TAG</b>)</span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Compiler/tool set to use, based on definitions in tools_def.txt</span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" >Compiler/tool set to use, based on definitions in tools_def.txt</span></p></td>
 	</tr>
 </table>
-
-
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em"> MAX_CONCURRENT_THREAD_NUMBER - defaults to Number of threads available to the build process (multi-threaded build) </span></p>
 @snapend
 
 Note:
