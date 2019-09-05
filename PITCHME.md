@@ -1051,23 +1051,17 @@ Multiple paths that will be searched when attempting to resolve the location of 
 </ul>
 @snapend 
 
-@snap[south-west span-85]
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.5em;" >&nbsp;</span></p>)
-@snapend
 
 @snap[south-east span-97 fragment]
 <p style="line-height:47%" align="left"><span style="font-size:0.8em">@color[yellow](Example:)</span></p>
-<p style="line-height:30%" align="left"><span style="font-size:0.47em; font-family:Consolas;">
-bash$ export WORKSPACE=$PWD<br>
-bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
-<br>
-</span></p>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:30%" align="left"><span style="font-size:0.47em; font-family:Consolas;">&nbsp;&nbsp;bash$ export WORKSPACE=$PWD<br>&nbsp;&nbsp;bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc<br></span></p>)
 <br>
 @snapend
 
 
 @snap[south-east span-30 fragment]
 ![PackagesPath](/assets/images/Packages_Path.png)
+<br>
 <br>
 <br>
 @snapend
