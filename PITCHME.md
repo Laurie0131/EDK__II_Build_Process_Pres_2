@@ -1060,13 +1060,13 @@ Multiple paths that will be searched when attempting to resolve the location of 
 <p style="line-height:30%" align="left"><span style="font-size:0.47em; font-family:Consolas;">
 bash$ export WORKSPACE=$PWD<br>
 bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
+<br>
 </span></p>
 @snapend
 
 
-@snap[south-east span-20 fragment]
+@snap[south-east span-25 fragment]
 ![PackagesPath](/assets/images/Packages_Path.png)
-<br>
 <br>
 <br>
 @snapend
