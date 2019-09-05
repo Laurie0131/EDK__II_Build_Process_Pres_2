@@ -1085,15 +1085,15 @@ When the build tools are run with this configuration the directories will be sca
 
 ---
 @title[Using target.txt]
-<p align="right"><span class="gold" >@size[1.1em](<b>Using target.txt </b>)</span><span style="font-size:0.75em;" >  </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using <font face="Consolas">target.txt </font></b>)</span><span style="font-size:0.75em;" >  </span></p>
 
 @snap[north-west span-100 ]
 <br>
 <br>
 <table id="recTable">
 	<tr>
-		<td bgcolor="#0070C0"><p style="line-height:10%"><span style="font-size:0.6em" >Tag&nbsp;</span></p></td>
-		<td bgcolor="#0070C0"><p style="line-height:10%"><span style="font-size:0.6em" >Description &nbsp;</span></p></td>
+		<td bgcolor="#0070C0"><p style="line-height:10%"><span style="font-size:0.65em" >Tag&nbsp;</span></p></td>
+		<td bgcolor="#0070C0"><p style="line-height:10%"><span style="font-size:0.65em" >Description &nbsp;</span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " >ACTIVE_PLATFORM</span></p></td>
@@ -1117,8 +1117,10 @@ When the build tools are run with this configuration the directories will be sca
 @snapend
 
 
-@snap[south-west span-100 fragment ]
-<p style="line-height:50%" align="left"><span style="font-size:0.6em"> MAX_CONCURRENT_THREAD_NUMBER - defaults to Number of threads available to the build process (multi-threaded build) </span></p>
+@snap[south span-95 fragment ]
+<p style="line-height:50%" align="left"><span style="font-size:0.6em"> <font face="Consolas">MAX_CONCURRENT_THREAD_NUMBER</font> - defaults to Number of threads available to the build process (multi-threaded build) </span></p>
+<br>
+<br>
 @snapend
 
 Note:
