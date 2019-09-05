@@ -1021,7 +1021,7 @@ If you run this script file and those files are already there, it won’t do any
 @title[Multiple Workspace Environment Variable]
 <p align="right"><span class="gold" ><b>Multiple Workspace Environment Variable </b></span></p>
 
-@snap[north span-35 ]
+@snap[north span-40 ]
 <br>
 <br>
 @box[bg-green-pp text-white rounded my-box-pad2]( <span style="font-size:01.2em; ; font-family:Consolas;">PACKAGES_PATH</span>)
