@@ -1017,7 +1017,7 @@ If you run this script file and those files are already there, it won’t do any
 
 
 
----?image=/assets/images/slides/Slide30.JPG
+---
 @title[Multiple Workspace Environment Variable]
 <p align="right"><span class="gold" ><b>Multiple Workspace Environment Variable </b></span></p>
 
@@ -1061,6 +1061,14 @@ Multiple paths that will be searched when attempting to resolve the location of 
 bash$ export WORKSPACE=$PWD<br>
 bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
 </span></p>
+@snapend
+
+
+@snap[south-east span-15 fragment]
+![PackagesPath](/assets/images/Packages_Path.png)
+<br>
+<br>
+<br>
 @snapend
 
 
