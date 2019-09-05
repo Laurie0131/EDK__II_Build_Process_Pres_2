@@ -507,7 +507,7 @@ Minnowboard MAX (Native EDK II) is the example directory structure
 <br>
 <br>
 <br>
-@css[text-yellow fragment](<b>@color[yellow](Compiles to)<br>@color[yellow](`.EFI` File)</b>)
+@css[text-yellow fragment](<b>@color[yellow](Compiles to)<br>@color[yellow](<font face="Consolas">.EFI</font> File)</b>)
 
 
 @snap[east span-35]
@@ -623,12 +623,9 @@ Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one
 #### <p align="right"><span class="gold" >Additional EDK II Package Examples:</span></p>
 <br>
 @ul[no-bullet]
-- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-@color[#00ffff](<font face="Consolas">EmulatorPkg</font>) &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](<font face="Consolas">OvmfPkg</font>)</span><br><br><br>
-- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-@color[#00ffff](<font face="Consolas">IntelSiliconPkg</font>) &nbsp;&nbsp;&nbsp;& &nbsp;&nbsp;&nbsp;@color[#00ffff](<font face="Consolas">KabylakeSiliconPkg</font>)</span><br><br><br>
-- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-@color[#00ffff](<font face="Consolas">ShellPkg</font>)&nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](<font face="Consolas">NetworkPkg</font>)</span><br>
+- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](<font face="Consolas">EmulatorPkg</font>) &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](<font face="Consolas">OvmfPkg</font>)</span><br><br><br>
+- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](<font face="Consolas">IntelSiliconPkg</font>) &nbsp;&nbsp;&nbsp;& &nbsp;&nbsp;&nbsp;@color[#00ffff](<font face="Consolas">KabylakeSiliconPkg</font>)</span><br><br><br>
+- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](<font face="Consolas">ShellPkg</font>)&nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](<font face="Consolas">NetworkPkg</font>)</span><br>
 @ulend
 
 
@@ -767,7 +764,7 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 ---
 @title[Platform Configuration Database-Goals]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
-@box[bg-royal text-white rounded](<span style="font-size:02.0em" >Goals</span>)
+@box[bg-royal text-white rounded my-box-pad2 ](<span style="font-size:01.5em" >Goals</span>)
 
 
 
@@ -782,7 +779,7 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 @snapend
 
 @snap[south-west span-45]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em " ><font color="yellow"><b>Remove </b> &nbsp;&num;define </font></span><br> No searching for "<i>magic</i>" &num;define statements )
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em " ><font color="yellow"><b>Remove  &nbsp;&num;define </b></font></span><br> No searching for "<i>magic</i>" &num;define statements )
 @snapend
 
 @snap[south-east span-45 ]
@@ -805,7 +802,7 @@ What the PCD store, the store platform information like the vital product data s
 ---
 @title[Platform Configuration Database - Advantages]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
-@box[bg-yellow text-blue rounded](<span style="font-size:02.0em" ><b>Advantages</b></span>)
+@box[bg-yellow text-blue rounded my-box-pad2 ](<span style="font-size:01.5em" ><b>Advantages</b></span>)
 
 
 
