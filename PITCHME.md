@@ -444,18 +444,18 @@ Not shown is the edk2 repository since this should always be considered as commo
 @title[Directory Structure - Real Platform]
 <p align="right"><span class="gold" >@size[1.1em](<b>Directory Structure - Real Platform   </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
-@snap[north-east span-25 ]
+@snap[north-east span-20 ]
 <br>
 <br>
 <br>
 @box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30% "><span style="font-size:0.5em;" ><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-east span-23 ]
+@snap[north-east span-18 ]
 <br>
 <br>
-<p style="line-height:30%" align="left" ><span style="font-size:0.5em; font-family:Consolas;"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<b>Key</b>)<br>
+<p style="line-height:40%" align="left" ><span style="font-size:0.5em; font-family:Consolas;"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<b><u>Key</u></b>)<br>
 @color[#75deFF](slicon/Chipset)<br>
 @color[cyan](Platform)<br>
 @color[yellow](Repository)<br>
@@ -467,7 +467,7 @@ Not shown is the edk2 repository since this should always be considered as commo
 <br>
 <p style="line-height:80%"><span style="font-size:0.9em" >@color[#87E2A9](Open Source Directories)</span></p>
 
-<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;"><br>
+<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
 MyWorkSpace /<br>&nbsp;&nbsp;
 Build /<br>&nbsp;&nbsp;
 @color[yellow](edk2)/  <br>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -476,7 +476,7 @@ Build /<br>&nbsp;&nbsp;
   Platform/ Intel <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        AdvancedFeaturePkg/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        @color[cyan](Vlv2TbltDevicePkg) /<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<font face="Arial"><i>- "All modules"</i></font><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<font face="Arial"><i>- "All platform modules"</i></font><br>&nbsp;&nbsp;&nbsp;&nbsp;
   Silicon/ Intel <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        @color[#75deFF](Vlv2DeviceRefCodePkg)/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	     @color[#75deFF](ValleyView2Soc) / <br>&nbsp;&nbsp;
