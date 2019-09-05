@@ -985,12 +985,11 @@ The last two are not used for native EDK II at all.<br>
 @title[Configuration Files - Scripts]
 #### <p align="right"><span class="gold" >Configuration Files - Scripts</span></p>
 
-
-@ul[no-bullet]
-- @fa[circle gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em"><font face="Consolas">edksetup.bat or edksetup.sh</font></span><br><br><br><br>
-- @fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <span style="font-size:0.650em"><font face="Consolas"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[#87E2A9](build_rule).txt <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[#00ffff](target).txt  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[yellow](tools_def).txt </font></span><br><br>
-- @fa[circle gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em">Setup & verify a developer's workspace</span>
-@ulend
+<ul style="list-style-type:none; line-height:0.7;">
+<li class="fragment">@fa[circle gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.02em"><font face="Consolas">edksetup.bat or edksetup.sh</font></span><br><br><br><br></li>
+<li class="fragment">@fa[circle gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.02em">First time use will set up the configuration files:</span> <span style="font-size:0.550em"><font face="Consolas"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[#87E2A9](build_rule).txt <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[#00ffff](target).txt  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conf/@color[yellow](tools_def).txt </font></span><br><br></li>
+<li class="fragment">@fa[circle gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.02em">Setup & verify a developer's workspace</span></li>
+</ul>
 
 @snap[north span-50 fragment]
 @css[text-yellow]( <br><br><br><br>&nbsp;)
