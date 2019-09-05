@@ -236,13 +236,13 @@ See EDK II Build Specification Documentation:
 
 @title[EDK II Directory Structure]
 <p align="right"><span class="gold" >@size[1.1em](<b> EDK II Directory Structure  </b>)</span><span style="font-size:0.75em;" >  </span></p>
-@div[right-60]
+@div[right-65]
 <br>
 @ul[brighten]
 - Package concept for each EDK II sub-directory
 - Platforms are contained in an EDK II package
 - EDK II build process reflects the package
-- Concept of “Work Space” - <font face="Consolas">$HOME/src/edk2</font>
+- Concept of “Work Space” - <font face="Consolas">$HOME/src/edk2-ws</font>
 @ulend
 @divend
 
@@ -440,18 +440,19 @@ Not shown is the edk2 repository since this should always be considered as commo
 
 
 
----?image=/assets/images/slides/Slide12.jpg
+---?image=/assets/images/slides/Slide12.JPG
 @title[Directory Structure - Real Platform]
 <p align="right"><span class="gold" >@size[1.1em](<b>Directory Structure - Real Platform   </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
 @snap[north-east span-25 ]
 <br>
-@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30% "><span style="font-size:0.5em;" ><br><br><br>&nbsp;</span></p>)
+<br>
+@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30% "><span style="font-size:0.5em;" ><br><br><br><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north-east span-23 ]
 <br>
-<p style="line-height:30%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+<p style="line-height:30%" align="left" ><span style="font-size:0.5em; font-family:Consolas;"><br>
 &nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](Key)<br>
 @color[#75deFF](slicon/Chipset)<br>
 @color[cyan](Platform)<br>
