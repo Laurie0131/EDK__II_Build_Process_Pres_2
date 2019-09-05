@@ -1032,8 +1032,8 @@ If you run this script file and those files are already there, it won’t do any
 <br>
 <br>
 <br>
-<p style="line-height:70%"><span style="font-size:0.7em; font-family:Consolas;">@color[#A8ff60](WORKSPACE)<br>@color[#A8ff60](PACKAGES_PATH )- <i>Optional</i><br></span>
-<p style="line-height:40%" align="left"><span style="font-size:0.75em">
+<p style="line-height:65%"><span style="font-size:0.7em; font-family:Consolas;">@color[#A8ff60](WORKSPACE)<br>@color[#A8ff60](PACKAGES_PATH )- <i>Optional</i><br></span>
+<p style="line-height:70%" align="left"><span style="font-size:0.75em">
 Multiple paths that will be searched when attempting to resolve the location of packages. 
 </span></p>
 @snapend
@@ -1051,9 +1051,13 @@ Multiple paths that will be searched when attempting to resolve the location of 
 </ul>
 @snapend 
 
-@snap[south-west span-75 fragment]
-<span style="font-size:0.8em">@color[yellow](Example:)</span>
-<p style="line-height:47%"><span style="font-size:0.47em; font-family:Consolas;">
+@snap[south-west span-65]
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.5em;" >&nbsp;</span></p>)
+@snapend
+
+@snap[south-east span-97 fragment]
+<p style="line-height:47%" align="left"><span style="font-size:0.8em">@color[yellow](Example:)</span></p>
+<p style="line-height:47%" align="left"><span style="font-size:0.47em; font-family:Consolas;">
 bash$ export WORKSPACE=$PWD<br>
 bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
 </span></p>
