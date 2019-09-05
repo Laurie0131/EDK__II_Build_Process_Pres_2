@@ -236,7 +236,7 @@ See EDK II Build Specification Documentation:
 
 @title[EDK II Directory Structure]
 <p align="right"><span class="gold" >@size[1.1em](<b> EDK II Directory Structure  </b>)</span><span style="font-size:0.75em;" >  </span></p>
-@div[right-50]
+@div[right-60]
 <br>
 @ul[brighten]
 - Package concept for each EDK II sub-directory
@@ -253,7 +253,6 @@ Coding explains Workspace Build commands
 
 EDK II build process reflects the package structure … the build command specifies the .DSC file for a platform
 These directories are from the github edk2 project
-
 
 ---
 @title[Organization Directory Structure]
@@ -307,7 +306,7 @@ The architecture makes use of four primary classifications of code that are gene
   - Producer(s): Silicon vendor
 
 
----?image=assets/images/slides/Slide7.JPG
+---
 @title[Open Source EDK II Workspace - directories]
 <p align="right"><span class="gold" >@size[1.1em](<b>Open Source EDK II Workspace<br> - directories</b>)</span></span></p>
 
@@ -445,17 +444,15 @@ Not shown is the edk2 repository since this should always be considered as commo
 @title[Directory Structure - Real Platform]
 <p align="right"><span class="gold" >@size[1.1em](<b>Directory Structure - Real Platform   </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
-@snap[north-eest span-25 ]
+@snap[north-east span-25 ]
 <br>
-@box[bg-grey-15 text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.5em;" >&nbsp;</span></p>)
+@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30% "><span style="font-size:0.5em;" ><br><br><br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-eest span-23 ]
+@snap[north-east span-23 ]
 <br>
-<p style="line-height:50%" align="center" ><span style="font-size:0.7em;">
-@color[yellow](Key)
-</span></p>
-<p style="line-height:50%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+<p style="line-height:30%" align="left" ><span style="font-size:0.5em; font-family:Consolas;">
+&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](Key)<br>
 @color[#75deFF](slicon/Chipset)<br>
 @color[cyan](Platform)<br>
 @color[yellow](Repository)<br>
