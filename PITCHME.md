@@ -1172,7 +1172,7 @@ Default values are set by edksetup script<br>
 
 ---
 @title[BaseTools]
-<p align="right"><span class="gold" >@size[1.1em](<b>First Make  </b>)</span><span style="font-size:0.8em;" ><font face="Consolas"><b>BaseTools</b></font>  </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>First Make  </b>)</span><span style="font-size:0.95em;" ><font face="Consolas"><b>BaseTools</b></font>  </span></p>
 
 @snap[north span-35 ]
 @css[text-yellow]( <br>&nbsp;)
@@ -1191,7 +1191,7 @@ Default values are set by edksetup script<br>
    
 @snap[south-west span-100 ]
 <p style="line-height:90%" align="right"><span style="font-size:0.50em;  " >
-@color[white](Building <font face="Consolas">BaseTools</font>only needs to be done once )
+@color[white](Building &nbsp;<font face="Consolas">"BaseTools"</font> &nbsp;only needs to be done once )
 </span></p>
 @snapend
 
@@ -1210,22 +1210,15 @@ For Windows the command is:
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Process</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK II Build Process and Build Text Files</span>
  
----?image=/assets/images/slides/Slide98_1.JPG
+---?image=/assets/images/slides/Slide35.JPG
 <!-- .slide: data-transition="none" -->	
 @title[Build Process Overview]
 #### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
 Note:
 
-+++?image=/assets/images/slides/Slide99_1.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	 
-@title[Build Process Overview 02]
-#### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
-Note:
-
-+++?image=/assets/images/slides/Slide100_1.JPG
++++?image=/assets/images/slides/Slide36.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 @title[Build Process Overview 03]
@@ -1233,41 +1226,50 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide101_1.JPG
++++?image=/assets/images/slides/Slide37.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 @title[Build Process Overview 04]
 #### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
 Note:
-+++?image=/assets/images/slides/Slide102_1.JPG
++++?image=/assets/images/slides/Slide38.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 @title[Build Process Overview 05]
 #### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
 Note:
-+++?image=/assets/images/slides/Slide103_1.JPG
++++?image=/assets/images/slides/Slide39.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 @title[Build Process Overview 06]
 #### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
 Note:
-+++?image=/assets/images/slides/Slide104_1.JPG
++++?image=/assets/images/slides/Slide40.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 @title[Build Process Overview 07]
 #### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
 Note:
-+++?image=/assets/images/slides/Slide105_1.JPG
++++?image=/assets/images/slides/Slide41.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 @title[Build Process Overview 08]
 #### <p align="right"><span class="gold" >Build Process Overview </span></p>
 
 Note:
+
++++?image=/assets/images/slides/Slide42.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->	 
+@title[Build Process Overview 08]
+#### <p align="right"><span class="gold" >Build Process Overview </span></p>
+
+Note:
+
 
 ---
 @title[Basic Build Steps]
@@ -1276,36 +1278,36 @@ Note:
 
 
 @snap[west span-45 ]
-@box[bg-royal text-white](<span style="font-size:01.125em" ><b>Platform</b></span>)
+@box[bg-royal text-white rounded](<span style="font-size:01.125em" ><b>Platform</b></span>)
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 
 @snap[east span-45 ]
-@box[bg-brick text-white](<span style="font-size:01.125em" ><b>Module</b>)</span>    
+@box[bg-brick text-white rounded](<span style="font-size:01.125em" ><b>Module</b>)</span>    
 <span style="font-size:0.8em" >&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br&nbsp;><br>&nbsp;<br></span>  
 @snapend
 <span style="font-size:0.8em" ><br><br></span>
 
 <div class="left">
-<ul style="list-style-type:none" style="line-height:0.8;">
+<ul style="list-style-type:none" style="line-height:0.7;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
-  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the `BaseTools`  </span></li>
-  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]('`edksetup`')  </span></li>
-  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Run `build`  </span></li>
-  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Output:  firmware image (FD) file under `Build` directory </span></li>
+  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
+  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]("edksetup")  </span></li>
+  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Run build  </span></li>
+  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Output:  firmware image (FD) file under Build directory </span></li>
 </ul>
 </div>
 
 <div class="right1">
-<ul style="list-style-type:none" style="line-height:0.8;">
+<ul style="list-style-type:none" style="line-height:0.7;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
-  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the `BaseTools`  </span></li>
-  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]('`edksetup`')  </span></li>
-  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with desired `INF` file</b> ) </span></li>
+  <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
+  <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]("edksetup")  </span></li>
+  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with desired INF file</b> ) </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run `build`  </span></li>
-  <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  `.EFI` file under `Build` directory </span></li>
+  <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  .EFI file under Build directory </span></li>
 </ul>
-<span style="font-size:0.5em" >Note: Module `.inf` must be in `.dsc` components </span>
+<span style="font-size:0.5em" >Note: Module .inf must be in .dsc components </span>
 </div>
 
 Note:
