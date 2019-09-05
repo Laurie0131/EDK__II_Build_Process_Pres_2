@@ -499,7 +499,7 @@ Platform and Silicon Directory COLUMN 2
 Minnowboard MAX (Native EDK II) is the example directory structure
 
 
----?image=/assets/images/slides/Slide30.JPG
+---?image=/assets/images/slides/Slide13.JPG
 @title[Modules]
 ####  <p align="right"><span class="gold" > Modules</span></p>
 @css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
@@ -529,7 +529,7 @@ A Library <br>
 All of these could be a module.  A modules could  be one entity<br>
 
 
----?image=/assets/images/slides/Slide35.JPG
+---?image=/assets/images/slides/Slide14.JPG
 
 @title[Packages]
 <br>
@@ -616,53 +616,19 @@ Include files and libraries for those parts of the Intel Platform Innovation Fra
 IntelFrameworkModulePkg<br>
 Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg<br>
 
-+++
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->		  
-
- 
-@title[EDK II Package Examples: Specs]
-#### <p align="right"><span class="gold" > EDK II Package Examples: Specs</span></p>
-
-
-@snap[west span-45 ]
-@box[bg-blue text-white rounded](<span style="font-size:02.5em" >`MdePkg`</span>#Includes files and libraries for Industry Standard Specifications<br><br>)
-@snapend
-
-@snap[east span-45 ]
-@box[bg-orange text-white rounded ](<span style="font-size:02.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
-@snapend
-
-@snap[south-west span-45]
-@box[bg-gray text-white rounded ](<span style="font-size:02.5em" >`IntelFrameworkPkg`</span>#Include files and libraries for those parts of the specifications that were not adopted “as is” by the UEFI or PI specifications)
-@snapend
-
-@snap[south-east span-45 fragment]
-@box[bg-gray text-white rounded ](<span style="font-size:01.75em" >`IntelFrameworkModulePkg`</span>#Contains modules such as PEIMs + DXE Drivers + UEFI Drivers from definitions in the IntelFrameworkPkg <br>)
-@snapend
-
-
-Note:
-
-MdePkg<br>
-Include files and libraries for Industry Standard Specifications (i.e. UEFI, PI, PCI, USB, SMBIOS, ACPI, SMBIOS, etc)<br>
-MdeModulePkg<br>
-Modules (PEIMs + DXE Drivers + UEFI Drivers + UEFI Applications) that only definitions from the Industry Standard Specification defined in the MdePkg<br>
-IntelFrameworkPkg<br>
-Include files and libraries for those parts of the Intel Platform Innovation Framework for EFI specifications that were not adopted “as is” by the UEFI or PI specifications<br>
-IntelFrameworkModulePkg<br>
-Contains modules (PEIMs + DXE Drivers + UEFI Drivers) that make reference to one or more definitions in the IntelFrameworkPkg<br>
 
 
 ---
-<!-- .slide: data-transition="none" -->		  
 @title[Additional Package Examples: ]
 #### <p align="right"><span class="gold" >Additional EDK II Package Examples:</span></p>
 <br>
 @ul[no-bullet]
-- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Nt32Pkg`) &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](`OvmfPkg`)</span><br><br><br>
-- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`Ia32FamilyCpuPkg`) &nbsp;&nbsp;&nbsp;& &nbsp;&nbsp;&nbsp;@color[#00ffff](`BroxtonSiPkg`)</span><br><br><br>
-- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00ffff](`ShellPkg`)&nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](`NetworkPkg`)</span><br>
+- @fa[certificate gp-bullet-gold]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Platforms</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+@color[#00ffff](<font face="Consolas">EmulatorPkg</font>) &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](<font face="Consolas">OvmfPkg</font>)</span><br><br><br>
+- @fa[certificate gp-bullet-magenta]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Chipset/Processor</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+@color[#00ffff](<font face="Consolas">IntelSiliconPkg</font>) &nbsp;&nbsp;&nbsp;& &nbsp;&nbsp;&nbsp;@color[#00ffff](<font face="Consolas">KabylakeSiliconPkg</font>)</span><br><br><br>
+- @fa[certificate gp-bullet-green]&nbsp;&nbsp;<span style="font-size:01.2em"><b>Functionality</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+@color[#00ffff](<font face="Consolas">ShellPkg</font>)&nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; @color[#00ffff](<font face="Consolas">NetworkPkg</font>)</span><br>
 @ulend
 
 
@@ -681,7 +647,7 @@ NetworkPkg – Network drivers and Applications
 
 
 
----?image=/assets/images/slides/Slide47.JPG
+---?image=/assets/images/slides/Slide17.JPG
 <!-- .slide: data-transition="none" -->	
 
 @title[Libraries ]
@@ -700,7 +666,7 @@ Base Libraries – generic libraries that can run anywhere – not only in the E
 BDS – Policy happens – Screen turns – boot policy <br>
 “Same lib classes exist across multiple phases but can have different lib instances”<br>
 
-+++?image=/assets/images/slides/Slide48.JPG
++++?image=/assets/images/slides/Slide18.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	
 @title[Libraries 02]
@@ -718,7 +684,7 @@ Base Libraries – generic libraries that can run anywhere – not only in the E
 BDS – Policy happens – Screen turns – boot policy <br>
 “Same lib classes exist across multiple phases but can have different lib instances”<br>
 
-+++?image=/assets/images/slides/Slide49.JPG
++++?image=/assets/images/slides/Slide19.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	
 @title[Libraries 03]
@@ -736,7 +702,7 @@ Base Libraries – generic libraries that can run anywhere – not only in the E
 BDS – Policy happens – Screen turns – boot policy <br>
 “Same lib classes exist across multiple phases but can have different lib instances”<br>
 
-+++?image=/assets/images/slides/Slide50.JPG
++++?image=/assets/images/slides/Slide20.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	
 @title[Libraries 04]
@@ -765,7 +731,7 @@ BDS – Policy happens – Screen turns – boot policy <br>
 <br>
 <br>
 <br>
-@box[bg-lt-orange-trans text-black ](<b>`NULL`</b> <br><br><br><br><br><br><br><br><br>)
+@box[bg-lt-orange-trans text-black ](<b><font face="Consolas">NULL</font></b> <br><br><br><br><br><br><br><br><br>)
 @snapend
 
 @snap[north span-40 fragment]
@@ -785,7 +751,7 @@ DXE-BDS – Code to output to serial port/ port 80 codes<br>
 Library Class names can be linked with different Processor resolutions (IA32/ x64) & different boot phases<br>
 
 
----?image=/assets/images/slides/Slide56.JPG
+---?image=/assets/images/slides/Slide22.JPG
 
 @title[PCD Title page]
 #### <p align="right"><span class="gold" >Platform Configuration Database (PCD)</span></p>
@@ -816,7 +782,7 @@ Many components of a database to help fine tune the BIOS or Firmware - build & r
 @snapend
 
 @snap[south-west span-45]
-@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em " ><font color="yellow"><b>Remove </b> &nbsp;&num;`define` </font></span><br> No searching for “<i>magic</i>” &num;`define` statements )
+@box[bg-brick text-white rounded fragment](<span style="font-size:01.125em " ><font color="yellow"><b>Remove </b> &nbsp;&num;define </font></span><br> No searching for "<i>magic</i>" &num;define statements )
 @snapend
 
 @snap[south-east span-45 ]
