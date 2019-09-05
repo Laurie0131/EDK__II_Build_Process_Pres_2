@@ -1062,10 +1062,11 @@ bash$ export WORKSPACE=$PWD<br>
 bash$ export PACKAGES_PATH=$WORKSPACE/edk2:$WORKSPACE/edk2-libc
 <br>
 </span></p>
+<br>
 @snapend
 
 
-@snap[south-east span-25 fragment]
+@snap[south-east span-30 fragment]
 ![PackagesPath](/assets/images/Packages_Path.png)
 <br>
 <br>
