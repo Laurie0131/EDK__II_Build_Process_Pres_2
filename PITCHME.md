@@ -242,17 +242,19 @@ See EDK II Build Specification Documentation:
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.7;">
- <li class="fragment"><span style="font-size:0.7em;" >Package concept for each EDK II sub-directory  </span></li>
- <li class="fragment"><span style="font-size:0.7em;" >Platforms are contained in an EDK II package  </span></li>
- <li class="fragment"><span style="font-size:0.7em;" >EDK II build process reflects the package  </span></li>
- <li class="fragment"><span style="font-size:0.7em;" >Concept of "Work Space" :<br>&nbsp;&nbsp; <font face="Consolas">$HOME/src/edk2-ws</font>  </span></li>
+<ul style="list-style-type:disc; line-height:0.75;">
+ <li class="fragment"><span style="font-size:0.75em;" >Package concept for each EDK II sub-directory  </span></li>
+ <li class="fragment"><span style="font-size:0.75em;" >Platforms are contained in an EDK II package  </span></li>
+ <li class="fragment"><span style="font-size:0.75em;" >EDK II build process reflects the package  </span></li>
+ <li class="fragment"><span style="font-size:0.75em;" >Concept of "Work Space" :<br>&nbsp;&nbsp; <font face="Consolas">$HOME/src/edk2-ws/edk2</font>  </span></li>
 </ul>
 @snapend
 
 
 @snap[south-east span-35 fragment]
-@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30%" align="left" ><span style="font-size:0.45em; font-family:Consolas;" >&nbsp;bash$&nbsp;  cd $HOME/src/edk2<br>&nbsp;bash$&nbsp;  . edksetup.sh<br>&nbsp;bash$&nbsp;  make –C BaseTools/<br>&nbsp;Bash$&nbsp;  build<br>&nbsp;</span></p>)
+@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:35%" align="left" ><span style="font-size:0.45em; font-family:Consolas;" >&nbsp;bash$&nbsp;  cd $HOME/src/edk2-ws/edk2<br>&nbsp;bash$&nbsp;  . edksetup.sh<br>&nbsp;bash$&nbsp;  make –C BaseTools/<br>&nbsp;Bash$&nbsp;  build<br>&nbsp;</span></p>)
+<br>
+<br>
 @snapend
 
 Note:
