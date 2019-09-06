@@ -241,6 +241,7 @@ See EDK II Build Specification Documentation:
 <br>
 <br>
 <br>
+<br>
 <ul style="list-style-type:disc; line-height:0.7;">
  <li class="fragment"><span style="font-size:0.7em;" >Package concept for each EDK II sub-directory  </span></li>
  <li class="fragment"><span style="font-size:0.7em;" >Platforms are contained in an EDK II package  </span></li>
@@ -250,8 +251,8 @@ See EDK II Build Specification Documentation:
 @snapend
 
 
-@snap[south-east span-35]
-@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30% "><span style="font-size:0.35em;" ><br>&nbsp;bash$  cd $HOME/src/edk2<br>&nbsp;bash$  . edksetup.sh<br>&nbsp;bash$  make –C BaseTools/<br>&nbsp;Bash$  build<br>&nbsp;</span></p>)
+@snap[south-east span-35 fragment]
+@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30%" align="left" ><span style="font-size:0.45em; font-family:Consolas;" >&nbsp;bash$&nbsp;  cd $HOME/src/edk2<br>&nbsp;bash$&nbsp;  . edksetup.sh<br>&nbsp;bash$&nbsp;  make –C BaseTools/<br>&nbsp;Bash$&nbsp;  build<br>&nbsp;</span></p>)
 @snapend
 
 Note:
