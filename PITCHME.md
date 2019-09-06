@@ -236,23 +236,24 @@ See EDK II Build Specification Documentation:
 
 @title[EDK II Directory Structure]
 <p align="right"><span class="gold" >@size[1.1em](<b> EDK II Directory Structure  </b>)</span><span style="font-size:0.75em;" >  </span></p>
-@div[right-60]
-<br>
-@ul[brighten]
-- Package concept for each EDK II sub-directory
-- Platforms are contained in an EDK II package
-- EDK II build process reflects the package
-- Concept of “Work Space” - <font face="Consolas">$HOME/src/edk2-ws</font>
-@ulend
-@divend
+
+@snap[north-east span-65]
+<ul style="list-style-type:disc; line-height:0.7;">
+ <li class="fragment"><span style="font-size:0.7em;" >Package concept for each EDK II sub-directory  </span></li>
+ <li class="fragment"><span style="font-size:0.7em;" >Platforms are contained in an EDK II package  </span></li>
+ <li class="fragment"><span style="font-size:0.7em;" >EDK II build process reflects the package  </span></li>
+ <li class="fragment"><span style="font-size:0.7em;" >Concept of "Work Space" - <font face="Consolas">$HOME/src/edk2-ws</font>  </span></li>
+</ul>
+@snapend
+
 
 Note:
 EXPLAINS WHAT IS IN THE DIRECTORY
 
 Coding explains Workspace Build commands
 
-EDK II build process reflects the package structure … the build command specifies the .DSC file for a platform
-These directories are from the github edk2 project
+- EDK II build process reflects the package structure … the build command specifies the .DSC file for a platform
+- These directories are from the github edk2 project
 
 ---
 @title[Organization Directory Structure]
@@ -364,7 +365,8 @@ The architecture is designed to support a maintainer ownership model. For exampl
 
 ---
 @title[ EDK II Open Board Tree Structure]
-<p align="right"><span class="gold" >@size[1.1em](<b>EDK II Open Board Tree Structure</b>)</span></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>EDK II Open Board Tree Structure  </b>)</span><br>
+<span style="font-size:0.75em;" > - KabyLake Board w/ FSP </span></p>
 
 @snap[north-west span-75 ]
 <br>
@@ -596,11 +598,11 @@ Grouping the things together that you need with out the WHOLE kitchen sink Lets 
 
 
 @snap[west span-45 fragment]
-@box[bg-blue text-white rounded](<span style="font-size:02.5em" >`MdePkg`</span>#Includes files and libraries for Industry Standard Specifications<br><br>)
+@box[bg-blue text-white rounded](<span style="font-size:02.5em" ><font face="Consolas">MdePkg</font></span>#Includes files and libraries for Industry Standard Specifications<br><br>)
 @snapend
 
 @snap[east span-45 fragment]
-@box[bg-orange text-white rounded ](<span style="font-size:02.5em" >`MdeModulePkg`</span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
+@box[bg-orange text-white rounded ](<span style="font-size:02.5em" ><font face="Consolas">MdeModulePkg</font></span>#Modules only definitions from the Industry Standard Specification defined in the MdePkg)
 @snapend
 
 
@@ -1179,7 +1181,7 @@ Default values are set by edksetup script<br>
 @box[bg-royal text-white rounded my-box-pad2](<span style="font-size:01.2em" > @color[yellow](<b><font face="Consolas">BaseTools</font></b>) </span> )
 @snapend
 <br>
-<p style="line-height:90%">The first step is to make / "`nmake`" the "`BaseTools`" with the host OS & compiler environment.</p>
+<p style="line-height:90%">The first step is to make / "<font face="Consolas">nmake</font>" the "<font face="Consolas">BaseTools</font>" with the host OS & compiler environment.</p>
 
 <p style="line-height:90%"><span style="font-size:0.8em" >For @fa[linux gp-bullet-gold] Linux GCC5 the command is: </span>
 @box[bg-grey-05 text-white rounded my-box-pad2](<p align="left"><span style="font-size:0.6em" >&nbsp;  <font face="Consolas">bash$ make -C BaseTools</font> </span></p>)
@@ -1440,7 +1442,7 @@ Note:
 @snapend
 
 @snap[midpoint span-65 fragment]
-<p style="line-height:80%"><span style="font-size:0.8em" >Process source code files to create PE32/PE32+/COFF images processed to UEFI format using `$(MAKE)` tool </span></p>
+<p style="line-height:80%"><span style="font-size:0.8em" >Process source code files to create PE32/PE32+/COFF images processed to UEFI format using <font face="Consolas">$(MAKE)</font> tool </span></p>
 @snapend
 
 
@@ -1758,7 +1760,7 @@ Note:
 	</tr>
 	<tr>
 		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:20%"><span style="font-size:0.75em" ><font face="Consolas">Build.exe</font></span></p></td>
-		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:60%"><span style="font-size:0.6em" >Tool is written in Python and calls <font face="Consolas">AutoGen.ext</font>, then it calls <font face="Consolas">$(MAKE) –f  Makefile.out</font>, and finally, it calls <font face="Consolas">GenFds.exe</font></span></p></td>
+		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:60%"><span style="font-size:0.6em" >Tool is written in Python and calls <font face="Consolas">AutoGen.exe</font>, then it calls <font face="Consolas">$(MAKE) –f  Makefile.out</font>, and finally, it calls <font face="Consolas">GenFds.exe</font></span></p></td>
 	</tr>
 	<tr>
 		<td bgcolor="#fdb813" height=".0025"><p style="line-height:20%"><span style="font-size:0.75em" ><font face="Consolas">EfiRom.exe</font>&nbsp;</span></p></td>
