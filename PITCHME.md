@@ -1288,12 +1288,13 @@ Note:
 @snapend
 <span style="font-size:0.8em" ><br><br></span>
 
-@snap[north-west span-45 ]
+@snap[north-west span-50 ]
 <br>
 <br>
 <br>
-<br>
-<br>
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" ><br><br><br>&nbsp;
+</span></p>
+
 <ul style="list-style-type:none; line-height:0.65;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
@@ -1301,16 +1302,15 @@ Note:
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Run build  </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Output:  firmware image (FD) file under Build directory </span></li>
 </ul>
-
-<span style="font-size:0.5em" >Note: Module .inf must be in .dsc components </span>
 @snapend
 
-@snap[north-east span-47 ]
+@snap[north-east span-48 ]
 <br>
 <br>
 <br>
-<br>
-<br>
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" ><br><br><br>&nbsp;
+</span></p>
+
 <ul style="list-style-type:none; line-height:0.65;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
@@ -1320,6 +1320,11 @@ Note:
   <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; Output:  .EFI file under Build directory </span></li>
 </ul>
 
+@snapend
+
+
+@snap[south-west span-45 ]
+<span style="font-size:0.5em" >Note: Module .inf must be in .dsc components </span>
 @snapend
 
 Note:
