@@ -1467,9 +1467,10 @@ Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI
 @title[EDK II Build AutoGen Stage]
 #### <p align="right"><span class="gold" >EDK II Build: AutoGen Stage</span></p>
 
-@snap[south-east span-95 ]
+@snap[south-east span-90 ]
 <p style="line-height:60%" align="left" ><span style="font-size:0.57em;; font-family:Consolas;" >
 Build –p OvmfPkg/OvmfX64Pkg.dsc
+<br>
 <br>
 <br>
 </span></p>
