@@ -1497,11 +1497,11 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 @snap[north span-65 ]
 @css[text-yellow](<br>&nbsp;)
-@box[ bg-green-pp text-white rounded](<span style="font-size:0.9em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span>)
+@box[ bg-green-pp text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span>)
 @snapend
 
 @snap[midpoint span-90 ]
-@box[ bg-blue text-white rounded](<span style="font-size:0.9em" >Uses `ImageGen` tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span>)
+@box[ bg-blue text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses <font face="Consolas">ImageGen</font> tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span>)
 @snapend
 
 @snap[south-west span-20 ]
@@ -1519,12 +1519,12 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 
 
 @snap[south-west span-25 ]
-@css[text-black](&nbsp;&nbsp; `GenFW`<br><br><br><br>)
+@css[text-black](&nbsp;&nbsp; <font face="Consolas">GenFW</font><br><br><br><br>)
 @snapend
 
 
 @snap[south span-25 ]
-@css[text-black](`GenFds`<br><br><br><br>)
+@css[text-black](<font face="Consolas">GenFds</font><br><br><br><br>)
 @snapend
 
 Note:
@@ -1595,15 +1595,16 @@ Note:
 
 ---
 @title[Build Command]
+<p align="right"><span class="gold" >@size[1.1em](<b>The <font face="Consolas">@color[white](build)</font> Command  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 <br>
-####  <p align="center"><span class="gold" >&nbsp;&nbsp;The Build Command</span></p>
-- Accepts command line arguments to support scripted builds <br>
-- Overrides most settings found in <font face="Consolas">target.txt</font> <br>|
-- Overrides DSC with a minimal INF build <br>|
-- Overrides some settings in DSC file (.FDF) <br>|
-- Choose settings from the FDF file (ROMIMAGE, FVIMAGE)<br> |
-- Choose <font face="Consolas">$(make)</font> options (silent, verbose, quiet) |
-
+<ul style="list-style-type:none; line-height:0.75;">
+ <li class="fragment"><span style="font-size:0.8em;" >Accepts command line arguments to support scripted builds  </span> </li>
+ <li class="fragment"><span style="font-size:0.8em;" >Overrides most settings found in <font face="Consolas">target.txt</font> </span> </li>
+ <li class="fragment"><span style="font-size:0.8em;" >Overrides DSC with a minimal INF build  </span> </li>
+ <li class="fragment"><span style="font-size:0.8em;" >Overrides some settings in DSC file (.FDF)  </span> </li>
+ <li class="fragment"><span style="font-size:0.8em;" >Choose settings from the FDF file (ROMIMAGE, FVIMAGE) </span> </li>
+ <li class="fragment"><span style="font-size:0.8em;" >Choose <font face="Consolas">$(make)</font> options (silent, verbose, quiet) </span> </li>
+</ul>
 
 
 Note:
