@@ -375,9 +375,9 @@ The architecture is designed to support a maintainer ownership model. For exampl
 ---
 @title[ EDK II Open Board Tree Structure]
 <p align="right"><span class="gold" >@size[1.1em](<b>EDK II Open Board Tree Structure  </b>)</span><br>
-<span style="font-size:0.75em;" > - KabyLake Board w/ FSP </span></p>
+<span style="font-size:0.75em;" > - KabyLake w/ FSP </span></p>
 
-@snap[north-west span-75 ]
+@snap[north-west span-70 ]
 <br>
 <br>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
