@@ -1469,7 +1469,7 @@ Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI
 
 @snap[south-east span-90 ]
 <p style="line-height:30%" align="left" ><span style="font-size:0.57em;; font-family:Consolas;" >
-Build –p OvmfPkg/OvmfX64Pkg.dsc
+build -p OvmfPkg/OvmfX64Pkg.dsc
 <br>
 </span></p>
 <br>
@@ -1546,7 +1546,7 @@ This last stage is also configurable.<BR>
 
 
 
----?image=/assets/images/slides/Slide56.jpg
+---?image=/assets/images/slides/Slide56.JPG
 
 @title[EDK II Build Image GEN Stage]
 #### <p align="center"><span class="gold" >EDK II Build: ImageGen Stage</span></p>
@@ -1598,11 +1598,11 @@ Note:
 <br>
 ####  <p align="center"><span class="gold" >&nbsp;&nbsp;The Build Command</span></p>
 - Accepts command line arguments to support scripted builds <br>
-- Overrides most settings found in target.txt <br>|
+- Overrides most settings found in <font face="Consolas">target.txt</font> <br>|
 - Overrides DSC with a minimal INF build <br>|
 - Overrides some settings in DSC file (.FDF) <br>|
 - Choose settings from the FDF file (ROMIMAGE, FVIMAGE)<br> |
-- Choose $(make) options (silent, verbose, quiet) |
+- Choose <font face="Consolas">$(make)</font> options (silent, verbose, quiet) |
 
 
 
@@ -1627,7 +1627,14 @@ In advanced build usage you can type build –h, or build –help, and it will g
 ---?image=/assets/images/slides/Slide60.JPG
 <!-- .slide: data-transition="none" -->	 
 @title[Using EDK II build Command]
-#### <p align="right"><span class="gold"  >Using EDK II</span> <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>build</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using EDK II<font face="Consolas">@color[white](build)</font> Command  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[south span-35 ]
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em; font-family:Consolas;" >
+bash$ build -h
+</span></p>
+@snapend
 
 Note:
 
@@ -1638,7 +1645,14 @@ This is not the complete list … run build --help from the command prompt to se
 <!-- .slide: data-transition="none" -->	 
  
 @title[Using EDK II build Command 02]
-#### <p align="right"><span class="gold"  >Using EDK II</span> <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>build</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using EDK II<font face="Consolas">@color[white](build)</font> Command  </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[south span-35 ]
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em; font-family:Consolas;" >
+bash$ build -h
+</span></p>
+@snapend
 
 Note:
 
