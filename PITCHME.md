@@ -238,14 +238,21 @@ See EDK II Build Specification Documentation:
 <p align="right"><span class="gold" >@size[1.1em](<b> EDK II Directory Structure  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
 @snap[north-east span-65]
+<br>
+<br>
+<br>
 <ul style="list-style-type:disc; line-height:0.7;">
  <li class="fragment"><span style="font-size:0.7em;" >Package concept for each EDK II sub-directory  </span></li>
  <li class="fragment"><span style="font-size:0.7em;" >Platforms are contained in an EDK II package  </span></li>
  <li class="fragment"><span style="font-size:0.7em;" >EDK II build process reflects the package  </span></li>
- <li class="fragment"><span style="font-size:0.7em;" >Concept of "Work Space" - <font face="Consolas">$HOME/src/edk2-ws</font>  </span></li>
+ <li class="fragment"><span style="font-size:0.7em;" >Concept of "Work Space" :<br>&nbsp;&nbsp; <font face="Consolas">$HOME/src/edk2-ws</font>  </span></li>
 </ul>
 @snapend
 
+
+@snap[south-east span-35]
+@box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:30% "><span style="font-size:0.35em;" ><br>&nbsp;bash$  cd $HOME/src/edk2<br>&nbsp;bash$  . edksetup.sh<br>&nbsp;bash$  make –C BaseTools/<br>&nbsp;Bash$  build<br>&nbsp;</span></p>)
+@snapend
 
 Note:
 EXPLAINS WHAT IS IN THE DIRECTORY
