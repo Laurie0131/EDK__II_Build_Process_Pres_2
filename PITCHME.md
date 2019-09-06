@@ -1290,30 +1290,30 @@ Note:
 
 @snap[north-west span-50 ]
 <br>
-<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" ><br><br><br>&nbsp;
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" ><br><br><br><br>&nbsp;
 </span></p>
 
 <ul style="list-style-type:none; line-height:0.65;">
-  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II<br>&nbsp;&nbsp;&nbsp;&nbsp; workspace </span></li>
+  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the <font face="Consolas">BaseTools</font>  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9](<font face="Consolas">edksetup</font>)  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; Run <font face="Consolas">build</font>  </span></li>
-  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; @color[cyan](Output):&nbsp;   firmware image (FD) file<br>&nbsp;&nbsp;&nbsp;&nbsp; under Build directory </span></li>
+  <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; @color[cyan](Output):&nbsp;   firmware image (FD)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; file under Build directory </span></li>
 </ul>
 @snapend
 
 @snap[north-east span-48 ]
 <br>
-<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" ><br><br><br>&nbsp;
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em;" ><br><br><br><br>&nbsp;
 </span></p>
 
 <ul style="list-style-type:none; line-height:0.65;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II<br>&nbsp;&nbsp;&nbsp;&nbsp; workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the <font face="Consolas">BaseTools</font>  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9](<font face="Consolas">edksetup</font>)  </span></li>
-  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with<br>&nbsp;&nbsp;&nbsp;&nbsp; desired INF file</b> ) </span></li>
+  <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desired INF file</b> ) </span></li>
   <li><span style="font-size:0.7em" >5.&nbsp;&nbsp; Run <font face="Consolas">build</font>  </span></li>
-  <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; @color[cyan](Output):&nbsp;  <font face="Consolas">.EFI</font> file under Build<br>&nbsp;&nbsp;&nbsp;&nbsp; directory </span></li>
+  <li><span style="font-size:0.7em" >6.&nbsp;&nbsp; @color[cyan](Output):&nbsp;  <font face="Consolas">.EFI</font> file under Build<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; directory </span></li>
 </ul>
 
 @snapend
