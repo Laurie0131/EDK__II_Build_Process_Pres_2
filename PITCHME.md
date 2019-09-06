@@ -251,9 +251,8 @@ See EDK II Build Specification Documentation:
 @snapend
 
 
-@snap[south-east span-35 fragment]
+@snap[south-east span-39 fragment]
 @box[bg-grey-15 text-white  my-box-pad2  ](<p style="line-height:35%" align="left" ><span style="font-size:0.45em; font-family:Consolas;" >&nbsp;bash$&nbsp;  cd $HOME/src/edk2-ws/edk2<br>&nbsp;bash$&nbsp;  . edksetup.sh<br>&nbsp;bash$&nbsp;  make –C BaseTools/<br>&nbsp;Bash$&nbsp;  build<br>&nbsp;</span></p>)
-<br>
 <br>
 @snapend
 
