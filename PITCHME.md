@@ -1501,6 +1501,7 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 @snapend
 
 @snap[midpoint span-90 ]
+<br>
 @box[ bg-lt-blue-pp text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses <font face="Consolas">ImageGen</font> tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br>&nbsp;</span>)
 @snapend
 
@@ -1597,7 +1598,7 @@ Note:
 @title[Build Command]
 <p align="right"><span class="gold" >@size[1.1em](<b>The <font face="Consolas">@color[white](build)</font> Command  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 <br>
-<ul style="list-style-type:disk; line-height:0.8;">
+<ul style="list-style-type:disc; line-height:0.8;">
  <li class="fragment"><span style="font-size:0.85em;" >Accepts command line arguments to support scripted builds  </span> </li>
  <li class="fragment"><span style="font-size:0.85em;" >Overrides most settings found in <font face="Consolas">target.txt</font> </span> </li>
  <li class="fragment"><span style="font-size:0.85em;" >Overrides DSC with a minimal INF build  </span> </li>
@@ -1732,12 +1733,15 @@ Note:
 
 Note:
 
-+++?code=sample/Reports/Log_DispatchOrder.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y EXECUTION_ORDER</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/ExecOrder_EmulatorPkg.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y EXECUTION_ORDER</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 <span style="font-size:0.75em" > Report.html is generated on the host build machine - pop up this in the Browser window.</span>
 
 Note:
 This is best done on the Host build machine
 
++++?code=sample/Reports/Emulator.report&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -y MyReport.log</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
+
+Note:
 
 
 
