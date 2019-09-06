@@ -1596,9 +1596,10 @@ Note:
 
 ---
 @title[Build Command]
-<p align="right"><span class="gold" >@size[1.1em](<b>The <font face="Consolas">@color[white](build)</font> Command  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 <br>
-<ul style="list-style-type:disc; line-height:0.8;">
+<p align="center"><span class="gold" >@size[1.1em](<b>The <font face="Consolas">@color[white](build)</font> Command  </b>)</span><span style="font-size:0.75em;" >  </span></p>
+<br>
+<ul style="list-style-type:disc; line-height:0.85;">
  <li class="fragment"><span style="font-size:0.85em;" >Accepts command line arguments to support scripted builds  </span> </li>
  <li class="fragment"><span style="font-size:0.85em;" >Overrides most settings found in <font face="Consolas">target.txt</font> </span> </li>
  <li class="fragment"><span style="font-size:0.85em;" >Overrides DSC with a minimal INF build  </span> </li>
@@ -1752,24 +1753,24 @@ Note:
 
 <table id="recTable">
 	<tr>
-		<td bgcolor="#002060" height=".025"><p align="center" style="line-height:20%"><span style="font-size:0.85em" >&nbsp;<b>Utility</b></span></p></td>
-		<td bgcolor="#002060" height=".025"><p align="center" style="line-height:20%"><span style="font-size:0.85em" >&nbsp;<b>Description</b></span></p></td>
+		<td bgcolor="#002060" height=".0025"><p align="center" style="line-height:20%"><span style="font-size:0.85em" >&nbsp;<b>Utility</b></span></p></td>
+		<td bgcolor="#002060" height=".0025"><p align="center" style="line-height:20%"><span style="font-size:0.85em" >&nbsp;<b>Description</b></span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#00b0f0" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`Build.exe`</span></p></td>
-		<td bgcolor="#00b0f0" height=".025"><p style="line-height:70%"><span style="font-size:0.65em" >Tool is written in Python and calls `AutoGen.exe`, then it calls `$(MAKE) –f  Makefile.out`, and finally, it calls `GenFds.exe`</span></p></td>
+		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:20%"><span style="font-size:0.75em" ><font face="Consolas">Build.exe</font></span></p></td>
+		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:60%"><span style="font-size:0.6em" >Tool is written in Python and calls <font face="Consolas">AutoGen.ext</font>, then it calls <font face="Consolas">$(MAKE) –f  Makefile.out</font>, and finally, it calls <font face="Consolas">GenFds.exe</font></span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`EfiRom.exe`&nbsp;</span></p></td>
-		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.65em" >used to build an option ROM image&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".0025"><p style="line-height:20%"><span style="font-size:0.75em" ><font face="Consolas">EfiRom.exe</font>&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".0025"><p style="line-height:20%"><span style="font-size:0.6em" >used to build an option ROM image&nbsp;</span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#00b0f0" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`PatchModule.exe`&nbsp;</span></p></td>
-		<td bgcolor="#00b0f0" height=".025"><p style="line-height:70%"><span style="font-size:0.65em" >used to patch a binary module that has a PCD of type PATCHABLE_IN_MODULE&nbsp;</span></p></td>
+		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:20%"><span style="font-size:0.75em" ><font face="Consolas">PatchModule.exe</font>&nbsp;</span></p></td>
+		<td bgcolor="#00b0f0" height=".0025"><p style="line-height:60%"><span style="font-size:0.6em" >used to patch a binary module that has a PCD of type PATCHABLE_IN_MODULE&nbsp;</span></p></td>
 	</tr>
 	<tr>
-		<td bgcolor="#fdb813" height=".025"><p style="line-height:20%"><span style="font-size:0.75em" >`PatchPlatform.exe`&nbsp;</span></p></td>
-		<td bgcolor="#fdb813" height=".025"><p style="line-height:70%"><span style="font-size:0.65em" >used to modify either the PCD Database or the VPD settings in a flash device image&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".0025"><p style="line-height:20%"><span style="font-size:0.75em" ><font face="Consolas">PatchPlatform.exe</font>&nbsp;</span></p></td>
+		<td bgcolor="#fdb813" height=".0025"><p style="line-height:60%"><span style="font-size:0.6em" >used to modify either the PCD Database or the VPD settings in a flash device image&nbsp;</span></p></td>
 	</tr>
 
 </table>
