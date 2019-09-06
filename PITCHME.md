@@ -1308,7 +1308,7 @@ Note:
 </span></p>
 
 <ul style="list-style-type:none; line-height:0.7;">
-  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; workspace </span></li>
+  <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the <font face="Consolas">BaseTools</font>  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9](<font face="Consolas">edksetup</font>)  </span></li>
   <li><span style="font-size:0.7em" >4.&nbsp;&nbsp; @color[yellow](<b>Change to directory with<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desired INF file</b> ) </span></li>
@@ -1340,14 +1340,14 @@ SAME except - Change to a directory with the proper INF
 also NOTE the inf file MUST be a in the components section of the .DSC file
 
 
----?image=/assets/images/slides/Slide109.JPG
+---?image=/assets/images/slides/Slide44.JPG
 <!-- .slide: data-transition="none" -->	 
 @title[Build Output Location]
 #### <p align="right"><span class="gold" >Build Output Location</span></p>
 
 Note:
 
-+++?image=/assets/images/slides/Slide110.JPG
++++?image=/assets/images/slides/Slide45.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1356,7 +1356,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide111.JPG
++++?image=/assets/images/slides/Slide46.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1365,7 +1365,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide112.JPG
++++?image=/assets/images/slides/Slide47.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1374,7 +1374,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide113.JPG
++++?image=/assets/images/slides/Slide48.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1383,7 +1383,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide114.JPG
++++?image=/assets/images/slides/Slide49.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1392,7 +1392,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide115.JPG
++++?image=/assets/images/slides/Slide50.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1401,7 +1401,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide116.JPG
++++?image=/assets/images/slides/Slide51.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1410,7 +1410,7 @@ Note:
 
 Note:
 
-+++?image=/assets/images/slides/Slide117_1.jpg
++++?image=/assets/images/slides/Slide52.jpg
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1461,8 +1461,8 @@ Process source code files to create PE32/PE32+/COFF images processed to UEFI for
 Takes the UEFI format files, creates UEFI “FLASH” images, UEFI apps, or UEFI PCI option ROMs <Br>
 
 
----?image=/assets/images/slides/Slide123.JPG
-<!-- .slide: data-transition="none" -->	 
+---?image=/assets/images/slides/Slide54.JPG
+
 
 @title[EDK II Build AutoGen Stage]
 #### <p align="right"><span class="gold" >EDK II Build: AutoGen Stage</span></p>
@@ -1478,22 +1478,6 @@ ONE DSC per Build command<br>
 
 DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE<br>
 
-+++?image=/assets/images/slides/Slide124.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->	 
-@title[EDK II Build AutoGen Stage 02]
-#### <p align="right"><span class="gold" >EDK II Build: AutoGen Stage</span></p>
-
-Note:
-Build –p OvmfPkg/OvmfX64Pkg.dsc<br>
-Parse – .DSC, .DEC, .FDF, .INF<br>
-DSC File … <br>
-Points to own .DEC & .FDF & .INF<br>
-Points to other packages (.DEC) and Modules (.INF)<br>
-
-ONE DSC per Build command<br>
-
-DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE<br>
 
 ---
 @title[EDK II Build Make Stage]
@@ -1550,7 +1534,7 @@ This last stage is also configurable.<BR>
 
 
 
----?image=/assets/images/slides/Slide98.jpg
+---?image=/assets/images/slides/Slide56.jpg
 
 @title[EDK II Build Image GEN Stage]
 #### <p align="center"><span class="gold" >EDK II Build: ImageGen Stage</span></p>
@@ -1578,7 +1562,7 @@ Example: how to combine a UEFI Driver & Legacy PCI OpROM into a single binary im
 third and final stage, the ImageGen stage, we take these UEFI formatted files and create the flash image, or leave them as UEFI applications, or perhaps make UEFI-compliant PCI option ROMs. <BR>
 This last stage is also configurable.<BR>
 
----?image=/assets/images/slides/Slide131_1.JPG
+---?image=/assets/images/slides/Slide57.JPG
 <!-- .slide: data-transition="none" -->	 
 @title[Build Flow For OpROM]
 #### <p align="right"><span class="gold" >Build Flow For OpROM</span></p>
@@ -1586,7 +1570,7 @@ This last stage is also configurable.<BR>
 Note:
 
 
-+++?image=/assets/images/slides/Slide132_1.JPG
++++?image=/assets/images/slides/Slide58.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
 
@@ -1628,7 +1612,7 @@ You can change the messaging output from the make settings for instance,  making
 Outside of changing the number of the threads used – if you are building the same code—unlike EDK, we don’t see a dramatic increase in the amount of time required.  For example, if you are letting it output to the screen, the text outputting does not have the same level of impact as an EDK text output.<br>
 In advanced build usage you can type build –h, or build –help, and it will give you this information. Although there are more options that you can list, they are used less frequently.<br>
 
----?image=/assets/images/slides/Slide135.JPG
+---?image=/assets/images/slides/Slide60.JPG
 <!-- .slide: data-transition="none" -->	 
 @title[Using EDK II build Command]
 #### <p align="right"><span class="gold"  >Using EDK II</span> <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>build</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
@@ -1637,7 +1621,7 @@ Note:
 
 This is not the complete list … run build --help from the command prompt to see all of the build options
 
-+++?image=/assets/images/slides/Slide136.JPG
++++?image=/assets/images/slides/Slide61.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->	 
  
@@ -1649,7 +1633,7 @@ Note:
 This is not the complete list … run build --help from the command prompt to see all of the build options
 
 
-+++?code=sample/buildoutput.txt&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -h</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/buildoutput.txt&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -h</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 @[1,5-25](options to overide .DSC, .INF and .FDF and Target.txt settings)
 @[60,65-74](Using the -Y and -y options for Reports)
@@ -1658,9 +1642,21 @@ Note:
 output from 
 Build -h command
 
----?image=/assets/images/slides/Slide138.JPG
+---?image=/assets/images/slides/Slide63.JPG
 @title[Using Build-Y Reports]
-#### <p align="right"><span class="gold"  >Using </span> <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>build -Y</b></font></span><span class="gold"  >&nbsp;&nbsp;for Reports </span></p>
+#### <p align="right"><span class="gold"  >Using </span> <span style="color:white;">&nbsp;&nbsp;<font face="Consolas"><b>build -Y</b></font></span><span class="gold"  >&nbsp;&nbsp;for Reports </span></p>
+
+@snap[south-west span-45 ]
+<p style="line-height:60%" align="left" ><span style="font-size:0.7em; " >
+Example:<br>&nbsp;&nbsp;
+<font face="Consolas">bash$ build  –Y  PCD –y pcd.log</font><br>
+For all reports:<br>&nbsp;&nbsp;
+<font face="Consolas">bash$ build –y MyReport.log  </font><br>&nbsp;&nbsp;
+</span></p>
+
+<br>
+<br>
+@snapend
 
 Note:
 build  –Y  PCD,  LIBRARY, FLASH, DEPEX, BUILD_FLAGS, FIXED_ADDRESS <Br>
