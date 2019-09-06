@@ -721,7 +721,7 @@ BDS – Policy happens – Screen turns – boot policy <br>
 
 ---?image=/assets/images/slides/Slide_Libraries.jpg
 @title[Example-Library-Debuglib]
-#### <p align="right"><span class="gold"  >Example - Library</span><span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>Debuglib</b> </font></span></p>
+#### <p align="right"><span class="gold"  >Example - Library</span><span style="color:white;">&nbsp;&nbsp;<font face="Consolas"><b>Debuglib</b> </font></span></p>
 
 
 @snap[north-west span-25 fragment]
@@ -1496,12 +1496,12 @@ DSC points to all the components, Libraries, PCDs, etc needed to build a PACKAGE
 #### <p align="right"><span class="gold" >EDK II Build: Make Stage</span></p>
 
 @snap[north span-65 ]
-@css[text-yellow](<br>&nbsp;)
-@box[ bg-green-pp text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br></span>)
+@css[text-yellow](<br><br>&nbsp;)
+@box[ bg-green-pp text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses assemblers/compilers/linkers to generate PE32/PE32+ COFF image file<br>&nbsp;</span>)
 @snapend
 
 @snap[midpoint span-90 ]
-@box[ bg-blue text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses <font face="Consolas">ImageGen</font> tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br></span>)
+@box[ bg-lt-blue-pp text-white rounded my-box-pad2 ](<span style="font-size:0.9em" >Uses <font face="Consolas">ImageGen</font> tools to modify PE32/PE32+/COFF image file<br>Creates UEFI file &lpar;EFI_IMAGE_SECTION_HEADER structure&rpar;<br>&nbsp;</span>)
 @snapend
 
 @snap[south-west span-20 ]
@@ -1597,13 +1597,13 @@ Note:
 @title[Build Command]
 <p align="right"><span class="gold" >@size[1.1em](<b>The <font face="Consolas">@color[white](build)</font> Command  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 <br>
-<ul style="list-style-type:none; line-height:0.75;">
- <li class="fragment"><span style="font-size:0.8em;" >Accepts command line arguments to support scripted builds  </span> </li>
- <li class="fragment"><span style="font-size:0.8em;" >Overrides most settings found in <font face="Consolas">target.txt</font> </span> </li>
- <li class="fragment"><span style="font-size:0.8em;" >Overrides DSC with a minimal INF build  </span> </li>
- <li class="fragment"><span style="font-size:0.8em;" >Overrides some settings in DSC file (.FDF)  </span> </li>
- <li class="fragment"><span style="font-size:0.8em;" >Choose settings from the FDF file (ROMIMAGE, FVIMAGE) </span> </li>
- <li class="fragment"><span style="font-size:0.8em;" >Choose <font face="Consolas">$(make)</font> options (silent, verbose, quiet) </span> </li>
+<ul style="list-style-type:disk; line-height:0.8;">
+ <li class="fragment"><span style="font-size:0.85em;" >Accepts command line arguments to support scripted builds  </span> </li>
+ <li class="fragment"><span style="font-size:0.85em;" >Overrides most settings found in <font face="Consolas">target.txt</font> </span> </li>
+ <li class="fragment"><span style="font-size:0.85em;" >Overrides DSC with a minimal INF build  </span> </li>
+ <li class="fragment"><span style="font-size:0.85em;" >Overrides some settings in DSC file (.FDF)  </span> </li>
+ <li class="fragment"><span style="font-size:0.85em;" >Choose settings from the FDF file (ROMIMAGE, FVIMAGE) </span> </li>
+ <li class="fragment"><span style="font-size:0.85em;" >Choose <font face="Consolas">$(make)</font> options (silent, verbose, quiet) </span> </li>
 </ul>
 
 
@@ -1628,13 +1628,14 @@ In advanced build usage you can type build –h, or build –help, and it will g
 ---?image=/assets/images/slides/Slide60.JPG
 <!-- .slide: data-transition="none" -->	 
 @title[Using EDK II build Command]
-<p align="right"><span class="gold" >@size[1.1em](<b>Using EDK II<font face="Consolas">@color[white](build)</font> Command  </b>)</span><br>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using EDK II <font face="Consolas">@color[white](build)</font> Command  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
 @snap[south span-35 ]
-<p style="line-height:60%" align="left" ><span style="font-size:0.7em; font-family:Consolas;" >
+<p style="line-height:60%" align="left" ><span style="font-size:0.8em; font-family:Consolas;" >
 bash$ build -h
 </span></p>
+<br>
 @snapend
 
 Note:
@@ -1646,13 +1647,14 @@ This is not the complete list … run build --help from the command prompt to se
 <!-- .slide: data-transition="none" -->	 
  
 @title[Using EDK II build Command 02]
-<p align="right"><span class="gold" >@size[1.1em](<b>Using EDK II<font face="Consolas">@color[white](build)</font> Command  </b>)</span><br>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using EDK II <font face="Consolas">@color[white](build)</font> Command  </b>)</span><br>
 <span style="font-size:0.75em;" >  </span></p>
 
 @snap[south span-35 ]
-<p style="line-height:60%" align="left" ><span style="font-size:0.7em; font-family:Consolas;" >
+<p style="line-height:60%" align="left" ><span style="font-size:0.8em; font-family:Consolas;" >
 bash$ build -h
 </span></p>
+<br>
 @snapend
 
 Note:
@@ -1671,18 +1673,16 @@ Build -h command
 
 ---?image=/assets/images/slides/Slide63.JPG
 @title[Using Build-Y Reports]
-#### <p align="right"><span class="gold"  >Using </span> <span style="color:white;">&nbsp;&nbsp;<font face="Consolas"><b>build -Y</b></font></span><span class="gold"  >&nbsp;&nbsp;for Reports </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using <font face="Consolas">@color[white](build -Y)</font> Reports  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
-@snap[south-west span-45 ]
+
+@snap[south-west span-75 ]
 <p style="line-height:60%" align="left" ><span style="font-size:0.7em; " >
 Example:<br>&nbsp;&nbsp;
-<font face="Consolas">bash$ build  –Y  PCD –y pcd.log</font><br>
+@size[.7em](<font face="Consolas">bash$ build  –Y  PCD –y pcd.log</font>)<br>
 For all reports:<br>&nbsp;&nbsp;
-<font face="Consolas">bash$ build –y MyReport.log  </font><br>&nbsp;&nbsp;
+@size[.7em](<font face="Consolas">bash$ build –y MyReport.log  </font>)<br>&nbsp;&nbsp;
 </span></p>
-
-<br>
-<br>
 @snapend
 
 Note:
@@ -1699,40 +1699,40 @@ EXEC ORDER is  best done on the Host build machine
 
 +++
 @title[Using Build-Y Reports Example]
-#### <p align="right"><span class="gold"  >Using </span> <span style="color:white;">&nbsp;&nbsp;<font face="Courier New"><b>build -Y</b></font></span><span class="gold"  >&nbsp;&nbsp;for Reports </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Using <font face="Consolas">@color[white](build -Y)</font> Reports  </b>)</span><span style="font-size:0.75em;" >  </span></p>
 
-- Scroll through examples of reports from the `Build -Y` commands
+- @size[.8em](Scroll through examples of reports from the <font face="Consolas">build -Y</font> commands)
 
 Note:
 TBD
 
 
-+++?code=sample/Reports/depex.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y DEPEX</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/depex.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y DEPEX</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/pcd.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y PCD</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/pcd.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y PCD</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
 
-+++?code=sample/Reports/library.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y LIBRARY</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/library.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y LIBRARY</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/flash.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y FLASH</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/flash.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y FLASH</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/build_flag.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y BUILD_FLAGS</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/build_flag.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y BUILD_FLAGS</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/fixed_address.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y FIXED_ADDRESS</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/fixed_address.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y FIXED_ADDRESS</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/Log_DispatchOrder.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Courier New"><b>build -Y EXECUTION_ORDER</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/Log_DispatchOrder.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y EXECUTION_ORDER</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 <span style="font-size:0.75em" > Report.html is generated on the host build machine - pop up this in the Browser window.</span>
 
 Note:
