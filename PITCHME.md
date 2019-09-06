@@ -1292,7 +1292,9 @@ Note:
 <br>
 <br>
 <br>
-<ul style="list-style-type:none; line-height:0.6;">
+<br>
+<br>
+<ul style="list-style-type:none; line-height:0.65;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]("edksetup")  </span></li>
@@ -1303,11 +1305,13 @@ Note:
 <span style="font-size:0.5em" >Note: Module .inf must be in .dsc components </span>
 @snapend
 
-@snap[north-east span-45 ]
+@snap[north-east span-47 ]
 <br>
 <br>
 <br>
-<ul style="list-style-type:none; line-height:0.6;">
+<br>
+<br>
+<ul style="list-style-type:none; line-height:0.65;">
   <li><span style="font-size:0.7em" >1.&nbsp;&nbsp; Navigate (CD) to root of EDK II workspace </span></li>
   <li><span style="font-size:0.7em" >2.&nbsp;&nbsp; Make the BaseTools  </span></li>
   <li><span style="font-size:0.7em" >3.&nbsp;&nbsp; Run @color[#87E2A9]("edksetup")  </span></li>
