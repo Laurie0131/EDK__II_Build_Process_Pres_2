@@ -13,7 +13,7 @@
 Note:
   PITCHME.md for UEFI / EDK II Training EDK II Build Process
 
-  Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2020, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
@@ -1675,7 +1675,7 @@ Note:
 This is not the complete list … run build --help from the command prompt to see all of the build options
 
 
-+++?code=sample/buildoutput.txt&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -h</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/buildoutput.txt&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -h</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 @[1,5-25](options to overide .DSC, .INF and .FDF and Target.txt settings)
 @[60,65-74](Using the -Y and -y options for Reports)
@@ -1890,7 +1890,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWIS
 ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY 
 OF SUCH DAMAGE.
 
-Copyright (c) 2019, Intel Corporation. All rights reserved.
+Copyright (c) 2020, Intel Corporation. All rights reserved.
 **/
 
 ```
