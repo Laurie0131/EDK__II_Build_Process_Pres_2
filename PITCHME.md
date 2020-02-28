@@ -1720,38 +1720,38 @@ Note:
 TBD
 
 
-+++?code=sample/Reports/depex.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y DEPEX</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/depex.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y DEPEX</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/pcd.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y PCD</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/pcd.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y PCD</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
 
-+++?code=sample/Reports/library.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y LIBRARY</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/library.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y LIBRARY</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/flash.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y FLASH</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/flash.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y FLASH</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/build_flag.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y BUILD_FLAGS</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/build_flag.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y BUILD_FLAGS</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/fixed_address.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y FIXED_ADDRESS</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/fixed_address.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y FIXED_ADDRESS</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
-+++?code=sample/Reports/ExecOrder_EmulatorPkg.log&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -Y EXECUTION_ORDER</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/ExecOrder_EmulatorPkg.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y EXECUTION_ORDER</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 <span style="font-size:0.75em" > Report.html is generated on the host build machine - pop up this in the Browser window.</span>
 
 Note:
 This is best done on the Host build machine
 
-+++?code=sample/Reports/Emulator.report&lang=shell&title=<p align="right"><span style="color:white;"><font face="Consolas"><b>build -y MyReport.log</b></font></span><span class="gold"  >&nbsp;&nbsp;Command </span></p>
++++?code=sample/Reports/Emulator.report&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -y MyReport.log</b></font><span class="gold"  >&nbsp;&nbsp;Command </span></p>
 
 Note:
 
