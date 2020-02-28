@@ -1675,7 +1675,7 @@ Note:
 This is not the complete list … run build --help from the command prompt to see all of the build options
 
 
-+++?code=sample/buildoutput.txt&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -h</b></font>&nbsp;&nbsp;Command </b></font> </p>
++++?code=sample/buildoutput.txt&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -h&nbsp;&nbsp;Command </b></font> </p>
 
 @[1,5-25](options to overide .DSC, .INF and .FDF and Target.txt settings)
 @[60,65-74](Using the -Y and -y options for Reports)
