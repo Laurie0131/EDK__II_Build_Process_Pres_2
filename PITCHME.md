@@ -1746,7 +1746,7 @@ Note:
 Note:
 
 +++?code=sample/Reports/ExecOrder_EmulatorPkg.log&lang=shell&title=<p align="right"><font face="Consolas" color="white"><b>build -Y EXECUTION_ORDER</b></font><font color="#E49436">&nbsp;&nbsp;Command </font> </p>
-<span style="font-size:0.75em" > Report.html is generated on the host build machine - pop up this in the Browser window.</span>
+<p style="line-height:65%" align="left" ><span style="font-size:0.75em" > Report.html is generated on the host build machine - pop up this in the Browser window.</span></p>
 
 Note:
 This is best done on the Host build machine
